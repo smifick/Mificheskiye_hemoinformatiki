@@ -1,0 +1,15 @@
+{
+  "issue": "Numerical differences from padding/batch composition with frozen MLM inference",
+  "variant": "mlm_raw_logistic_0.1, same fixed folds and parameters",
+  "before_batch_size": 32,
+  "after_batch_size": 1,
+  "frozen_threads": 3,
+  "before_primary_MSE": 13862335.498054778,
+  "after_primary_MSE": 13862341.829855785,
+  "MSE_change": 6.331801006570458,
+  "before_parent_MSE": 7499383.2693,
+  "after_parent_MSE": 7499383.814008327,
+  "old_MLM_portable_max_error": 0.0090418876,
+  "final_paired_candidate_portable_max_error": 7.275957614183426e-12,
+  "note": "The final paired candidate did not exist in the batch32 run; this metric before/after refers only to the identical MLM variant. This fix does not explain the new modelling gain."
+}

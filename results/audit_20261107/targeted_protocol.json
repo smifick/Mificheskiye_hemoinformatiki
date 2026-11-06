@@ -1,0 +1,175 @@
+{
+  "primary": "published scaffold folds from results/v2/validation_splits.csv",
+  "secondary": "parent grouped 5-fold seed42",
+  "candidates": [
+    {
+      "name": "mtr_canonical_logistic_0.01",
+      "family": "logistic",
+      "embedding": "mtr_canonical",
+      "C": 0.01
+    },
+    {
+      "name": "mtr_canonical_logistic_0.1",
+      "family": "logistic",
+      "embedding": "mtr_canonical",
+      "C": 0.1
+    },
+    {
+      "name": "mtr_canonical_rbf_fusion",
+      "family": "fusion",
+      "embedding": "mtr_canonical",
+      "alpha": 0.5
+    },
+    {
+      "name": "mtr_raw_logistic_0.01",
+      "family": "logistic",
+      "embedding": "mtr_raw",
+      "C": 0.01
+    },
+    {
+      "name": "mtr_raw_logistic_0.1",
+      "family": "logistic",
+      "embedding": "mtr_raw",
+      "C": 0.1
+    },
+    {
+      "name": "mtr_raw_rbf_fusion",
+      "family": "fusion",
+      "embedding": "mtr_raw",
+      "alpha": 0.5
+    },
+    {
+      "name": "mtr_augmented_logistic_0.01",
+      "family": "logistic",
+      "embedding": "mtr_augmented",
+      "C": 0.01
+    },
+    {
+      "name": "mtr_augmented_logistic_0.1",
+      "family": "logistic",
+      "embedding": "mtr_augmented",
+      "C": 0.1
+    },
+    {
+      "name": "mtr_augmented_rbf_fusion",
+      "family": "fusion",
+      "embedding": "mtr_augmented",
+      "alpha": 0.5
+    },
+    {
+      "name": "mlm_canonical_logistic_0.01",
+      "family": "logistic",
+      "embedding": "mlm_canonical",
+      "C": 0.01
+    },
+    {
+      "name": "mlm_canonical_logistic_0.1",
+      "family": "logistic",
+      "embedding": "mlm_canonical",
+      "C": 0.1
+    },
+    {
+      "name": "mlm_canonical_rbf_fusion",
+      "family": "fusion",
+      "embedding": "mlm_canonical",
+      "alpha": 0.5
+    },
+    {
+      "name": "mlm_raw_logistic_0.01",
+      "family": "logistic",
+      "embedding": "mlm_raw",
+      "C": 0.01
+    },
+    {
+      "name": "mlm_raw_logistic_0.1",
+      "family": "logistic",
+      "embedding": "mlm_raw",
+      "C": 0.1
+    },
+    {
+      "name": "mlm_raw_rbf_fusion",
+      "family": "fusion",
+      "embedding": "mlm_raw",
+      "alpha": 0.5
+    },
+    {
+      "name": "mlm_augmented_logistic_0.01",
+      "family": "logistic",
+      "embedding": "mlm_augmented",
+      "C": 0.01
+    },
+    {
+      "name": "mlm_augmented_logistic_0.1",
+      "family": "logistic",
+      "embedding": "mlm_augmented",
+      "C": 0.1
+    },
+    {
+      "name": "mlm_augmented_rbf_fusion",
+      "family": "fusion",
+      "embedding": "mlm_augmented",
+      "alpha": 0.5
+    },
+    {
+      "name": "both_canonical_logistic",
+      "family": "logistic",
+      "embedding": "both_canonical",
+      "C": 0.1
+    },
+    {
+      "name": "both_canonical_rbf_fusion",
+      "family": "fusion",
+      "embedding": "both_canonical",
+      "alpha": 0.5
+    },
+    {
+      "name": "calibrated_v7_probabilities",
+      "family": "calibrated",
+      "C": 1.0
+    },
+    {
+      "name": "raw_smiles_notation_logistic",
+      "family": "logistic",
+      "embedding": "raw_style",
+      "C": 1.0
+    },
+    {
+      "name": "notation_mlm_probability_average",
+      "family": "paired",
+      "components": [
+        {
+          "name": "raw_smiles_notation_logistic",
+          "family": "logistic",
+          "embedding": "raw_style",
+          "C": 1.0
+        },
+        {
+          "name": "mlm_raw_logistic_0.1",
+          "family": "logistic",
+          "embedding": "mlm_raw",
+          "C": 0.1
+        }
+      ]
+    }
+  ],
+  "ensemble_weights": [
+    0.5,
+    1.0
+  ],
+  "selection": "Minimum equal-weight relative MSE versus v7 across scaffold and parent inner CV.",
+  "nested_outer_seed": 2718,
+  "nested_inner_seed": 314,
+  "nested_inner_folds": 3,
+  "confirmation_seeds": [
+    901,
+    902,
+    903
+  ],
+  "acceptance": "Fixed candidate improves pooled development and both confirmation schemes; nested selection improves both schemes. Otherwise retain deployed v7.",
+  "feature_inputs": [
+    "SMILES"
+  ],
+  "target": "SI VACV",
+  "data": "320 unchanged organizer labels; legacy frozen external physical bank only inside fold-safe B",
+  "no_independent_holdout_claim": true
+}

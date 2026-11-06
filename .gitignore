@@ -4,3 +4,7 @@ __pycache__/
 work/
 .env
 .DS_Store
+results/audit_20261107/state_cache.joblib
+results/audit_20261107/embeddings_*.npz
+results/audit_20261107/batch32_archive/
+results/audit_20261107/pre_notation_extension/

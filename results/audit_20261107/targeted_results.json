@@ -1,0 +1,46 @@
+{
+  "frozen_development_winner": "notation_mlm_probability_average",
+  "selected_for_submission": "notation_mlm_probability_average",
+  "acceptance_passed": true,
+  "nested": [
+    {
+      "scheme": "parent",
+      "baseline_MSE": 12630406.690900892,
+      "selection_pipeline_MSE": 8200412.347994929,
+      "fixed_candidate_MSE": 8200412.347994929
+    },
+    {
+      "scheme": "scaffold",
+      "baseline_MSE": 17964365.735259123,
+      "selection_pipeline_MSE": 13320654.521891614,
+      "fixed_candidate_MSE": 11341011.015450314
+    }
+  ],
+  "confirmation": [
+    {
+      "scheme": "parent",
+      "model": "notation_mlm_probability_average",
+      "MSE": 8139677.484451242
+    },
+    {
+      "scheme": "parent",
+      "model": "v7",
+      "MSE": 13716098.563693129
+    },
+    {
+      "scheme": "scaffold",
+      "model": "notation_mlm_probability_average",
+      "MSE": 10494822.578620328
+    },
+    {
+      "scheme": "scaffold",
+      "model": "v7",
+      "MSE": 17122928.422856193
+    }
+  ],
+  "baseline_final_max_abs_reproduction_error": 7.275957614183426e-12,
+  "submission_rows": 597,
+  "new_candidate_public_MSE": null,
+  "known_v7_public_MSE": 9421022.05828,
+  "warning": "All local labels were previously used in project development; no new independent validation dataset exists."
+}

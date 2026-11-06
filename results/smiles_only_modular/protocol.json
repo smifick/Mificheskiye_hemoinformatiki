@@ -1,0 +1,38 @@
+{
+  "mode": "encoded",
+  "sentinel": 10000.0,
+  "selection_metric": "pooled MSE in original target units",
+  "organizer_columns_loaded": [
+    "SMILES",
+    "SI VACV"
+  ],
+  "external_columns_loaded": [],
+  "outer_folds_requested": 5,
+  "inner_folds_requested": 3,
+  "seed": 20261107,
+  "candidates": [
+    {
+      "name": "ridge_external_0.0",
+      "family": "ridge",
+      "external_weight": 0.0
+    },
+    {
+      "name": "extra_external_0.0",
+      "family": "extra",
+      "external_weight": 0.0
+    },
+    {
+      "name": "lightgbm_external_0.0",
+      "family": "lightgbm",
+      "external_weight": 0.0
+    },
+    {
+      "name": "catboost_external_0.0",
+      "family": "catboost",
+      "external_weight": 0.0
+    }
+  ],
+  "mordred": false,
+  "external_semantics": "Physical SI rows augment the conditional measured-SI branch only in encoded mode.",
+  "grouping": "Tautomer-normalized generic Bemis-Murcko scaffold; stereoisomers remain together."
+}

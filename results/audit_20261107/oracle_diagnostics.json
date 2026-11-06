@@ -1,0 +1,8 @@
+{
+  "baseline_v7_MSE": 17964365.735259127,
+  "oracle_true_technical_code_MSE": 4262335.074213728,
+  "oracle_true_physical_SI_MSE": 16158423.050962817,
+  "warning": "Oracles use validation labels solely to diagnose error sources; they cannot be deployed or used as candidate quality.",
+  "oracle_true_physical_SI_without_upper_cap_MSE": 14036079.246682927,
+  "maximum_cross_validated_conditional_physical_prediction": 802.9949185372529
+}

@@ -1,0 +1,5 @@
+model,MSE
+extra_external_0.0,18010402.848353945
+lightgbm_external_0.0,18786756.598391503
+catboost_external_0.0,18897022.232986502
+ridge_external_0.0,21013343.316135265

@@ -1,0 +1,12 @@
+{
+  "reason": "Fixed nine-feature notation probe beat the frozen-encoder winner on primary OOF; investigate acquisition effects and test one simple model plus one fixed average.",
+  "new_candidates": [
+    "raw_smiles_notation_logistic",
+    "notation_mlm_probability_average"
+  ],
+  "additional_hyperparameter_search": false,
+  "regularization_C": 1.0,
+  "fixed_ensemble_weight": 0.5,
+  "final_extension": true,
+  "validation": "Repeat the complete nested search with the augmented finite candidate set, then stop."
+}

@@ -1,0 +1,7 @@
+check,max_abs_error,passed
+v1_fingerprint_training_column_order,0.0,True
+v1_saved_model_reproduction,9.094947017729282e-13,True
+v2_saved_model_reproduction,3.183231456205249e-12,True
+v3_saved_model_reproduction,1.8189894035458565e-11,True
+v7_saved_model_reproduction,1.8189894035458565e-12,True
+v7_shuffled_input_preserves_row_mapping,0.0,True

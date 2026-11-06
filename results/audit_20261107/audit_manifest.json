@@ -1,0 +1,15 @@
+{
+  "main_source_commit": "adc5d9bc9ca4de1733d3604f48756c3b71ab5dfc",
+  "v7_source_commit": "368c69feb439542254bffa90e28d058aa5879790",
+  "Kaggle_data_and_rules_access": "Unavailable via browser; SMILES-only supplied explicitly by user",
+  "historical_folds": "actual results/v2/validation_splits.csv assignments; seed alone is insufficient after relabelling groups",
+  "input_sha256": {
+    "data/raw/train.csv": "239efa4b3aa667b3681f6e1062d86ca5b0ba441364b8f2b894b4c428e272ba81",
+    "data/raw/test.csv": "1b0c6a014bbe556c42ef2277e867d2e1a647ad31c157a9cd81bbc7e262481abd",
+    "data/raw/sample_submit.csv": "3eea4d23f5700361c09da24cd45be05c5dbbecf76cc29b022c3676835606884c",
+    "data/external/external_endpoints.csv": "6c9db63764780e75058275cc75842364e5215630d35cd64c011ece7b55dd7298",
+    "data/external/external_si_database.csv": "77b3dd9cce245e270f20b57c62aa331b2f7684ed292bcb440e6406aea3622f93",
+    "data/external_curated/vacv_si.csv": "0b3c8213889a6253ff3df9a27aa57ed35b72edf57d24ddfd56ba0f42582f00a9"
+  },
+  "final_manifest": "reproducibility_manifest.json"
+}

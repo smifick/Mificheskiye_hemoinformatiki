@@ -1,0 +1,50 @@
+[
+  {
+    "rank": 1,
+    "hypothesis": "Improve probability of technical code using frozen molecular embeddings and kernel fusion",
+    "evidence": "V7 primary OOF MSE 17964365.74; diagnostic true-code oracle 4262335.07, versus physical-only oracle 16158423.05",
+    "expected_impact": "highest potential; both false positives and false negatives contribute",
+    "overfit_risk": "moderate at 320 labels; freeze encoders, bounded choices, nested selection",
+    "cost": "two fixed pretrained encoders, already extracted without labels"
+  },
+  {
+    "rank": 2,
+    "hypothesis": "Calibrate confidence and ensemble complementary errors inside training",
+    "evidence": "High-similarity observed ratios are assigned >8000 when nearest training labels are coded 10000; code confidence may be miscalibrated",
+    "expected_impact": "potentially substantial but must confirm on paired OOF",
+    "overfit_risk": "moderate; calibration and ensemble fitting strictly cross-fitted",
+    "cost": "small kernel/logistic models"
+  },
+  {
+    "rank": 3,
+    "hypothesis": "Test raw notation versus structure-invariant pooled SMILES embeddings",
+    "evidence": "Raw SMILES have 320 distinct strings; canonical graphs only 312, with contexts absent at inference",
+    "expected_impact": "may capture encoded-label acquisition effects; not evidence of biological mechanism",
+    "overfit_risk": "moderate/high source-shift risk; paired parent and scaffold diagnostics",
+    "cost": "cached encoder views"
+  },
+  {
+    "rank": 4,
+    "hypothesis": "Change conditional physical regression only if classifier experiments fail",
+    "evidence": "One measured-SI outlier contributes 22.2% SSE; true physical oracle gives much smaller improvement than true-code oracle",
+    "expected_impact": "bounded benefit for most rows; outlier has no similar high-label neighbor",
+    "overfit_risk": "high if tuning to one row",
+    "cost": "low, but lower priority"
+  },
+  {
+    "rank": 5,
+    "hypothesis": "Preserve discarded salt/stereo information or enlarge fingerprints",
+    "evidence": "Empirical floors are identical for full canonical graph, parent and tautomer parent; no evidence that standardization created observed conflicts. Prior 72-kernel search failed nested validation.",
+    "expected_impact": "low on current evidence",
+    "overfit_risk": "search optimism",
+    "cost": "not repeated without a new specific failure"
+  },
+  {
+    "rank": 6,
+    "hypothesis": "Add more copies of the known 56/38 external bank",
+    "evidence": "38 is a subset of 56, all already in curated table; prior paired weight=.25 experiments worsened MSE",
+    "expected_impact": "no demonstrated benefit; needs genuinely new matched structures",
+    "overfit_risk": "source/context mismatch and extreme physical values",
+    "cost": "not repeated"
+  }
+]

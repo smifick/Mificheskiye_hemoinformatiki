@@ -1,0 +1,13 @@
+{
+  "train_rows": 320,
+  "test_rows": 597,
+  "codes_10000": 81,
+  "codes_10000_and_missing_IC50": 81,
+  "zero_labels": 2,
+  "zero_labels_and_missing_CC50": 2,
+  "observed_ratio_rows": 237,
+  "ratio_agrees_rtol_2pct": 237,
+  "ratio_max_absolute_difference": 0.000500000000000167,
+  "concentrations_loaded_for_model_features": false,
+  "note": "Empirical floors apply only to the known labels and the stated representation, not the hidden Kaggle test."
+}

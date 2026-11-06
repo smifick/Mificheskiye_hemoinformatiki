@@ -1,0 +1,15 @@
+{
+  "rows": 597,
+  "columns": [
+    "index",
+    "SI VACV"
+  ],
+  "mean": 2276.719292474026,
+  "std": 3122.170749117451,
+  "min": 2.8915410703409887,
+  "max": 9826.277705986144,
+  "ID_match_v7": true,
+  "correlation_with_v7": 0.7969398408294562,
+  "prediction_RMSE_vs_v7": 1911.234583461397,
+  "warning": "Prediction disagreement only; hidden test labels are unavailable, no test MSE computed."
+}

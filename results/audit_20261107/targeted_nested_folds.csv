@@ -1,0 +1,11 @@
+scheme,fold,selected,n,selected_MSE,baseline_MSE
+scaffold,0,notation_mlm_probability_average,59,19047832.36057665,22507324.075130858
+scaffold,1,mlm_raw_logistic_0.1,59,16607925.30123714,19495044.747180685
+scaffold,2,notation_mlm_probability_average,54,5692117.930303741,6119568.281569421
+scaffold,3,notation_mlm_probability_average,102,14892449.350988748,24383341.842465952
+scaffold,4,notation_mlm_probability_average,46,7228598.759153243,9845646.078918753
+parent,0,notation_mlm_probability_average,64,6360069.052242415,8572740.17777738
+parent,1,notation_mlm_probability_average,64,4905232.039118426,11234174.904366234
+parent,2,notation_mlm_probability_average,64,2365501.1094417395,7908854.669836301
+parent,3,notation_mlm_probability_average,65,4420963.170147322,8981519.078476258
+parent,4,notation_mlm_probability_average,63,23244412.769006934,26732097.41048594

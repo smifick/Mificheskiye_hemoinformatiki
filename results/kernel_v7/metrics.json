@@ -1,0 +1,18 @@
+{
+  "selected_model": "tt__1.0",
+  "selected_oof_mse": 18840687.85039995,
+  "nested_procedure_mse": 21302936.08834805,
+  "legacy_same_folds_mse": 19173935.932654474,
+  "tautomer_same_folds_mse": 18888578.919285767,
+  "candidates": 72,
+  "train_rows": 320,
+  "test_rows": 597,
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0",
+    "rdkit": "2026.09.1"
+  },
+  "note": "Winner OOF used for selection; nested estimate evaluates search procedure. Stability checks reuse development data. Kaggle score unknown."
+}

@@ -1,0 +1,67 @@
+{
+  "model_id": "DeepChem/ChemBERTa-77M-MTR",
+  "revision": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+  "torch": "2.15.0+cpu",
+  "rows": 917,
+  "train_rows": 320,
+  "hidden_size": 384,
+  "input_smiles_sha256": "a12a00520a4d458d68fd077e0e96603b5e53da2741f1b91de4f01693aa41acd7",
+  "random_smiles_per_parent": 3,
+  "pooler_used": false,
+  "encoder_frozen": true,
+  "batch_size": 1,
+  "torch_threads": 3,
+  "unique_sequences": 3835,
+  "truncated_sequences": 0,
+  "weights_and_tokenizer": {
+    "config.json": {
+      "sha256": "6c15d3fd119919afb92b762c4e55cd46a595251ab799435168baa75a6ebd07e6",
+      "bytes": 17669
+    },
+    "tokenizer.json": {
+      "sha256": "1197005224bc8917f46f8d6fc360aec71c6626858966e167b2ff8af62214f814",
+      "bytes": 8262
+    },
+    "tokenizer_config.json": {
+      "sha256": "79919cd4b54bdf241f19956753e8a47b8b782eb4b38eec0e0254bd2434545abd",
+      "bytes": 1271
+    },
+    "special_tokens_map.json": {
+      "sha256": "23dbc119b7e11cb23d3c43b13004c5a4ab4e6530c7146e34fa1f9564856b5580",
+      "bytes": 420
+    },
+    "added_tokens.json": {
+      "sha256": "2b0e66b84bd97bc08467f7a7c033cfd5a66c6335eb79779a144b50f8e7b2557d",
+      "bytes": 25
+    },
+    "vocab.json": {
+      "sha256": "0c9afbd534ab59fa51718c998027da0e7932293c9a51de03317d4c83d3fe48f6",
+      "bytes": 6963
+    },
+    "merges.txt": {
+      "sha256": "291976363a8a20ed148ff687cf3da54ada8ddbc99655fa876326f0ef28dbd6ad",
+      "bytes": 52
+    },
+    "pytorch_model.bin": {
+      "sha256": "7882205587d3985c07e425632d0e57ba0fc2fc778e3b47aab02aef9b7961407f",
+      "bytes": 14036589
+    }
+  },
+  "loading_info": {
+    "missing_keys": [
+      "pooler.dense.bias",
+      "pooler.dense.weight"
+    ],
+    "unexpected_keys": [
+      "norm_mean",
+      "norm_std",
+      "regression.dense.bias",
+      "regression.dense.weight",
+      "regression.out_proj.bias",
+      "regression.out_proj.weight"
+    ],
+    "mismatched_keys": [],
+    "error_msgs": []
+  },
+  "note": "Frozen encoder only; no task labels, no assay metadata; checkpoint weights not redistributed."
+}

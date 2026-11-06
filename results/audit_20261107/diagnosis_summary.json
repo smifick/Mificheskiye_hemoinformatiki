@@ -1,0 +1,65 @@
+{
+  "selected": "notation_mlm_probability_average",
+  "primary_v7_MSE": 17964365.735259127,
+  "primary_candidate_MSE": 11341011.015450312,
+  "primary_change_pct": -36.86940478398848,
+  "error_concentration": [
+    {
+      "model": "v7",
+      "MSE": 17964365.735259127,
+      "top_1_SSE_fraction": 0.2221452232323252,
+      "top_5_SSE_fraction": 0.2787288499021474,
+      "top_10_SSE_fraction": 0.3386425387477119,
+      "top_20_SSE_fraction": 0.4453200223413366
+    },
+    {
+      "model": "notation_mlm_probability_average",
+      "MSE": 11341011.015450312,
+      "top_1_SSE_fraction": 0.3518820351245216,
+      "top_5_SSE_fraction": 0.4440154622243084,
+      "top_10_SSE_fraction": 0.54309982141564,
+      "top_20_SSE_fraction": 0.701556766600338
+    }
+  ],
+  "code_probability_metrics": [
+    {
+      "model": "v7_probability_mean",
+      "Brier": 0.1414837759214536,
+      "ROC_AUC": 0.8204969264941372
+    },
+    {
+      "model": "notation_mlm_probability_average",
+      "Brier": 0.07361283886004819,
+      "ROC_AUC": 0.9515729118239578
+    }
+  ],
+  "uncertainty": [
+    {
+      "scheme": "parent",
+      "mean_MSE_change": -5576421.079241887,
+      "cluster_bootstrap_95pct_low": -8152865.0634211125,
+      "cluster_bootstrap_95pct_high": -3186206.9169472195
+    },
+    {
+      "scheme": "scaffold",
+      "mean_MSE_change": -6628105.844235865,
+      "cluster_bootstrap_95pct_low": -10053182.402294142,
+      "cluster_bootstrap_95pct_high": -3295305.163838828
+    }
+  ],
+  "physical_bank_ablation": [
+    {
+      "bank": "legacy_V_plus_C",
+      "MSE": 11341011.015450312
+    },
+    {
+      "bank": "reviewed_V_only",
+      "MSE": 11356198.901650311
+    },
+    {
+      "bank": "organizer_physical_only",
+      "MSE": 11338757.397208344
+    }
+  ],
+  "note": "The bank ablation is diagnostic; it does not retrospectively alter the frozen classifier-study selection."
+}

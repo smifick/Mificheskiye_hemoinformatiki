@@ -1,0 +1,13 @@
+scheme,seed,model,MSE
+scaffold,901,v7,16550974.260662323
+scaffold,901,notation_mlm_probability_average,10508812.206175577
+scaffold,902,v7,17682677.101445973
+scaffold,902,notation_mlm_probability_average,10542054.193946982
+scaffold,903,v7,17135133.90646028
+scaffold,903,notation_mlm_probability_average,10433601.335738426
+parent,901,v7,14214345.432014957
+parent,901,notation_mlm_probability_average,8009228.761974742
+parent,902,v7,13697986.31190963
+parent,902,notation_mlm_probability_average,8269162.566543892
+parent,903,v7,13235963.9471548
+parent,903,notation_mlm_probability_average,8140641.1248350935
