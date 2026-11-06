@@ -1,0 +1,23 @@
+{
+  "source": "ChEMBL",
+  "retrieved_utc": "2026-11-06T18:28:50.857288+00:00",
+  "vacv_assays": 621,
+  "functional_assays": 588,
+  "vacv_endpoint_records": 2246,
+  "additional_cc50_records": 4269,
+  "all_unique_endpoint_records": 6510,
+  "endpoint_counts": {
+    "CC50": 4269,
+    "EC50": 1709,
+    "IC50": 528,
+    "Selectivity index": 4
+  },
+  "valid_endpoint_rows": 2647,
+  "rows_with_doi": 6510,
+  "direct_si_records": 2,
+  "candidate_pairs": 337,
+  "automatically_approved_training_rows": 0,
+  "policy": "No automatic ratio across unmatched cell/time contexts; EC50 separate from IC50; external labels not merged into organizer training.",
+  "license_url": "https://chembl.gitbook.io/chembl-interface-documentation/about/terms-of-use",
+  "queries": 44
+}

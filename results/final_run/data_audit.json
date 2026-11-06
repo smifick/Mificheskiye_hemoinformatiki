@@ -1,0 +1,17 @@
+{
+  "train_rows": 320,
+  "test_rows": 597,
+  "train_unique_parent_structures": 312,
+  "test_unique_parent_structures": 570,
+  "train_test_parent_overlap": 30,
+  "train_multifragment_rows": 13,
+  "train_missing_ic50": 81,
+  "SI_10000_rows": 81,
+  "SI_10000_and_missing_ic50": 81,
+  "ratio_comparable_rows": 237,
+  "ratio_agrees_rtol_2pct": 237,
+  "invalid_smiles": 0,
+  "generic_scaffold_groups": 117,
+  "external_used": false,
+  "features": "SMILES only; no CC50, IC50, Title, strain, Culture or test labels"
+}

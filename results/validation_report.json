@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "training_rows": 320,
+  "submission_rows": 597,
+  "outer_group_overlap": 0,
+  "inner_group_overlap": 0,
+  "submission_order_matches": true,
+  "external_endpoint_rows": 6510,
+  "external_valid_endpoints": 2647,
+  "doi_format_warnings": [],
+  "candidate_pair_ratios_checked": 337,
+  "external_rows_approved_for_training": 0,
+  "scope": "Structural/schema/numeric validation; not independent verification of the published experiments."
+}
