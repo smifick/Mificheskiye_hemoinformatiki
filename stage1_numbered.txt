@@ -1,0 +1,157 @@
+001 | """Baseline: numeric endpoint regression; no activity thresholds are invented."""
+002 | import argparse
+003 | import hashlib
+004 | import json
+005 | import platform
+006 | from pathlib import Path
+007 | 
+008 | import joblib
+009 | import numpy as np
+010 | import pandas as pd
+011 | import rdkit
+012 | import sklearn
+013 | from rdkit import Chem, DataStructs
+014 | from rdkit.Chem import rdFingerprintGenerator
+015 | from rdkit.Chem.Scaffolds import MurckoScaffold
+016 | from sklearn.dummy import DummyRegressor
+017 | from sklearn.ensemble import RandomForestRegressor
+018 | from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+019 | from sklearn.model_selection import GroupKFold, GroupShuffleSplit
+020 | 
+021 | 
+022 | def read_table(path):
+023 |     return pd.read_excel(path) if Path(path).suffix.lower() in {'.xlsx', '.xls'} else pd.read_csv(path)
+024 | 
+025 | 
+026 | def structure(value):
+027 |     if pd.isna(value):
+028 |         return None
+029 |     mol = Chem.MolFromSmiles(str(value).strip())
+030 |     if mol is None or mol.GetNumHeavyAtoms() == 0:
+031 |         return None
+032 |     # Conservative policy: exclude multi-fragment records; do not guess active component.
+033 |     if len(Chem.GetMolFrags(mol)) != 1:
+034 |         return None
+035 |     return Chem.MolToSmiles(mol, isomericSmiles=True)
+036 | 
+037 | 
+038 | def group_key(smiles):
+039 |     mol = Chem.MolFromSmiles(smiles)
+040 |     # Generic scaffold groups heteroatom variants and stereoisomers conservatively.
+041 |     scaffold = MurckoScaffold.GetScaffoldForMol(mol)
+042 |     if scaffold.GetNumAtoms() == 0:
+043 |         return 'ACYCLIC'  # all acyclic molecules stay together
+044 |     return Chem.MolToSmiles(MurckoScaffold.MakeScaffoldGeneric(scaffold), isomericSmiles=False)
+045 | 
+046 | 
+047 | def features(smiles):
+048 |     gen = rdFingerprintGenerator.GetMorganGenerator(radius=2, fpSize=2048)
+049 |     result = np.zeros((len(smiles), 2048), dtype=np.uint8)
+050 |     for i, s in enumerate(smiles):
+051 |         DataStructs.ConvertToNumpyArray(gen.GetFingerprint(Chem.MolFromSmiles(s)), result[i])
+052 |     return result
+053 | 
+054 | 
+055 | def scores(y, pred):
+056 |     return {'MAE': float(mean_absolute_error(y, pred)),
+057 |             'RMSE': float(np.sqrt(mean_squared_error(y, pred))),
+058 |             'R2': float(r2_score(y, pred)) if len(y) > 1 else None}
+059 | 
+060 | 
+061 | def main():
+062 |     a = argparse.ArgumentParser(description=__doc__)
+063 |     a.add_argument('--data', required=True)
+064 |     a.add_argument('--smiles-col', default='SMILES')
+065 |     a.add_argument('--target', required=True)
+066 |     a.add_argument('--transform', choices=['none', 'log10'], default='none')
+067 |     a.add_argument('--out', required=True)
+068 |     a.add_argument('--library', help='Optional CSV/XLSX with same SMILES column')
+069 |     args = a.parse_args()
+070 |     out = Path(args.out)
+071 |     out.mkdir(parents=True, exist_ok=False)  # protect previous experiment
+072 |     config = vars(args) | {'seed': 42, 'radius': 2, 'bits': 2048,
+073 |         'python': platform.python_version(), 'rdkit': rdkit.__version__,
+074 |         'sklearn': sklearn.__version__, 'numpy': np.__version__, 'pandas': pd.__version__,
+075 |         'input_sha256': hashlib.sha256(Path(args.data).read_bytes()).hexdigest()}
+076 |     (out / 'config.json').write_text(json.dumps(config, indent=2), encoding='utf-8')
+077 |     df = read_table(args.data)
+078 |     for col in [args.smiles_col, args.target]:
+079 |         if col not in df:
+080 |             raise ValueError(f'Missing column: {col}')
+081 |     df['source_row'] = np.arange(len(df)) + 2
+082 |     df['canonical_smiles'] = df[args.smiles_col].map(structure)
+083 |     df['numeric_target'] = pd.to_numeric(df[args.target], errors='coerce')
+084 |     df['rejection_reason'] = ''
+085 |     df.loc[df.canonical_smiles.isna(), 'rejection_reason'] = 'invalid_or_multifragment_smiles'
+086 |     bad = ~np.isfinite(df.numeric_target)
+087 |     if args.transform == 'log10':
+088 |         bad |= df.numeric_target <= 0
+089 |     df.loc[bad, 'rejection_reason'] += ';missing_non_numeric_nonfinite_or_nonpositive_target'
+090 |     df[df.rejection_reason != ''].to_csv(out / 'rejected.csv', index=False)
+091 |     valid = df[df.rejection_reason == ''].copy()
+092 |     valid.to_csv(out / 'accepted_records.csv', index=False)
+093 |     # Repeated exact structures: median on original assay scale, traceable source rows.
+094 |     clean = valid.groupby('canonical_smiles', as_index=False).agg(
+095 |         target=('numeric_target', 'median'), n_measurements=('numeric_target', 'size'),
+096 |         target_min=('numeric_target', 'min'), target_max=('numeric_target', 'max'),
+097 |         source_rows=('source_row', lambda x: ','.join(map(str, x))))
+098 |     clean['scaffold_group'] = clean.canonical_smiles.map(group_key)
+099 |     clean.to_csv(out / 'cleaned.csv', index=False)
+100 |     if len(clean) < 20 or clean.scaffold_group.nunique() < 5:
+101 |         raise ValueError('Need at least 20 unique structures and 5 scaffold groups; inspect cleaned.csv')
+102 |     X = features(clean.canonical_smiles)
+103 |     np.savez_compressed(out / 'fingerprints.npz', X=X, smiles=clean.canonical_smiles.to_numpy(dtype=str))
+104 |     y = clean.target.to_numpy()
+105 |     if args.transform == 'log10':
+106 |         y = np.log10(y)
+107 |     groups = clean.scaffold_group.to_numpy()
+108 |     train, test = next(GroupShuffleSplit(n_splits=1, test_size=0.2, random_state=42).split(X, y, groups))
+109 |     if len(test) < 2 or len(train) < 10 or len(set(groups[train])) < 3:
+110 |         raise ValueError('Scaffold holdout too small/imbalanced; inspect group sizes, do not use random split')
+111 |     assert not set(groups[train]) & set(groups[test])
+112 |     clean['split'] = 'train'
+113 |     clean.loc[test, 'split'] = 'test'
+114 |     clean.to_csv(out / 'split.csv', index=False)
+115 |     models = {'dummy': DummyRegressor(strategy='median'),
+116 |               'random_forest': RandomForestRegressor(n_estimators=300, min_samples_leaf=2,
+117 |                                                       random_state=42, n_jobs=-1)}
+118 |     folds = GroupKFold(n_splits=min(5, len(set(groups[train]))))
+119 |     cv, oof = [], []
+120 |     for name, model in models.items():
+121 |         for fold, (tr, va) in enumerate(folds.split(X[train], y[train], groups[train])):
+122 |             ti, vi = train[tr], train[va]
+123 |             assert not set(groups[ti]) & set(groups[vi])
+124 |             model.fit(X[ti], y[ti])
+125 |             pred = model.predict(X[vi])
+126 |             cv.append({'model': name, 'fold': fold, 'n_train': len(ti), 'n_valid': len(vi), **scores(y[vi], pred)})
+127 |             oof.extend({'model': name, 'fold': fold, 'canonical_smiles': clean.iloc[i].canonical_smiles,
+128 |                         'observed': float(y[i]), 'prediction': float(v)} for i, v in zip(vi, pred))
+129 |     cvdf = pd.DataFrame(cv)
+130 |     cvdf.to_csv(out / 'cv_metrics.csv', index=False)
+131 |     pd.DataFrame(oof).to_csv(out / 'cv_predictions.csv', index=False)
+132 |     selected = cvdf.groupby('model').MAE.mean().idxmin()
+133 |     model = models[selected]
+134 |     model.fit(X[train], y[train])
+135 |     pred = model.predict(X[test])
+136 |     report = {'selected_by_train_cv_MAE': selected, 'target_scale': args.transform,
+137 |               'train_n': len(train), 'test_n': len(test), 'test': scores(y[test], pred),
+138 |               'warning': 'Retrospective assay prediction; no clinical safety or efficacy claim.'}
+139 |     (out / 'metrics.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
+140 |     pd.DataFrame({'canonical_smiles': clean.iloc[test].canonical_smiles.to_numpy(),
+141 |                   'observed': y[test], 'prediction': pred}).to_csv(out / 'test_predictions.csv', index=False)
+142 |     joblib.dump({'model': model, 'config': config, 'selected_model': selected}, out / 'model_train_only.joblib')
+143 |     if args.library:
+144 |         lib = read_table(args.library)
+145 |         lib['canonical_smiles'] = lib[args.smiles_col].map(structure)
+146 |         lib[lib.canonical_smiles.isna()].to_csv(out / 'library_rejected.csv', index=False)
+147 |         lib = lib.dropna(subset=['canonical_smiles']).copy()
+148 |         lib['seen_in_training'] = lib.canonical_smiles.isin(clean.iloc[train].canonical_smiles)
+149 |         lib['seen_in_dataset'] = lib.canonical_smiles.isin(clean.canonical_smiles)
+150 |         if len(lib):
+151 |             lib['prediction'] = model.predict(features(lib.canonical_smiles))
+152 |         lib.to_csv(out / 'library_predictions.csv', index=False)
+153 |     print(json.dumps(report, indent=2))
+154 | 
+155 | 
+156 | if __name__ == '__main__':
+157 |     main()
