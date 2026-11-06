@@ -1,0 +1,15 @@
+{
+  "rows": 597,
+  "columns": [
+    "index",
+    "SI VACV"
+  ],
+  "ids_match_sample": true,
+  "finite": true,
+  "nonnegative": true,
+  "max_abs_reload_error": 1.8189894035458565e-12,
+  "forbidden_column_poisoning_changed_predictions": false,
+  "model_sha256": "b75d647f71e12904f12b122cc88b8877b5053ddc5c4367475633fbf0be29beb7",
+  "new_external_pairs_collected": 0,
+  "external_collection_requires_reviewed_assay_manifest": true
+}

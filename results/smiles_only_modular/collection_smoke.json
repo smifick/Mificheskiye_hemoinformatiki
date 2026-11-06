@@ -1,0 +1,7 @@
+{
+  "endpoint": "https://www.ebi.ac.uk/chembl/api/data/status.json",
+  "chembl_db_version": "ChEMBL_37",
+  "status": "UP",
+  "response_sha256": "29dc1fb09487a8d2962253a4d0d92c4ded0aa0d831effab42445d0c3483d4740",
+  "new_activity_pairs_collected": 0
+}

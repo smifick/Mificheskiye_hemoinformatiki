@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smiles-si-pipeline"
+version = "1.0.0"
+description = "SMILES-only SI regression with curated concentration pairs and scaffold validation"
+requires-python = ">=3.11"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements-si-pipeline.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["si_pipeline*"]
+
+[project.optional-dependencies]
+mordred = ["mordredcommunity==2.0.7"]
