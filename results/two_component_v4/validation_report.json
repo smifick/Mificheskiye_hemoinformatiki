@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "tests": 15,
+  "submission_rows": 597,
+  "saved_numeric_parameters_reproduce_predictions": true,
+  "outer_scaffold_overlap": 0,
+  "external_holdout_organizer_structure_overlap": 0,
+  "external_holdout_external_training_structure_overlap": 0,
+  "external_test_used_for_selection": false,
+  "prospective_untouched_external_dataset": false,
+  "recommend_for_kaggle": false
+}

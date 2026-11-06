@@ -1,0 +1,7 @@
+{
+  "censored_endpoint":3336,
+  "valid_single_endpoint_without_verified_SI":2533,
+  "rejected_or_requires_review":527,
+  "paired_to_publication_verified_SI":112,
+  "direct_SI_requires_review":2
+}

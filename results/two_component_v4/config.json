@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "rdkit": "2026.09.1",
+  "sklearn": "1.8.0",
+  "input_sha256": {
+    "train.csv": "239efa4b3aa667b3681f6e1062d86ca5b0ba441364b8f2b894b4c428e272ba81",
+    "test.csv": "1b0c6a014bbe556c42ef2277e867d2e1a647ad31c157a9cd81bbc7e262481abd",
+    "sample_submit.csv": "3eea4d23f5700361c09da24cd45be05c5dbbecf76cc29b022c3676835606884c"
+  },
+  "protocol_sha256": "5e8eb0ca35522ae01c11341baf65a69f5b5b7517f9fe3041f58d42119b9d3ac1"
+}

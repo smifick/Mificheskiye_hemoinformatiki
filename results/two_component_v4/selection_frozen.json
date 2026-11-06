@@ -1,0 +1,16 @@
+{
+  "selected_spec": {
+    "name": "mixture_log_calibrated_external_1.0",
+    "mode": "log_calibrated",
+    "weight": 1.0
+  },
+  "best_overall": {
+    "model": "reference_tautomer_KRR",
+    "MSE": 18888578.919285785,
+    "RMSE": 4346.099276280488,
+    "MAE": 3064.368122385644,
+    "R2": 0.14452502767093844,
+    "RMSLE": 4.340402781485507
+  },
+  "criterion": "Organizer scaffold OOF MSE only"
+}

@@ -57,3 +57,7 @@ python src/make_report.py --root .
 ## Дополнительные эксперименты v2
 
 Конфигурации, команды и ограничения интерпретации приведены в [experiment_v2.md](experiment_v2.md). Для inference кандидата: `python src/predict_v2.py --model results/v2/model_v2.joblib --input data/raw/test.csv --out results/repeated_v2.csv`.
+
+## Двухкомпонентный эксперимент v4
+
+Команды, зафиксированный источник внешней проверки и ограничения ретроспективной оценки приведены в [two_component_v4.md](two_component_v4.md).

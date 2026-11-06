@@ -1,0 +1,27 @@
+{
+  "holdout_doi": "10.1039/d0md00108b",
+  "training_doi": "10.1016/j.ejmech.2023.115601",
+  "holdout_rows": 19,
+  "external_training_rows": 2,
+  "holdout_organizer_structure_overlap": 0,
+  "holdout_external_training_structure_overlap": 0,
+  "cell_line": "Vero",
+  "split_selection": "DOI fixed in source before fitting or evaluation",
+  "retrospective_note": "These publications were inspected and used in earlier experiments; this is a source-disjoint retrospective check for the present run, not a globally untouched prospective test.",
+  "organizer_columns": [
+    "SMILES",
+    "SI VACV"
+  ],
+  "test_columns": [
+    "index",
+    "SMILES"
+  ],
+  "code_target": "response==10000, organizer rows only",
+  "zero_labels": "Excluded from physical SI fitting; retained in competition scoring. No claim that these are measured SI=0.",
+  "fingerprints": "Canonical tautomer; Morgan radius 2, 2048 bits, chirality",
+  "outer_folds": 5,
+  "outer_seed": 2718,
+  "inner_folds": 3,
+  "selection": "Organizer grouped OOF MSE only. External holdout metrics computed after selection and never used for tuning.",
+  "external_source_sha256": "0b3c8213889a6253ff3df9a27aa57ed35b72edf57d24ddfd56ba0f42582f00a9"
+}

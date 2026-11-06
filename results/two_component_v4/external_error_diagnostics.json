@@ -1,0 +1,8 @@
+{
+  "holdout_rows": 19,
+  "largest_error_fraction": 0.9996599561152151,
+  "largest_error_compound": "ST-246",
+  "max_holdout_SI": 127600.0,
+  "full_holdout_MSE": 789910320.318494,
+  "selection_used_holdout": false
+}
