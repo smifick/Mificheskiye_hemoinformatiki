@@ -1,0 +1,10 @@
+{
+  "evaluation": "Kaggle Public",
+  "metric": "MSE",
+  "score": 9992163.26222,
+  "recorded_date": "2026-11-06",
+  "public_fraction_approx": 0.3,
+  "private_score": null,
+  "experiment": "final_run",
+  "submission_sha256": "a2b358c55c8214f63c0ef54189b1ea1e41bc580836f257667f4ce40df0eb0739"
+}
