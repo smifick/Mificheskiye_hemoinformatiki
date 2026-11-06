@@ -76,7 +76,7 @@ def stage_fit(spec,train_idx,y,codes,F,K):
         base=stage_fit(dict(name='base',family='krr',key='m2',alpha=1.),train_idx,y,codes,F,K)
         other=stage_fit(dict(name='mix',family='mixture',classifier=spec['classifier'],regressor='extra_log'),train_idx,y,codes,F,K)
         return dict(spec=spec,base=base,other=other)
-    # codes 0: known concentrations; 1: missing IC50; 2: missing CC50.
+    # Response-derived regimes: ordinary label, code 10000, zero label.
     known=train_idx[codes[train_idx]==0]
     if spec['classifier']=='krr':
         clf=KernelRidge(alpha=.3,kernel='precomputed').fit(K['multi'][np.ix_(train_idx,train_idx)],np.eye(3)[codes[train_idx]])
@@ -131,9 +131,9 @@ def cross_validate(spec,indices,folds,y,codes,F,K):
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--root',default='.');p.add_argument('--out',default='results/v2');a=p.parse_args();root=Path(a.root);out=root/a.out;out.mkdir(parents=True,exist_ok=False)
-    train=pd.read_csv(root/'data/raw/train.csv');test=pd.read_csv(root/'data/raw/test.csv');sample=pd.read_csv(root/'data/raw/sample_submit.csv')
+    train=pd.read_csv(root/'data/raw/train.csv',usecols=['SMILES',TARGET]);test=pd.read_csv(root/'data/raw/test.csv',usecols=['index','SMILES']);sample=pd.read_csv(root/'data/raw/sample_submit.csv')
     trstd=[standardize(s) for s in train.SMILES];teststd=[standardize(s) for s in test.SMILES]
-    y=train[TARGET].to_numpy(float);codes=np.where(train.IC50_uM_VACV.isna(),1,np.where(train.CC50_uM.isna(),2,0))
+    y=train[TARGET].to_numpy(float);codes=np.where(y==10000,1,np.where(y==0,2,0))
     assert np.all(y[codes==1]==10000) and np.all(y[codes==2]==0)
     groups=np.array([x[1] for x in trstd]);smiles=[x[0] for x in trstd]
     F=extended_features(smiles);Ft=extended_features([x[0] for x in teststd]);K=kernels(F);Kt=kernels(Ft,F)
@@ -170,7 +170,7 @@ def main():
             'selected_candidate_oof':table.iloc[0].to_dict(),'selection_bias_note':'Final candidate OOF scores used for selection; nested score estimates the selection procedure.',
             'outer_groups_overlap':0,'outer_folds':5,'inner_folds':3,'candidates':len(specs),'seed_outer':2718,'seed_inner':314,
             'test_rows':len(test),'test_scaffold_seen_fraction':float(np.mean([g in seen for g in testgroups])),
-            'features':'SMILES only; concentration missingness used only as an auxiliary target in training.',
+            'features':'SMILES only; Auxiliary classes derived from the permitted response only.',
             'missing_codes':'10000 for missing IC50; two zero labels with missing CC50 handled as separate auxiliary class.',
             'external_used':False,'public_v2_score':None}
     (out/'metrics.json').write_text(json.dumps(report,indent=2))

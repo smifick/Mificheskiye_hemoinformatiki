@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "rows": 597,
+  "order_matches_template": true,
+  "saved_model_reproduces_submission": true,
+  "curated_pairs_checked": 56,
+  "input_features": "SMILES only; explicit input column allowlists",
+  "auxiliary_concentration_targets": false
+}

@@ -9,10 +9,10 @@ from train_v2 import extended_features,kernels,stage_fit,stage_predict,cross_val
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--root',default='.');p.add_argument('--out',default='results/interpolation_v2');a=p.parse_args();root=Path(a.root);out=root/a.out;out.mkdir(parents=True,exist_ok=False)
-    train=pd.read_csv(root/'data/raw/train.csv');test=pd.read_csv(root/'data/raw/test.csv');sample=pd.read_csv(root/'data/raw/sample_submit.csv')
+    train=pd.read_csv(root/'data/raw/train.csv',usecols=['SMILES',TARGET]);test=pd.read_csv(root/'data/raw/test.csv',usecols=['index','SMILES']);sample=pd.read_csv(root/'data/raw/sample_submit.csv')
     std=[standardize(s) for s in train.SMILES];smiles=[s[0] for s in std];scaffolds=np.array([s[1] for s in std])
     groups=np.array([Chem.MolToSmiles(Chem.MolFromSmiles(s),isomericSmiles=False) for s in smiles])
-    y=train[TARGET].to_numpy(float);codes=np.where(train.IC50_uM_VACV.isna(),1,np.where(train.CC50_uM.isna(),2,0))
+    y=train[TARGET].to_numpy(float);codes=np.where(y==10000,1,np.where(y==0,2,0))
     F=extended_features(smiles);Ft=extended_features([standardize(s)[0] for s in test.SMILES]);K=kernels(F);Kt=kernels(Ft,F)
     ids=np.arange(len(y));folds=list(StratifiedGroupKFold(n_splits=5,shuffle=True,random_state=42).split(ids,codes==1,groups))
     specs=[dict(name=f'krr_{key}_{alpha}',family='krr',key=key,alpha=alpha) for key in ['m2','multi'] for alpha in [.003,.01,.03,.1,.3,1.]]

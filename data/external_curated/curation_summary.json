@@ -1,0 +1,9 @@
+{
+  "reviewed_sources": 2,
+  "reviewed_exact_table_rows": 56,
+  "matched_rows": 56,
+  "unique_molecules": 38,
+  "policy": "Same publication, molecule and cell; cell-based VACV IC50; publication-defined SI pair; bounds excluded. Structures attributed through ChEMBL and numeric table matching, not independent structure-image verification.",
+  "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10290961/fullTextXML",
+  "xml_sha256": "44b4824135f29353349dd1b134edaaef10489d74fc426aaffd67b1704cf355fc"
+}

@@ -1,0 +1,40 @@
+{
+  "selected": {
+    "model": "taut_True_external_0.0",
+    "tautomer": true,
+    "external_weight": 0.0,
+    "MSE": 18888578.919285785,
+    "RMSE": 4346.099276280488,
+    "MAE": 3064.368122385644,
+    "R2": 0.14452502767093844,
+    "RMSLE": 4.340402781485507
+  },
+  "baseline_same_folds": {
+    "model": "taut_False_external_0.0",
+    "tautomer": false,
+    "external_weight": 0.0,
+    "MSE": 19173935.93265446,
+    "RMSE": 4378.805308831903,
+    "MAE": 3087.0002532801727,
+    "R2": 0.1316010388331006,
+    "RMSLE": 4.3475855806390165
+  },
+  "external_curated_rows": 56,
+  "external_vero_rows_before_overlap_filter": 38,
+  "external_rows_excluded_test_overlap": 16,
+  "external_training_bank_rows": 22,
+  "external_rows_final_fit": 0,
+  "organizer_columns_loaded": [
+    "SMILES",
+    "SI VACV"
+  ],
+  "test_columns_loaded": [
+    "index",
+    "SMILES"
+  ],
+  "auxiliary_concentration_targets": false,
+  "fold_external_scaffold_overlap": 0,
+  "test_external_structure_overlap": 0,
+  "public_score": null,
+  "selection_note": "OOF scores used for selection among six prespecified ablations; no independent new holdout claim."
+}

@@ -10,8 +10,8 @@ from train_v2 import kernels,cross_validate,stage_fit,stage_predict,extended_fea
 def main():
     p=argparse.ArgumentParser();p.add_argument('--root',default='.');a=p.parse_args();root=Path(a.root);out=root/'results/calibrated_v2';out.mkdir(parents=True,exist_ok=False)
     saved=joblib.load(root/'results/v2/model_v2.joblib');F=saved['features'];K=kernels(F)
-    train=pd.read_csv(root/'data/raw/train.csv');test=pd.read_csv(root/'data/raw/test.csv');sample=pd.read_csv(root/'data/raw/sample_submit.csv')
-    y=train[TARGET].to_numpy(float);codes=np.where(train.IC50_uM_VACV.isna(),1,np.where(train.CC50_uM.isna(),2,0));ids=np.arange(len(y))
+    train=pd.read_csv(root/'data/raw/train.csv',usecols=['SMILES',TARGET]);test=pd.read_csv(root/'data/raw/test.csv',usecols=['index','SMILES']);sample=pd.read_csv(root/'data/raw/sample_submit.csv')
+    y=train[TARGET].to_numpy(float);codes=np.where(y==10000,1,np.where(y==0,2,0));ids=np.arange(len(y))
     std=[standardize(s) for s in train.SMILES];scaf=np.array([s[1] for s in std]);parents=np.array([Chem.MolToSmiles(Chem.MolFromSmiles(s[0]),isomericSmiles=False) for s in std])
     folds={'scaffold':list(GroupKFold(n_splits=5,shuffle=True,random_state=2718).split(ids,y,scaf)),
            'parent':list(StratifiedGroupKFold(n_splits=5,shuffle=True,random_state=42).split(ids,codes==1,parents))}

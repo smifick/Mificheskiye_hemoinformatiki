@@ -45,8 +45,13 @@ def norm_cell(a):
     return re.sub(r'[^a-z0-9]','',v.lower())
 
 def duration(desc):
-    x=re.findall(r'(\d+(?:\.\d+)?)\s*(?:hours?|hrs?|h)\b',(desc or '').lower())
-    return x[-1] if len(x)==1 else ''
+    text=(desc or '').lower()
+    matches=re.findall(r'(\d+(?:\.\d+)?)\s*(hours?|hrs?|h|days?|d)\b',text)
+    if len(matches)!=1:return ''
+    value,unit=matches[0]
+    hours=float(value)*(24 if unit.startswith('d') else 1)
+    return f'{hours:g}'
+
 
 def finite_number(v):
     try:

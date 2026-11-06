@@ -1,5 +1,6 @@
 """SMILES-only SI regression. Selection on inner scaffold CV, untouched outer holdout."""
 import argparse, hashlib, json, platform, time
+from functools import lru_cache
 from pathlib import Path
 import joblib
 import numpy as np
@@ -25,6 +26,7 @@ DESC = Descriptors._descList
 TARGET = 'SI VACV'
 
 
+@lru_cache(maxsize=16384)
 def standardize(s):
     m = Chem.MolFromSmiles(str(s))
     if m is None:
