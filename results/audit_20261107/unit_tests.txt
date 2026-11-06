@@ -1,0 +1,55 @@
+test_empirical_bound_is_group_conditional (test_audit_research.AuditResearchTests.test_empirical_bound_is_group_conditional) ... ok
+test_head_training_does_not_read_outer_validation_labels (test_audit_research.AuditResearchTests.test_head_training_does_not_read_outer_validation_labels) ... ok
+test_import_does_not_create_result_directories (test_audit_research.AuditResearchTests.test_import_does_not_create_result_directories) ... ok
+test_notation_features_preserve_written_form (test_audit_research.AuditResearchTests.test_notation_features_preserve_written_form) ... ok
+test_world_offset_follows_row_counts_and_invalid_external_filter (test_audit_research.AuditResearchTests.test_world_offset_follows_row_counts_and_invalid_external_filter) ... ok
+test_assay_disambiguation (test_download_external.EndpointIntegrityTests.test_assay_disambiguation) ... ok
+test_bounds_duplicates_and_validity_flags_do_not_form_pairs (test_download_external.EndpointIntegrityTests.test_bounds_duplicates_and_validity_flags_do_not_form_pairs) ... ok
+test_duration_compatibility (test_download_external.EndpointIntegrityTests.test_duration_compatibility) ... ok
+test_ec50_keeps_its_identity_and_pairs_require_review (test_download_external.EndpointIntegrityTests.test_ec50_keeps_its_identity_and_pairs_require_review) ... ok
+test_empty_candidates_keep_csv_schema (test_download_external.EndpointIntegrityTests.test_empty_candidates_keep_csv_schema) ... ok
+test_no_pair_across_publications_or_molecules (test_download_external.EndpointIntegrityTests.test_no_pair_across_publications_or_molecules) ... ok
+test_no_raw_relation_fallback (test_download_external.EndpointIntegrityTests.test_no_raw_relation_fallback) ... ok
+test_si_zero_negative_nan_infinity_are_rejected (test_download_external.EndpointIntegrityTests.test_si_zero_negative_nan_infinity_are_rejected) ... ok
+test_uncertain_antiviral_cannot_supply_training_candidates (test_download_external.EndpointIntegrityTests.test_uncertain_antiviral_cannot_supply_training_candidates) ... ok
+test_unit_conversion_and_provenance (test_download_external.EndpointIntegrityTests.test_unit_conversion_and_provenance) ... ok
+test_unsupported_si_units_not_valid (test_download_external.EndpointIntegrityTests.test_unsupported_si_units_not_valid) ... ok
+test_all_pages_and_total_count (test_download_external.PaginationTests.test_all_pages_and_total_count) ... ok
+test_cache_hash_matches_response_and_no_second_network_call (test_download_external.PaginationTests.test_cache_hash_matches_response_and_no_second_network_call) ... ok
+test_pagination_loop_and_release_count_change_raise (test_download_external.PaginationTests.test_pagination_loop_and_release_count_change_raise) ... ok
+test_truncated_or_duplicate_pages_raise (test_download_external.PaginationTests.test_truncated_or_duplicate_pages_raise) ... ok
+test_days_and_hours_metadata_agree (test_external_curated.ExternalCurationTests.test_days_and_hours_metadata_agree) ... ok
+test_reviewed_pairs_keep_cell_context (test_external_curated.ExternalCurationTests.test_reviewed_pairs_keep_cell_context) ... ok
+test_tautomers_have_same_representation (test_external_curated.ExternalCurationTests.test_tautomers_have_same_representation) ... ok
+test_endpoint_and_context_validation (test_pipeline.PipelineTests.test_endpoint_and_context_validation) ... ok
+test_invalid_smiles_stops_prediction (test_pipeline.PipelineTests.test_invalid_smiles_stops_prediction) ... ok
+test_salt_parent_and_charged_equivalent (test_pipeline.PipelineTests.test_salt_parent_and_charged_equivalent) ... ok
+test_stereoisomers_share_validation_group (test_pipeline.PipelineTests.test_stereoisomers_share_validation_group) ... ok
+test_tanimoto_kernel_invariants (test_pipeline.PipelineTests.test_tanimoto_kernel_invariants) ... ok
+test_censoring_and_wrong_endpoint_are_rejected (test_si_pipeline.TestCollection.test_censoring_and_wrong_endpoint_are_rejected) ... ok
+test_pagination_and_cache (test_si_pipeline.TestCollection.test_pagination_and_cache) ... ok
+test_pair_different_documents_is_rejected (test_si_pipeline.TestCollection.test_pair_different_documents_is_rejected) ... ok
+test_reviewed_pair_and_replicates (test_si_pipeline.TestCollection.test_reviewed_pair_and_replicates) ... ok
+test_unit_conversion_preserves_case (test_si_pipeline.TestCollection.test_unit_conversion_preserves_case) ... ok
+test_canonical_equivalent_smiles_features (test_si_pipeline.TestModeling.test_canonical_equivalent_smiles_features) ... ok
+test_external_holdout_scaffolds_and_parents_blocked (test_si_pipeline.TestModeling.test_external_holdout_scaffolds_and_parents_blocked) ... ok
+test_external_si_never_labels_inactivity_classifier (test_si_pipeline.TestModeling.test_external_si_never_labels_inactivity_classifier) ... ok
+test_inference_ignores_all_forbidden_columns_and_reloads (test_si_pipeline.TestModeling.test_inference_ignores_all_forbidden_columns_and_reloads) ... ok
+test_mordred_roundtrip (test_si_pipeline.TestModeling.test_mordred_roundtrip) ... ok
+test_physical_mode_preserves_real_si_10000 (test_si_pipeline.TestModeling.test_physical_mode_preserves_real_si_10000) ... ok
+test_scaffold_folds_are_disjoint (test_si_pipeline.TestModeling.test_scaffold_folds_are_disjoint) ... ok
+test_validation_labels_do_not_change_fit (test_si_pipeline.TestModeling.test_validation_labels_do_not_change_fit) ... ok
+test_A_ignores_validation_responses (test_two_component_v4.TwoComponentTests.test_A_ignores_validation_responses) ... ok
+test_log_calibration_ignores_validation_responses (test_two_component_v4.TwoComponentTests.test_log_calibration_ignores_validation_responses) ... ok
+test_soft_mixture_endpoints (test_two_component_v4.TwoComponentTests.test_soft_mixture_endpoints) ... ok
+test_centered_constant_target_is_preserved (test_v2.V2Tests.test_centered_constant_target_is_preserved) ... ok
+test_count_tanimoto_identity_and_bounds (test_v2.V2Tests.test_count_tanimoto_identity_and_bounds) ... ok
+test_mixture_predictions_do_not_require_inference_labels (test_v2.V2Tests.test_mixture_predictions_do_not_require_inference_labels) ... ok
+test_weighted_neighbors_use_training_targets_only (test_v2.V2Tests.test_weighted_neighbors_use_training_targets_only) ... ok
+test_code_does_not_read_validation_labels (test_v7.TestV7.test_code_does_not_read_validation_labels) ... ok
+test_portable_formula_and_lookup (test_v7.TestV7.test_portable_formula_and_lookup) ... ok
+
+----------------------------------------------------------------------
+Ran 50 tests in 0.502s
+
+OK

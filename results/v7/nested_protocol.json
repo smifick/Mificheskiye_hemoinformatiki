@@ -1,0 +1,17 @@
+{
+  "weights": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "outer_seed": 2029,
+  "inner_seed": 781,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "selection": "Minimize pooled inner MSE; lower feature weight on exact tie.",
+  "schemes": [
+    "scaffold",
+    "parent"
+  ],
+  "note": "Nested estimates evaluate this shortlist selection procedure on reused development data, not a new independent dataset."
+}

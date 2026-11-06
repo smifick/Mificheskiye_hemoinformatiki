@@ -1,0 +1,56 @@
+{
+  "all_cells_rows": 56,
+  "vero_rows": 38,
+  "all_cells_unique_structures": 38,
+  "vero_unique_structures": 38,
+  "vero_is_exact_subset_of_all_cells": true,
+  "all_cells_new_measurements_vs_repository": 0,
+  "repository_measurements_missing_from_upload": 0,
+  "all_cells_unique_scaffolds": 15,
+  "all_cells": {
+    "valid_structures": 56,
+    "finite_positive_labels": 56,
+    "SI_ratio_allclose_rtol_1e-8": true,
+    "max_SI_abs_arithmetic_difference": 2.842170943040401e-14,
+    "structures_in_train": 3,
+    "structures_in_test": 16,
+    "rows_not_in_train_or_test": 19,
+    "new_structures_not_in_train_or_test": 19,
+    "rows_on_train_scaffolds": 49,
+    "duplicate_same_context_groups": 0,
+    "SI_max": 127600.0,
+    "SI_median": 40.81243728206915,
+    "source_DOIs": {
+      "10.1016/j.ejmech.2023.115601": 36,
+      "10.1039/d0md00108b": 20
+    },
+    "after_excluding_test_overlap": {
+      "rows": 24,
+      "unique_structures": 22,
+      "novel_vs_train_structures": 19
+    }
+  },
+  "vero": {
+    "valid_structures": 38,
+    "finite_positive_labels": 38,
+    "SI_ratio_allclose_rtol_1e-8": true,
+    "max_SI_abs_arithmetic_difference": 1.4210854715202004e-14,
+    "structures_in_train": 3,
+    "structures_in_test": 16,
+    "rows_not_in_train_or_test": 19,
+    "new_structures_not_in_train_or_test": 19,
+    "rows_on_train_scaffolds": 31,
+    "duplicate_same_context_groups": 0,
+    "SI_max": 127600.0,
+    "SI_median": 34.90830604244334,
+    "source_DOIs": {
+      "10.1039/d0md00108b": 20,
+      "10.1016/j.ejmech.2023.115601": 18
+    },
+    "after_excluding_test_overlap": {
+      "rows": 22,
+      "unique_structures": 22,
+      "novel_vs_train_structures": 19
+    }
+  }
+}

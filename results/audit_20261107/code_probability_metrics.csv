@@ -1,0 +1,3 @@
+model,Brier,ROC_AUC
+v7_probability_mean,0.1414837759214536,0.8204969264941372
+notation_mlm_probability_average,0.07361283886004819,0.9515729118239578

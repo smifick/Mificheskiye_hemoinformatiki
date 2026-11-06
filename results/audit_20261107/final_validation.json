@@ -1,0 +1,11 @@
+{
+  "only_smiles_max_error": 7.275957614183426e-12,
+  "poisoned_reversed_max_error": 7.275957614183426e-12,
+  "rows": 597,
+  "schema_matches": true,
+  "IDs_match_sample": true,
+  "finite": true,
+  "negative_predictions": 0,
+  "model_sha256": "f58b880b834cf9bb118f7559ba7533e20933329446b781764b3919ad4d3b07c1",
+  "submission_sha256": "ff3aff978dc2737176be3006a33d1233a5c8432f1aeba57075ede83a4275649c"
+}

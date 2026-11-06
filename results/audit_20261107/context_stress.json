@@ -1,0 +1,10 @@
+{
+  "available": true,
+  "group_components": 40,
+  "raw_contexts": 45,
+  "scores": {
+    "v7": 23329893.83334165,
+    "notation_mlm_probability_average": 14990950.583443653
+  },
+  "note": "Diagnostic proxy for acquisition context, not true DOI-disjoint validation and not used for model selection. Metadata is not an input feature."
+}

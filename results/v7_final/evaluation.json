@@ -1,0 +1,36 @@
+{
+  "baseline_v6_mean_MSE": 17321747.49429956,
+  "candidate_v7_mean_MSE": 17121947.963889234,
+  "relative_change_pct": -1.1534605874844894,
+  "seeds_better": 7,
+  "n_seeds": 8,
+  "paired_MSE_change": -199799.5304103272,
+  "scaffold_cluster_bootstrap_95pct_CI": [
+    -456072.75966217037,
+    83152.03651056449
+  ],
+  "bootstrap_n": 20000,
+  "bootstrap_note": "Exploratory interval on reused development data; does not account for all model-search selection.",
+  "independent_improvement_established": false,
+  "nested_shortlist": [
+    {
+      "scheme": "parent",
+      "v6_MSE": 13258254.310295403,
+      "blend50_MSE": 13248232.58489894,
+      "nested_MSE": 13522226.54662776
+    },
+    {
+      "scheme": "scaffold",
+      "v6_MSE": 17897291.881749995,
+      "blend50_MSE": 17832539.412993167,
+      "nested_MSE": 17967076.430752285
+    }
+  ],
+  "parent_repeated_cv": {
+    "blend50": 13014467.658382373,
+    "feature": 13132932.542272491,
+    "v6": 13042986.705250649
+  },
+  "v7_public_MSE": null,
+  "v6_public_MSE_user_reported": 9649437.79854
+}

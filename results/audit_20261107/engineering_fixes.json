@@ -1,0 +1,24 @@
+{
+  "before": {
+    "error_type": "AssertionError",
+    "error": ""
+  },
+  "after": {
+    "n_train": 3,
+    "n_test": 2,
+    "ext_ids": [
+      5
+    ],
+    "ext_SI": [
+      5.0
+    ],
+    "kernel_shape": [
+      6,
+      6
+    ]
+  },
+  "unchanged_real_input_kernel_max_error": 0.0,
+  "real_input_MSE_before": 17964365.735259127,
+  "real_input_MSE_after": 17964365.735259127,
+  "real_input_prediction_max_difference": 0.0
+}

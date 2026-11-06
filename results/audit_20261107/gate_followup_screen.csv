@@ -1,0 +1,13 @@
+scheme,model,MSE
+scaffold,v7,17964365.735259127
+scaffold,v7_without_upper_cap,17964365.735259127
+scaffold,mlm_raw_all_rows,14069168.450524384
+scaffold,mlm_raw_all_rows_blend50,13700344.238916153
+scaffold,mlm_raw_all_rows_source_feature,13960353.620145876
+scaffold,mlm_raw_all_rows_source_feature_blend50,13675746.240565872
+parent,v7,12630406.69090089
+parent,v7_without_upper_cap,12630406.69090089
+parent,mlm_raw_all_rows,7301104.142285039
+parent,mlm_raw_all_rows_blend50,8453306.834265292
+parent,mlm_raw_all_rows_source_feature,7256174.788844457
+parent,mlm_raw_all_rows_source_feature_blend50,8443686.161617333

@@ -1,0 +1,31 @@
+{
+  "selected": {
+    "name": "extra_external_0.0",
+    "family": "extra",
+    "external_weight": 0.0
+  },
+  "nested_selection_MSE": 19050686.05274298,
+  "dummy_same_folds_MSE": 22547795.873932254,
+  "selected_OOF_MSE": 18010402.848353945,
+  "train_rows": 320,
+  "external_rows": 0,
+  "scaffold_groups": 118,
+  "feature_count": 2432,
+  "warning": "Selected OOF scores are used for final selection; nested scores estimate the search procedure on this dataset. Kaggle score unknown.",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "rdkit": "2026.09.1",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0",
+    "joblib": "1.5.3",
+    "requests": "2.34.2",
+    "lightgbm": "4.7.0",
+    "catboost": "1.2.10",
+    "mordredcommunity": "2.0.7"
+  },
+  "input_sha256": {
+    "data/raw/train.csv": "239efa4b3aa667b3681f6e1062d86ca5b0ba441364b8f2b894b4c428e272ba81"
+  }
+}

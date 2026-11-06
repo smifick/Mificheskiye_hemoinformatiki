@@ -1,0 +1,5 @@
+{
+  "fixed_SMILES_style_probe_MSE": 12187437.628526505,
+  "v7_same_folds_MSE": 17964365.735259127,
+  "status": "Diagnostic only; not used to select final model or to claim causal biology."
+}

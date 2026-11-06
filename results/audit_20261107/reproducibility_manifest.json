@@ -1,0 +1,223 @@
+{
+  "study_date": "2026-11-07",
+  "source_main_commit": "adc5d9bc9ca4de1733d3604f48756c3b71ab5dfc",
+  "source_v7_commit": "368c69feb439542254bffa90e28d058aa5879790",
+  "runtime": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.8.0",
+      "rdkit": "2026.9.1",
+      "joblib": "1.5.3",
+      "requests": "2.34.2",
+      "torch": "2.15.0+cpu",
+      "transformers": "4.57.3",
+      "tokenizers": "0.22.2",
+      "huggingface-hub": "0.36.2",
+      "safetensors": "0.8.0",
+      "matplotlib": "3.10.8",
+      "catboost": "1.2.10",
+      "lightgbm": "4.7.0"
+    }
+  },
+  "model_inputs": [
+    "SMILES"
+  ],
+  "ID_passthrough": "index",
+  "forbidden_features": [
+    "CC50_uM",
+    "IC50_uM_VACV",
+    "Title",
+    "strain",
+    "Culture",
+    "SI VACV in inference"
+  ],
+  "data": {
+    "organizer_labels_unchanged": 320,
+    "physical_organizer_labels": 237,
+    "technical_10000": 81,
+    "technical_zero": 2,
+    "external_full_fit": {
+      "V_publication_reviewed": 56,
+      "C_provisional_not_publication_verified": 49,
+      "weight": 1.0
+    },
+    "new_external_numeric_labels": 0,
+    "no_test_labels": true,
+    "frozen_source_presence_from_SMILES": true,
+    "legacy_exact_external_lookup_retained": true
+  },
+  "input_sha256": {
+    "data/raw/train.csv": "239efa4b3aa667b3681f6e1062d86ca5b0ba441364b8f2b894b4c428e272ba81",
+    "data/raw/test.csv": "1b0c6a014bbe556c42ef2277e867d2e1a647ad31c157a9cd81bbc7e262481abd",
+    "data/raw/sample_submit.csv": "3eea4d23f5700361c09da24cd45be05c5dbbecf76cc29b022c3676835606884c",
+    "data/external/external_endpoints.csv": "6c9db63764780e75058275cc75842364e5215630d35cd64c011ece7b55dd7298",
+    "data/external/external_si_database.csv": "77b3dd9cce245e270f20b57c62aa331b2f7684ed292bcb440e6406aea3622f93",
+    "data/external_curated/vacv_si.csv": "0b3c8213889a6253ff3df9a27aa57ed35b72edf57d24ddfd56ba0f42582f00a9"
+  },
+  "source_sha256": {
+    "src/audit_regression.py": "5ca6b497c955931ba3afe6f81ffb9a13a3764afdbf8bc448cb0ba7ba42a8d59e",
+    "src/train_v5.py": "235f22b5fff9b2b6c528a60089808d7865b0fca58c10bc7ea4c6f0d60c3f4ecc",
+    "src/train_v6.py": "9e0abc2be6760c1899e8749b776d5ce79ff142211cfea3bd83dd6e8a9df796d9",
+    "src/train_v7.py": "22ad919846e26e899f4f67e0121aa2c74c32fa43b5dce1fe02e90b720f0db782",
+    "src/extract_chemberta.py": "dba38d5f417c5a70634ca947dd110ded7e43e411aee8b7d687bad5c0c1655568",
+    "src/research_heads.py": "c9142f244f185bc449cd1c00832035b8bef61ea059d4afcb4705ff2553124484",
+    "src/smiles_style.py": "d353514b79724a5b2b798211aa1721a40e9d0d0af73caedaa6e98c760d148dc8",
+    "src/run_targeted_research.py": "ac411c9cd39a6bc79090cb6fb6f21de2fb1c4990c2ace6282afbcca68fa7a55c",
+    "src/postprocess_research.py": "5700b4ef62b572843bf6da76b3c2d591bc1f994cd4c041bbf9df32f768aff4ee",
+    "src/predict_research.py": "0cac2660b4797e114bb0688f4bdb1dec1f18397d1844daf5ea55b1398368404a",
+    "src/validate_research.py": "898652886f234a47d268873ad944a99384b70cb524e48746fa38a340728108e8",
+    "tests/test_audit_research.py": "3a635217169389253971f1ce261572d660b84223416279f8dab29992b8a433e6",
+    "requirements.txt": "835e9adc2c1c3e13b4c4688304f3252c548fee3bccc9ae81dad2e2d1cc265cce",
+    "requirements-research.txt": "666e8f6c6f041d472cc84e67952896375566b0a009b3f3eb2654ce9d59558d07"
+  },
+  "output_sha256": {
+    "selected_model.joblib": "f58b880b834cf9bb118f7559ba7533e20933329446b781764b3919ad4d3b07c1",
+    "submission.csv": "ff3aff978dc2737176be3006a33d1233a5c8432f1aeba57075ede83a4275649c",
+    "submission.zip": "bf3663614f4222be12737c311658921288df4e7622c7a99bcaad48ea86ebbc9a",
+    "targeted_splits.csv": "34d7a43f20535c6e6fc598b3ea380e75bf77891f33171dec76dc4eb176f3e17b"
+  },
+  "encoder_revision": {
+    "mtr": {
+      "model_id": "DeepChem/ChemBERTa-77M-MTR",
+      "revision": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+      "torch": "2.15.0+cpu",
+      "rows": 917,
+      "train_rows": 320,
+      "hidden_size": 384,
+      "input_smiles_sha256": "a12a00520a4d458d68fd077e0e96603b5e53da2741f1b91de4f01693aa41acd7",
+      "random_smiles_per_parent": 3,
+      "pooler_used": false,
+      "encoder_frozen": true,
+      "batch_size": 1,
+      "torch_threads": 3,
+      "unique_sequences": 3835,
+      "truncated_sequences": 0,
+      "weights_and_tokenizer": {
+        "config.json": {
+          "sha256": "6c15d3fd119919afb92b762c4e55cd46a595251ab799435168baa75a6ebd07e6",
+          "bytes": 17669
+        },
+        "tokenizer.json": {
+          "sha256": "1197005224bc8917f46f8d6fc360aec71c6626858966e167b2ff8af62214f814",
+          "bytes": 8262
+        },
+        "tokenizer_config.json": {
+          "sha256": "79919cd4b54bdf241f19956753e8a47b8b782eb4b38eec0e0254bd2434545abd",
+          "bytes": 1271
+        },
+        "special_tokens_map.json": {
+          "sha256": "23dbc119b7e11cb23d3c43b13004c5a4ab4e6530c7146e34fa1f9564856b5580",
+          "bytes": 420
+        },
+        "added_tokens.json": {
+          "sha256": "2b0e66b84bd97bc08467f7a7c033cfd5a66c6335eb79779a144b50f8e7b2557d",
+          "bytes": 25
+        },
+        "vocab.json": {
+          "sha256": "0c9afbd534ab59fa51718c998027da0e7932293c9a51de03317d4c83d3fe48f6",
+          "bytes": 6963
+        },
+        "merges.txt": {
+          "sha256": "291976363a8a20ed148ff687cf3da54ada8ddbc99655fa876326f0ef28dbd6ad",
+          "bytes": 52
+        },
+        "pytorch_model.bin": {
+          "sha256": "7882205587d3985c07e425632d0e57ba0fc2fc778e3b47aab02aef9b7961407f",
+          "bytes": 14036589
+        }
+      },
+      "loading_info": {
+        "missing_keys": [
+          "pooler.dense.bias",
+          "pooler.dense.weight"
+        ],
+        "unexpected_keys": [
+          "norm_mean",
+          "norm_std",
+          "regression.dense.bias",
+          "regression.dense.weight",
+          "regression.out_proj.bias",
+          "regression.out_proj.weight"
+        ],
+        "mismatched_keys": [],
+        "error_msgs": []
+      },
+      "note": "Frozen encoder only; no task labels, no assay metadata; checkpoint weights not redistributed."
+    },
+    "mlm": {
+      "model_id": "DeepChem/ChemBERTa-77M-MLM",
+      "revision": "ed8a5374f2024ec8da53760af91a33fb8f6a15ff",
+      "torch": "2.15.0+cpu",
+      "rows": 917,
+      "train_rows": 320,
+      "hidden_size": 384,
+      "input_smiles_sha256": "a12a00520a4d458d68fd077e0e96603b5e53da2741f1b91de4f01693aa41acd7",
+      "random_smiles_per_parent": 3,
+      "pooler_used": false,
+      "encoder_frozen": true,
+      "batch_size": 1,
+      "torch_threads": 3,
+      "unique_sequences": 3835,
+      "truncated_sequences": 0,
+      "weights_and_tokenizer": {
+        "config.json": {
+          "sha256": "b9ec477f76a173461741cb0f339b89661c9d9249af2f6a84df7593c3baede9b0",
+          "bytes": 631
+        },
+        "tokenizer.json": {
+          "sha256": "1197005224bc8917f46f8d6fc360aec71c6626858966e167b2ff8af62214f814",
+          "bytes": 8262
+        },
+        "tokenizer_config.json": {
+          "sha256": "79919cd4b54bdf241f19956753e8a47b8b782eb4b38eec0e0254bd2434545abd",
+          "bytes": 1271
+        },
+        "special_tokens_map.json": {
+          "sha256": "23dbc119b7e11cb23d3c43b13004c5a4ab4e6530c7146e34fa1f9564856b5580",
+          "bytes": 420
+        },
+        "added_tokens.json": {
+          "sha256": "2b0e66b84bd97bc08467f7a7c033cfd5a66c6335eb79779a144b50f8e7b2557d",
+          "bytes": 25
+        },
+        "vocab.json": {
+          "sha256": "0c9afbd534ab59fa51718c998027da0e7932293c9a51de03317d4c83d3fe48f6",
+          "bytes": 6963
+        },
+        "merges.txt": {
+          "sha256": "291976363a8a20ed148ff687cf3da54ada8ddbc99655fa876326f0ef28dbd6ad",
+          "bytes": 52
+        },
+        "pytorch_model.bin": {
+          "sha256": "95571af26b61ba8d56b9d61ff108b5c9afe96fd69ea3cbd1901d9421e3d2dd6d",
+          "bytes": 13734116
+        }
+      },
+      "loading_info": {
+        "missing_keys": [
+          "pooler.dense.bias",
+          "pooler.dense.weight"
+        ],
+        "unexpected_keys": [
+          "lm_head.bias",
+          "lm_head.decoder.bias",
+          "lm_head.decoder.weight",
+          "lm_head.dense.bias",
+          "lm_head.dense.weight",
+          "lm_head.layer_norm.bias",
+          "lm_head.layer_norm.weight"
+        ],
+        "mismatched_keys": [],
+        "error_msgs": []
+      },
+      "note": "Frozen encoder only; no task labels, no assay metadata; checkpoint weights not redistributed."
+    }
+  },
+  "evaluation_warning": "All organizer labels were previously used in project research. Nested selection is for the final fixed candidate pool, not a fully independent estimate of the adaptive research process. Repeated splits/bootstrap do not supply new data.",
+  "public_MSE_new_candidate": null,
+  "public_MSE_v7": 9421022.05828
+}

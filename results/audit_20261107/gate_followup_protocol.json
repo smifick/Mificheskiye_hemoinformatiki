@@ -1,0 +1,21 @@
+{
+  "reason": "Hard source-presence gate forces flagged inactive row175 to low p; assess learned gate using the already selected encoder, fixed C, no new encoder/parameter grid.",
+  "candidates": [
+    {
+      "name": "mlm_raw_all_rows",
+      "family": "logistic",
+      "embedding": "mlm_raw",
+      "C": 0.1,
+      "training_scope": "all"
+    },
+    {
+      "name": "mlm_raw_all_rows_source_feature",
+      "family": "logistic",
+      "embedding": "mlm_raw",
+      "C": 0.1,
+      "training_scope": "all",
+      "include_source_flag": true
+    }
+  ],
+  "status": "screening only; not selected unless complete nested study is extended"
+}

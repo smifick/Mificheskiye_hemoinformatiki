@@ -1,0 +1,37 @@
+{
+  "kernels": [
+    "m1",
+    "c1",
+    "m2",
+    "c2",
+    "m3",
+    "c3",
+    "legacy",
+    "taut",
+    "feature",
+    "ap",
+    "tt",
+    "rdk",
+    "maccs",
+    "morgan_multi",
+    "counts_multi",
+    "m2_ap",
+    "m2_feature",
+    "all_multi"
+  ],
+  "alphas": [
+    0.1,
+    0.3,
+    1.0,
+    3.0
+  ],
+  "outer_seed": 2718,
+  "inner_seed": 314,
+  "selection": "Minimum pooled inner scaffold OOF MSE; ties retain table order",
+  "features": [
+    "SMILES"
+  ],
+  "target": "SI VACV",
+  "external_used": false,
+  "train_sha256": "239efa4b3aa667b3681f6e1062d86ca5b0ba441364b8f2b894b4c428e272ba81"
+}

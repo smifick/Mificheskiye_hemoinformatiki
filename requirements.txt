@@ -7,3 +7,7 @@ joblib==1.5.3
 python-docx==1.2.0
 openpyxl==3.1.5
 catboost==1.2.10
+
+lightgbm==4.7.0
+
+requests==2.34.2
