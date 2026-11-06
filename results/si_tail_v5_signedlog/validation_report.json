@@ -1,0 +1,22 @@
+{
+  "all_tests_passed": true,
+  "tests": 39,
+  "new_tests": 9,
+  "existing_subtests_passed": 8,
+  "rows": 320,
+  "outer_folds": 5,
+  "outer_scaffold_overlap": 0,
+  "outer_canonical_overlap": 0,
+  "inner_scaffold_overlap": 0,
+  "oof_mse_recomputed_rtol": 1e-12,
+  "validation_metric": "unweighted raw-scale MSE",
+  "prediction_clipping": false,
+  "embedding_integration": {
+    "model_revision": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+    "samples": 5,
+    "dimensions": 384,
+    "batch_order_max_abs_error": 3.8743019104003906e-07,
+    "cache_exact": true,
+    "frozen": true
+  }
+}
