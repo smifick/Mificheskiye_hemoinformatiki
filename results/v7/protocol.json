@@ -1,0 +1,175 @@
+{
+  "development_seeds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "confirmation_seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108
+  ],
+  "candidates_A": [
+    {
+      "name": "v6",
+      "kind": "krr",
+      "kernel": "v6",
+      "alpha": 0.5
+    },
+    {
+      "name": "v6_a0.1",
+      "kind": "krr",
+      "kernel": "v6",
+      "alpha": 0.1
+    },
+    {
+      "name": "v6_a2",
+      "kind": "krr",
+      "kernel": "v6",
+      "alpha": 2.0
+    },
+    {
+      "name": "squared",
+      "kind": "krr",
+      "kernel": "v6_squared",
+      "alpha": 0.5
+    },
+    {
+      "name": "morgan_multi",
+      "kind": "krr",
+      "kernel": "morgan_multi",
+      "alpha": 0.5
+    },
+    {
+      "name": "counts_multi",
+      "kind": "krr",
+      "kernel": "counts_multi",
+      "alpha": 0.5
+    },
+    {
+      "name": "atom_pair",
+      "kind": "krr",
+      "kernel": "ap",
+      "alpha": 0.5
+    },
+    {
+      "name": "torsion",
+      "kind": "krr",
+      "kernel": "tt",
+      "alpha": 0.5
+    },
+    {
+      "name": "feature",
+      "kind": "krr",
+      "kernel": "feature",
+      "alpha": 0.5
+    },
+    {
+      "name": "all_multi",
+      "kind": "krr",
+      "kernel": "all_multi",
+      "alpha": 0.5
+    },
+    {
+      "name": "logistic_C0.1",
+      "kind": "logistic",
+      "C": 0.1
+    },
+    {
+      "name": "logistic_C1",
+      "kind": "logistic",
+      "C": 1.0
+    },
+    {
+      "name": "logistic_C10",
+      "kind": "logistic",
+      "C": 10.0
+    },
+    {
+      "name": "kernel_ensemble",
+      "kind": "ensemble"
+    }
+  ],
+  "candidates_B": [
+    {
+      "name": "v6_B",
+      "config": {
+        "a_c": 0.5,
+        "a_m": 3.0,
+        "cap": 2000.0,
+        "B": "log_smear",
+        "cal_p": false,
+        "w": {
+          "V": 1.0,
+          "C": 1.0
+        }
+      }
+    },
+    {
+      "name": "raw_2000",
+      "config": {
+        "a_c": 0.5,
+        "a_m": 3.0,
+        "cap": 2000.0,
+        "B": "raw",
+        "cal_p": false,
+        "w": {
+          "V": 1.0,
+          "C": 1.0
+        }
+      }
+    },
+    {
+      "name": "raw_10000",
+      "config": {
+        "a_c": 0.5,
+        "a_m": 3.0,
+        "cap": 10000.0,
+        "B": "raw",
+        "cal_p": false,
+        "w": {
+          "V": 1.0,
+          "C": 1.0
+        }
+      }
+    },
+    {
+      "name": "log_exp",
+      "config": {
+        "a_c": 0.5,
+        "a_m": 3.0,
+        "cap": 2000.0,
+        "B": "log_exp",
+        "cal_p": false,
+        "w": {
+          "V": 1.0,
+          "C": 1.0
+        }
+      }
+    },
+    {
+      "name": "log_cal",
+      "config": {
+        "a_c": 0.5,
+        "a_m": 3.0,
+        "cap": 2000.0,
+        "B": "log_cal",
+        "cal_p": false,
+        "w": {
+          "V": 1.0,
+          "C": 1.0
+        }
+      }
+    }
+  ],
+  "selection": "Minimum mean development scaffold MSE without lookup; final candidate frozen before confirmation.",
+  "external_lookup": "Reported separately, allowed only as a frozen external mapping, not fitted on organizer validation labels.",
+  "public_v6_mse_user_reported": 9649437.79854,
+  "source_commit": "5eecc1ca55bd7e8a675a0c8939f4c57717e04c41"
+}
