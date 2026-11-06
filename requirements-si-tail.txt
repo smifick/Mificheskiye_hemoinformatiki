@@ -1,0 +1,8 @@
+# Python 3.12; additionally install the repository requirements.txt.
+# CPU PyTorch: pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+torch==2.15.0
+transformers==4.57.6
+huggingface-hub==0.36.2
+lightgbm==4.7.0
+threadpoolctl==3.6.0
+pytest==9.2.0
