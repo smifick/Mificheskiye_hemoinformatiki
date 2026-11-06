@@ -1,0 +1,11 @@
+{
+  "cv_v5_mean": 18085334.17363744,
+  "cv_v6_mean": 17491062.331982985,
+  "cv_change_pct": -3.285932324771233,
+  "seeds_better": 8,
+  "test_flagged": 196,
+  "test_lookup": 39,
+  "pred_mean": 2461.4427413480726,
+  "p_mean_flagged": 0.01648351648351648,
+  "p_mean_unflagged": 0.33355257552187184
+}

@@ -1,0 +1,42 @@
+{
+  "model": "v7_v6_feature_blend50",
+  "feature_weight": 0.5,
+  "code_alpha": 0.5,
+  "physical_alpha": 3.0,
+  "physical_transform": "log1p with training-only inner scaffold OOF Duan smearing",
+  "external_weights": {
+    "V": 1.0,
+    "C": 1.0
+  },
+  "external_lookup": "same geometric-mean V/C lookup as supplied v6",
+  "train_rows": 320,
+  "test_rows": 597,
+  "external_training_rows": 105,
+  "source_flag_train": 89,
+  "source_flag_test": 196,
+  "lookup_test": 39,
+  "allowed_organizer_train_columns": [
+    "SMILES",
+    "SI VACV"
+  ],
+  "allowed_organizer_test_columns": [
+    "SMILES",
+    "index"
+  ],
+  "public_v7_mse": null,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "rdkit": "2026.09.1",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0"
+  },
+  "input_sha256": {
+    "data/raw/train.csv": "239efa4b3aa667b3681f6e1062d86ca5b0ba441364b8f2b894b4c428e272ba81",
+    "data/raw/test.csv": "1b0c6a014bbe556c42ef2277e867d2e1a647ad31c157a9cd81bbc7e262481abd",
+    "data/external/external_endpoints.csv": "6c9db63764780e75058275cc75842364e5215630d35cd64c011ece7b55dd7298",
+    "data/external/external_si_database.csv": "77b3dd9cce245e270f20b57c62aa331b2f7684ed292bcb440e6406aea3622f93",
+    "data/external_curated/vacv_si.csv": "0b3c8213889a6253ff3df9a27aa57ed35b72edf57d24ddfd56ba0f42582f00a9"
+  }
+}
