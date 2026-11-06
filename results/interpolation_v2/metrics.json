@@ -1,0 +1,42 @@
+{
+  "selected_spec": {
+    "name": "krr_m2_1.0",
+    "family": "krr",
+    "key": "m2",
+    "alpha": 1.0
+  },
+  "selection_metric": "Grouped parent-structure OOF MSE, 5 folds, no identical parents across folds",
+  "interpolation_selected": {
+    "MSE": 14636331.23269388,
+    "RMSE": 3825.7458400544438,
+    "MAE": 2529.6709280851255,
+    "R2": 0.3371118542166527,
+    "RMSLE": 4.102641319198988
+  },
+  "interpolation_baseline": {
+    "MSE": 14636331.23269388,
+    "RMSE": 3825.7458400544438,
+    "MAE": 2529.6709280851255,
+    "R2": 0.3371118542166527,
+    "RMSLE": 4.102641319198988
+  },
+  "scaffold_selected": {
+    "MSE": 19173935.93265446,
+    "RMSE": 4378.805308831903,
+    "MAE": 3087.0002532801727,
+    "R2": 0.1316010388331006,
+    "RMSLE": 4.3475855806390165
+  },
+  "scaffold_baseline": {
+    "MSE": 19173935.93265446,
+    "RMSE": 4378.805308831903,
+    "MAE": 3087.0002532801727,
+    "R2": 0.1316010388331006,
+    "RMSLE": 4.3475855806390165
+  },
+  "interpolation_oof_median_similarity": 0.660377358490566,
+  "test_median_similarity": 0.7049180327868853,
+  "selection_bias_note": "Candidate OOF scores are used for selection and are not independent holdout estimates. Scaffold evaluation of the selected candidate is a secondary diagnostic; Kaggle v2 score is unknown.",
+  "public_v2_score": null,
+  "features": "SMILES only; all experimental concentrations and test labels excluded."
+}

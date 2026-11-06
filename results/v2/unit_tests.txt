@@ -1,0 +1,19 @@
+test_endpoint_and_context_validation (test_pipeline.PipelineTests.test_endpoint_and_context_validation) ... ok
+test_invalid_smiles_stops_prediction (test_pipeline.PipelineTests.test_invalid_smiles_stops_prediction) ... [19:10:15] SMILES Parse Error: syntax error while parsing: invalid
+[19:10:15] SMILES Parse Error: check for mistakes around position 1:
+[19:10:15] invalid
+[19:10:15] ^
+[19:10:15] SMILES Parse Error: Failed parsing SMILES 'invalid' for input: 'invalid'
+ok
+test_salt_parent_and_charged_equivalent (test_pipeline.PipelineTests.test_salt_parent_and_charged_equivalent) ... ok
+test_stereoisomers_share_validation_group (test_pipeline.PipelineTests.test_stereoisomers_share_validation_group) ... ok
+test_tanimoto_kernel_invariants (test_pipeline.PipelineTests.test_tanimoto_kernel_invariants) ... ok
+test_centered_constant_target_is_preserved (test_v2.V2Tests.test_centered_constant_target_is_preserved) ... ok
+test_count_tanimoto_identity_and_bounds (test_v2.V2Tests.test_count_tanimoto_identity_and_bounds) ... ok
+test_mixture_predictions_do_not_require_inference_labels (test_v2.V2Tests.test_mixture_predictions_do_not_require_inference_labels) ... ok
+test_weighted_neighbors_use_training_targets_only (test_v2.V2Tests.test_weighted_neighbors_use_training_targets_only) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.019s
+
+OK

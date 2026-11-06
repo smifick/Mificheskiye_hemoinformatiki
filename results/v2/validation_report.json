@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "submission_rows": 597,
+  "columns": [
+    "index",
+    "SI VACV"
+  ],
+  "order_matches_template": true,
+  "saved_model_reproduces_submission": true,
+  "scaffold_group_overlap": 0,
+  "parent_group_overlap": 0,
+  "kaggle_v2_score": null,
+  "robust_improvement_confirmed": false
+}

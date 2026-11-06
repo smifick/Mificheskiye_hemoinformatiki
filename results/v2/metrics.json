@@ -1,0 +1,38 @@
+{
+  "selected_model": "blend_m2_mixture_krr",
+  "nested_selection_pipeline": {
+    "MSE": 19617182.659560353,
+    "RMSE": 4429.12888269921,
+    "MAE": 3026.5424390528524,
+    "R2": 0.11152613097184239,
+    "RMSLE": 4.3022478261941215
+  },
+  "baseline_same_outer_folds": {
+    "MSE": 19173935.93265446,
+    "RMSE": 4378.805308831903,
+    "MAE": 3087.0002532801727,
+    "R2": 0.1316010388331006,
+    "RMSLE": 4.3475855806390165
+  },
+  "selected_candidate_oof": {
+    "model": "blend_m2_mixture_krr",
+    "MSE": 19041223.058204416,
+    "RMSE": 4363.62499055595,
+    "MAE": 3037.597085602111,
+    "R2": 0.13761168384154754,
+    "RMSLE": 4.331577967223563
+  },
+  "selection_bias_note": "Final candidate OOF scores used for selection; nested score estimates the selection procedure.",
+  "outer_groups_overlap": 0,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "candidates": 21,
+  "seed_outer": 2718,
+  "seed_inner": 314,
+  "test_rows": 597,
+  "test_scaffold_seen_fraction": 0.7504187604690117,
+  "features": "SMILES only; concentration missingness used only as an auxiliary target in training.",
+  "missing_codes": "10000 for missing IC50; two zero labels with missing CC50 handled as separate auxiliary class.",
+  "external_used": false,
+  "public_v2_score": null
+}

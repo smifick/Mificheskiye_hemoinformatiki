@@ -1,0 +1,20 @@
+{
+  "selected_spec": {
+    "name": "reference",
+    "family": "krr",
+    "key": "m2",
+    "alpha": 1.0
+  },
+  "selected_scores": {
+    "model": "reference",
+    "scaffold_MSE": 19173935.93265446,
+    "parent_MSE": 14636331.23269388
+  },
+  "reference_scores": {
+    "model": "reference",
+    "scaffold_MSE": 19173935.93265446,
+    "parent_MSE": 14636331.23269388
+  },
+  "public_score": null,
+  "selection_note": "Grouped OOF scores used for candidate selection; not an independent holdout. All selected predictions use SMILES only."
+}

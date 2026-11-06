@@ -1,0 +1,141 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "rdkit": "2026.09.1",
+  "sklearn": "1.8.0",
+  "catboost": "1.2.10",
+  "selected_spec": {
+    "name": "blend_m2_mixture_krr",
+    "family": "blend",
+    "classifier": "krr"
+  },
+  "candidate_specs": [
+    {
+      "name": "krr_m2_0.03",
+      "family": "krr",
+      "key": "m2",
+      "alpha": 0.03
+    },
+    {
+      "name": "krr_m2_0.1",
+      "family": "krr",
+      "key": "m2",
+      "alpha": 0.1
+    },
+    {
+      "name": "krr_m2_0.3",
+      "family": "krr",
+      "key": "m2",
+      "alpha": 0.3
+    },
+    {
+      "name": "krr_m2_1.0",
+      "family": "krr",
+      "key": "m2",
+      "alpha": 1.0
+    },
+    {
+      "name": "krr_count_0.1",
+      "family": "krr",
+      "key": "count",
+      "alpha": 0.1
+    },
+    {
+      "name": "krr_count_1.0",
+      "family": "krr",
+      "key": "count",
+      "alpha": 1.0
+    },
+    {
+      "name": "krr_multi_0.03",
+      "family": "krr",
+      "key": "multi",
+      "alpha": 0.03
+    },
+    {
+      "name": "krr_multi_0.1",
+      "family": "krr",
+      "key": "multi",
+      "alpha": 0.1
+    },
+    {
+      "name": "krr_multi_0.3",
+      "family": "krr",
+      "key": "multi",
+      "alpha": 0.3
+    },
+    {
+      "name": "krr_multi_1.0",
+      "family": "krr",
+      "key": "multi",
+      "alpha": 1.0
+    },
+    {
+      "name": "catboost_raw_d4",
+      "family": "catboost",
+      "depth": 4
+    },
+    {
+      "name": "catboost_raw_d6",
+      "family": "catboost",
+      "depth": 6
+    },
+    {
+      "name": "mixture_krr_krr_raw",
+      "family": "mixture",
+      "classifier": "krr",
+      "regressor": "krr_raw"
+    },
+    {
+      "name": "mixture_krr_extra_log",
+      "family": "mixture",
+      "classifier": "krr",
+      "regressor": "extra_log"
+    },
+    {
+      "name": "mixture_extra_krr_raw",
+      "family": "mixture",
+      "classifier": "extra",
+      "regressor": "krr_raw"
+    },
+    {
+      "name": "mixture_extra_extra_log",
+      "family": "mixture",
+      "classifier": "extra",
+      "regressor": "extra_log"
+    },
+    {
+      "name": "mixture_catboost_krr_raw",
+      "family": "mixture",
+      "classifier": "catboost",
+      "regressor": "krr_raw"
+    },
+    {
+      "name": "mixture_catboost_extra_log",
+      "family": "mixture",
+      "classifier": "catboost",
+      "regressor": "extra_log"
+    },
+    {
+      "name": "blend_m2_mixture_krr",
+      "family": "blend",
+      "classifier": "krr"
+    },
+    {
+      "name": "blend_m2_mixture_extra",
+      "family": "blend",
+      "classifier": "extra"
+    },
+    {
+      "name": "blend_m2_mixture_catboost",
+      "family": "blend",
+      "classifier": "catboost"
+    }
+  ],
+  "input_sha256": {
+    "train.csv": "239efa4b3aa667b3681f6e1062d86ca5b0ba441364b8f2b894b4c428e272ba81",
+    "test.csv": "1b0c6a014bbe556c42ef2277e867d2e1a647ad31c157a9cd81bbc7e262481abd",
+    "sample_submit.csv": "3eea4d23f5700361c09da24cd45be05c5dbbecf76cc29b022c3676835606884c"
+  }
+}

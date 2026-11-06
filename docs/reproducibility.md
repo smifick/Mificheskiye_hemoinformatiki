@@ -53,3 +53,7 @@ python src/make_report.py --root .
 ```
 
 Диагностика использует сохранённые OOF- и отложенные прогнозы и не выполняет подбор модели. DOCX формируется из `docs/technical_report.md`; содержание отчёта относится к эксперименту `results/final_run`.
+
+## Дополнительные эксперименты v2
+
+Конфигурации, команды и ограничения интерпретации приведены в [experiment_v2.md](experiment_v2.md). Для inference кандидата: `python src/predict_v2.py --model results/v2/model_v2.joblib --input data/raw/test.csv --out results/repeated_v2.csv`.
