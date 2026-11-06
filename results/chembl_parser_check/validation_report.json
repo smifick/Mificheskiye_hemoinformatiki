@@ -1,0 +1,51 @@
+{
+  "unit_tests": {
+    "command": "python -m unittest discover -s tests -p test_download_external.py -v",
+    "passed": 15,
+    "failed": 0
+  },
+  "integration_checks": "passed",
+  "checks": [
+    "unique activity IDs; raw/normalized/summary counts agree",
+    "API request manifest and assay audit counts agree",
+    "all rows have DOI",
+    "all ratio endpoints are exact, valid and share molecule/publication",
+    "ratios recomputed from standardized concentrations agree",
+    "unconfirmed antiviral endpoints excluded from candidates",
+    "all pairs remain marked for review"
+  ],
+  "python": "3.12.14",
+  "rdkit": "2026.09.1",
+  "output_sha256": {
+    "all_assays.json": "b724c64978260d8c3b18bd5741c67522579e9871f60b751997bc1f327e919ce7",
+    "assay_search_audit.csv": "7f454a5a1e0a6b24a6125fc318921bf4f61b776513d70b6b2f0c4c01a146a08e",
+    "candidate_si_pairs.csv": "7c8a3759a5c6a9ace75f4ab408621affd824e4585833af7b125b3fc485bb0202",
+    "chembl_status.json": "e4075b7fab6d0290cf6f58feef3de1ee7fb67bfa9be3d5b486ad3bac5681b73f",
+    "collected_database.csv": "b3db4ebec729068a619e4f14617e448a806fd0e37aae77498beb2534fff67d99",
+    "collection_summary.json": "69842ac6204c49cdfc272e47f26093b4bcc52b137052a292559269ac85b7ed61",
+    "direct_si.csv": "1d326e4fd978e94c41fe8f1559d0e48c8a7543063cf28e7966eabdd78e6e23fa",
+    "documents.json": "bc8a8507361125bb5584c1a464d83dcd8d68e3b376e98d940b69c18b2fc04666",
+    "external_endpoints.csv": "28f471ae31c4a56f1fbe91d79e3ddf2aca46c5ab638c1052c62fb989cdb78147",
+    "external_si_database.csv": "1e6c690cdb95dc320b0dcae6edf3e4971482c2dfb1a76c62feddf57abfe3aff9",
+    "raw_activities.json": "fad020603bdb53ec7670831638458f1fcbd14128a0a8c53b6ad79fcd719c7529",
+    "request_manifest.json": "0afc9f41f72249383627a6988adf0a6a77076bf814e864c8df9ce2bfe2b1feb6",
+    "review_required_endpoints.csv": "a768cc7b67f565c7624611d3b092b838bcc0da013dc1a2181cb7993bcd6e5a92",
+    "targets.json": "f948ed70d7b4cc943b1cc692362bdfaeacdb31099894aac4beac508933f12620",
+    "vacv_assays.json": "8d4451c6b1c972d077e8124b271452dfc4d96f87c35f3b5157af626a025f7957"
+  },
+  "model_reproduction": {
+    "script": "src/train_model.py",
+    "training_rows": 320,
+    "holdout_rows": 52,
+    "selected_model": "tanimoto_krr_1_raw",
+    "holdout_MSE": 12350204.87679665,
+    "target": "Existing organizer SI VACV labels including missing-value codes; reproduction of the existing experiment, not a new independent evaluation",
+    "files_sha256": {
+      "config.json": "a0c296b559978351aa6da72f1566ffb250b26edfdad4a7236d03c126950e5587",
+      "metrics.json": "8b6e81fee0e063bdf07d29609ed9fa4b6a5543415ba9d1d61afb282120697b85",
+      "holdout_predictions.csv": "f1afb41fd9da7f3b75bb8b4c9df9e6edd436a790dcf1c50dae1fd928ad79918b",
+      "submission.csv": "18c9d9953d37c85968be0686d60763d30b0204ab7f3c1a7282035329cee6dce0",
+      "model.joblib": "30346515b73f223f544618b2fdb92b03ace45ebb942a2ee99ab65893d1f6be8f"
+    }
+  }
+}

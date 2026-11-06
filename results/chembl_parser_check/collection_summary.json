@@ -1,0 +1,47 @@
+{
+  "source": "ChEMBL",
+  "chembl_db_version": "ChEMBL_37",
+  "retrieved_utc": "2026-11-06T21:48:37.782783+00:00",
+  "assay_search_hits": 864,
+  "vacv_assays": 584,
+  "functional_assays": 584,
+  "assay_selection_counts": {
+    "included_vacv_organism_target": 584,
+    "review_required_virus_target_not_confirmed": 154,
+    "excluded_nonfunctional": 115,
+    "excluded_molecular_target": 11
+  },
+  "vacv_endpoint_records": 2182,
+  "review_required_endpoint_records": 218,
+  "additional_cc50_records": 4453,
+  "all_unique_endpoint_records": 6853,
+  "endpoint_counts": {
+    "CC50": 4465,
+    "EC50": 1795,
+    "IC50": 568,
+    "Selectivity index": 16,
+    "SI": 9
+  },
+  "valid_endpoint_rows": 2735,
+  "validation_counts": {
+    "censored_or_unknown_relation": 2956,
+    "valid_endpoint": 2735,
+    "censored_or_unknown_relation;unsupported_concentration_units": 287,
+    "unsupported_concentration_units": 271,
+    "censored_or_unknown_relation;nonpositive_or_missing_value;unsupported_concentration_units": 211,
+    "censored_or_unknown_relation;chembl_validity_flag;unsupported_concentration_units": 152,
+    "censored_or_unknown_relation;chembl_validity_flag": 132,
+    "chembl_validity_flag": 78,
+    "chembl_validity_flag;unsupported_concentration_units": 23,
+    "chembl_validity_flag;nonpositive_or_missing_value;unsupported_concentration_units": 4,
+    "nonpositive_or_missing_value;unsupported_si_units_or_value": 2,
+    "invalid_or_missing_smiles": 2
+  },
+  "rows_with_doi": 6853,
+  "direct_si_records": 0,
+  "candidate_pairs": 329,
+  "automatically_approved_training_rows": 0,
+  "policy": "Confirmed organism-level VACV functional assays; positive exact endpoints for candidate ratios. No automatic pairing approval. EC50 separate from IC50. Bounds stay bounds; zero SI rejected.",
+  "license_url": "https://chembl.gitbook.io/chembl-interface-documentation/about/terms-of-use",
+  "queries": 62
+}

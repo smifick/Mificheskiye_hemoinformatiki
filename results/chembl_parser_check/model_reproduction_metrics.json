@@ -1,0 +1,30 @@
+{
+  "selected_model": "tanimoto_krr_1_raw",
+  "selection_metric": "pooled inner scaffold OOF MSE (Kaggle metric)",
+  "inner_cv": {
+    "model": "tanimoto_krr_1_raw",
+    "MSE": 20746632.07438918,
+    "RMSE": 4554.847096707987,
+    "MAE": 3162.5315918765114,
+    "R2": 0.08995465119907864,
+    "RMSLE": 4.429014299190575
+  },
+  "holdout": {
+    "MSE": 12350204.87679665,
+    "RMSE": 3514.2858274188015,
+    "MAE": 2774.5575994356395,
+    "R2": 0.3271101849498438,
+    "RMSLE": 4.1301346509933525
+  },
+  "holdout_dummy_mean": {
+    "MSE": 18385782.554501668,
+    "RMSE": 4287.864568115657,
+    "MAE": 3791.5231443974576,
+    "R2": -0.0017328413631885198,
+    "RMSLE": 4.592409681204165
+  },
+  "outer_train_rows": 268,
+  "holdout_rows": 52,
+  "outer_scaffold_overlap": 0,
+  "warning": "SI=10000 may encode missing IC50; scores describe organizer labels, not validated biological SI."
+}
