@@ -6,8 +6,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 13894,
-    "sha256": "5e37eb3f2293e559f7e46536fa1afe7a891cb1fa76cb106135577861a8bd3fb4"
+    "bytes": 19077,
+    "sha256": "f8bab96300dafe27ac0f9181640960fe848c4081bc947c35e3ee4e61bea6633f"
   },
   {
     "path": "README_RU.md",
@@ -55,6 +55,11 @@
     "sha256": "90065d19bff53cd90e30eaa5b58af06ad8472d1ee34d449ef71db2881b55c327"
   },
   {
+    "path": "data/processed/si_with_observed_concentrations.csv",
+    "bytes": 91075,
+    "sha256": "ad6166334a45bc5b9956cbeb16556d8bb433a98a141a0e2c78152bbe3e9ac574"
+  },
+  {
     "path": "data/processed/training_dataset.csv",
     "bytes": 97110,
     "sha256": "516b36265297b060bd181fbd227e3792a28da34f38521126f008fcb1062b57bb"
@@ -76,18 +81,38 @@
   },
   {
     "path": "docs/explanation_ru.docx",
-    "bytes": 41376,
-    "sha256": "118aa158629d3b181fff396e7f9866b1bdf0a1a5e14f4fe115655286c3ab8ee6"
+    "bytes": 42062,
+    "sha256": "b7e53a8abd26b4140c8f098948196161a81af87bd56e9ab3cbcdf3b359e97c83"
   },
   {
     "path": "docs/explanation_ru.txt",
-    "bytes": 6976,
-    "sha256": "9204d3144350e14952670d7d4c39bc7f5451c4ff94b90d9de84e6f1a1bdae86a"
+    "bytes": 7002,
+    "sha256": "44e0d9c1b34bd200da3cc3ad470af876c286ef6718f257a0998ce1fc03f0bba9"
   },
   {
     "path": "requirements.txt",
     "bytes": 126,
     "sha256": "76a00b68d6729a2f41fd28115ee86e869aedff4eb14f05da4d110e67d8d81c29"
+  },
+  {
+    "path": "results/error_analysis/holdout_error_by_label_kind.csv",
+    "bytes": 274,
+    "sha256": "101af51ae06841d7c25cd9248837a48dfe9fd09b3b90cee8b0b0061224d4e5d9"
+  },
+  {
+    "path": "results/error_analysis/holdout_errors_ranked.csv",
+    "bytes": 7876,
+    "sha256": "e8ed7b286aaccfd9edd939282f80bcf15660db08796c5da1e70ab7ce4b9171b7"
+  },
+  {
+    "path": "results/error_analysis/largest_inner_cv_errors.csv",
+    "bytes": 2235,
+    "sha256": "aa564398cb0c5e5a3674bb702de77467e6a3cba5f50d016a0de5358fd15811dd"
+  },
+  {
+    "path": "results/error_analysis/summary.json",
+    "bytes": 1315,
+    "sha256": "c8a1d3339a26955b41f31a3a8e23654fa15b981c038a3519d9a32cf41f3fd9fb"
   },
   {
     "path": "results/final_run/config.json",
@@ -170,14 +195,19 @@
     "sha256": "5ffe22b70c8177ca5a7706e60e0438b5a6d3a49960a4758ff1f170687ca05718"
   },
   {
+    "path": "src/analyze_errors.py",
+    "bytes": 3927,
+    "sha256": "8ff8458ba1f3b54c135b7e796790d8c4ad5b4410348480d2f0eea72fd2ed4e0c"
+  },
+  {
     "path": "src/download_external.py",
     "bytes": 9983,
     "sha256": "5260a88e167d5a5be2065d7b43f11c05760d255475475bb6464886d95d4d0545"
   },
   {
     "path": "src/make_report.py",
-    "bytes": 13214,
-    "sha256": "504eff191bfb47735c24beb775a13a11fc9afe42c9c30dc650736c316eb1b21a"
+    "bytes": 15511,
+    "sha256": "a6588ff0c246b63bd0dac24f66af8614876188efe9af3f04ffc51e6ac91d6ef7"
   },
   {
     "path": "src/predict.py",

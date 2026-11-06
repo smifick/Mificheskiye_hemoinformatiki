@@ -1,0 +1,53 @@
+source_row,Title,SMILES,observed,prediction,squared_error,label_kind,Culture
+173,2h,O=[N+]([O-])c(c1)cccc1-c(n2O)nc(C)c2C(=O)NC3CC3,10000.0,2171.417648990154,61286701.62654285,missing_IC50_code_10000,Vero
+212,18,C1C[C@@H](C2(C)C)CC(\[C@]12C)=N/NC(=O)[C@@H]([C@H](O3)C=C4)[C@H]([C@@]345)C(=O)N6[C@@H]5OCCC6,10000.0,2842.8319375301708,51225054.67443813,missing_IC50_code_10000,Vero
+157,7,CC1(C)[C@H]2CC[C@]1(C)[C@H](OC(=O)CCN1C=NC=N1)C2,5.111,6666.174858083072,44369771.721460536,both_concentrations_present,Vero
+92,7a,C1C[C@@H](C2(C)C)CC(\[C@]12C)=N/N=c3\scc(-c4ccc(cc4)OC)n3-c5ccccc5,10000.0,3804.513748772906,38384049.88914395,missing_IC50_code_10000,Vero
+257,8,CC1(C)[C@H]2CC[C@]1(C)[C@H](OC(=O)CCN1CCCC1)C2,1.689,6079.234514424881,36936559.47990599,both_concentrations_present,Vero
+85,PANI-21,C1C(C)(C)CC(=O)c(c12)[n+]([O-])c(n2C)-c3ccccc3O,10000.0,3928.39602727184,36864374.80164838,missing_IC50_code_10000,Vero
+299,6a,C1C[C@@H](C2(C)C)CC(\[C@]12C)=N/N=c3\scc(-c4ccc(C)cc4)n3-c5ccccc5,10000.0,4618.934713636499,28955863.616106313,missing_IC50_code_10000,Vero
+97,8b,CC1=CC=C(/C=C2\S/C(=N\N=C3/C[C@H]4CC[C@]3(C)C4(C)C)NC2=O)C=C1,12.684,5228.855329135691,27208443.3348972,both_concentrations_present,Vero
+122,6d,CC1=CC=C([C@@H]2CS/C(=N\N=C3/C[C@H]4CC[C@]3(C)C4(C)C)N2C)C=C1,3.333,5192.642644753922,26928934.589136075,both_concentrations_present,Vero
+319,sid134450510,Cc1cc(C)cc(C(=O)c2cc(Cl)ccc2OCCn2c(C)cc(=O)[nH]c2=O)c1,10000.0,4874.096144933439,26274890.33138623,missing_IC50_code_10000,MT-4
+25,7,C1[C@H](C2)C[C@H](C3)C[C@@H]1CC23[C@@H](C)/N=C/c4ccc(cc4)OCc5cc(on5)-c6ccc(C)cc6,1.62,4877.39857987396,23773216.759957734,both_concentrations_present,Vero
+69,5c,CCN1/C(=N/N=C2\C[C@H]3CC[C@]2(C)C3(C)C)SC[C@H]1C1=CC=C(Cl)C=C1,5.833,4855.758955487365,23521781.77371003,both_concentrations_present,Vero
+285,sid134445116,O=C(c1ccccc1)c1cc(Br)ccc1OCCn1ccc(=O)[nH]c1=O,10000.0,5306.894156818303,22025242.45530619,missing_IC50_code_10000,MT-4
+133,sid134434981,Cc1cc(C)cc(C(=O)c2cc(Br)ccc2OCCn2ccc(=O)[nH]c2=O)c1,10000.0,5685.404679381591,18615732.780702267,missing_IC50_code_10000,MT-4
+56,sid134438815,Cc1cc(C)cc(C(=O)c2cc(C)ccc2OCCn2ccc(=O)[nH]c2=O)c1,10000.0,5738.102935732009,18163766.586416118,missing_IC50_code_10000,MT-4
+51,sid134452921,O=C(c1ccccc1)c1cc(Cl)ccc1OCCn1ccc(=O)[nH]c1=O,10000.0,5993.233746953329,16054175.806553664,missing_IC50_code_10000,MT-4
+140,sid469807193,C=C(C)[C@@H]1CC[C@]2(C(=O)O)CC[C@]3(C)[C@H](CC[C@@H]4[C@@]5(C)Cc6nnn(Cc7ccc(N(C)C)cc7)c6C(C)(C)[C@@H]5CC[C@]43C)[C@@H]12,10000.0,6069.403056643016,15449592.33112727,missing_IC50_code_10000,cells HEL
+119,4a,CC1(C)[C@@H]2CC[C@@]1(C)/C(=N/NC1=NC(C3=CC=CC=C3)=CS1)C2,4.344,3784.006898270316,14285851.624561165,both_concentrations_present,Vero
+42,4f,CC1=CC=C(C2=CSC(N/N=C3\C[C@H]4CC[C@]3(C)C4(C)C)=N2)C=C1,3.044,3732.342924516937,13907670.468403183,both_concentrations_present,Vero
+242,sid469823030,C=C(C)[C@@H]1CC[C@]2(C(=O)O)CC[C@]3(C)[C@H](CC[C@@H]4[C@@]5(C)Cc6nnn([C@H](C)c7ccccc7)c6C(C)(C)[C@@H]5CC[C@]43C)[C@@H]12,10000.0,6373.248484638136,13153326.554179579,missing_IC50_code_10000,cells HEL
+44,PANI-18,C1C(C)(C)CC(=O)c(c12)n(O)c(n2)-c3ccccc3O,186.25,3786.1438531732624,12959235.754114639,both_concentrations_present,Vero
+13,sid469800484,C=C(C)[C@@H]1CC[C@]2(C(=O)O)CC[C@]3(C)[C@H](CC[C@@H]4[C@@]5(C)Cc6nnn(Cc7ccc(F)cc7)c6C(C)(C)[C@@H]5CC[C@]43C)[C@@H]12,10000.0,6530.907135965748,12034605.299293367,missing_IC50_code_10000,cells HEL
+17,63a,CC1(C)[C@@H]2CC[C@@]1(CS(=O)(=O)NC13C[C@H]4C[C@H](C[C@H](C4)C1)C3)C(=O)C2,71.391,3370.9704849889085,10887224.777759671,both_concentrations_present,Vero
+309,sid174487796,Cc1nc(NCCCCNc2ccnc3cc(Cl)ccc23)nc(-c2ccccc2)c1C(=O)OC(C)C,5.0,2854.46049548522,8119425.115330874,both_concentrations_present,cells HEL
+112,23,O=C1c2ccccc2-c2onc3c(NCCO)cc(NC4CCCCC4)c1c23,3.27970297029703,2313.2217680847825,5335832.344185375,both_concentrations_present,Human foreskin fibroblast
+31,17,C[C@]12C[C@@H]3C[C@](C)(C1)C[C@@](C(=O)NNC(=O)C1=CC=C(C(F)(F)F)C=C1)(C3)C2,8.431,2079.282005521787,4288423.887070597,both_concentrations_present,Vero
+149,OSU-03012,NCC(=O)NC1=CC=C(N2N=C(C(F)(F)F)C=C2C2=CC=C3C(=C2)C=CC2=CC=CC=C23)C=C1,9.582,1974.5874630219428,3861246.4697060795,both_concentrations_present,A549 cells
+194,21,CCN(CCCNC(=O)c1cc(Nc2ccc(OC)cc2OC)nc2ccccc12)c1cccc(C)c1,4.5875,1796.4317010037123,3210705.640670632,both_concentrations_present,Human foreskin fibroblast
+268,sid103610921,Nc1ncnc2c1ncn2[C@@H]1O[C@H](COC(=O)[C@H](N)Cc2ccccc2)[C@@H](O)[C@@H]1O,43.478,1817.251714511298,3146273.1902912073,both_concentrations_present,Human foreskin fibroblast
+113,sid103605244,Cc1c(/N=C/c2cc(Br)cc(Br)c2O)cccc1C(=O)O,2.667,1643.5010805549837,2692336.4799107187,both_concentrations_present,cells BSC1
+145,M26,CN1C2=CC=CC=C2N=C1C1=CC=C2N=C(C3=CC=CC=C3)NC2=C1,1.57894736842105,1518.3914952236323,2300720.305331018,both_concentrations_present,HeLa cells
+250,sid103207636,O=c1[nH]c(=O)n([C@H]2C[C@H](O)[C@@H](CO)O2)cc1I,0.152,1403.9421315899815,1970626.7335494175,both_concentrations_present,PRK cells
+291,idoxuridine (IDU),O=C1NC(=O)N([C@H]2C[C@H](O)[C@@H](CO)O2)C=C1I,11.905,1403.9421315899815,1937767.3757252635,both_concentrations_present,Human foreskin fibroblast
+182,8c,CN1C2=C(CC(C)(C)CC2=O)[N+]([O-])=C1C1=CC=C(C(F)(F)F)C=C1,146.021,1441.9017107771108,1679306.81656419,both_concentrations_present,Vero
+230,fialuridine,O=C1NC(=O)N([C@@H]2O[C@H](CO)[C@@H](O)[C@@H]2F)C=C1I,66.667,1292.782108348287,1503358.2589199317,both_concentrations_present,Human foreskin fibroblast
+10,"1-(2-deoxy, 4'thio-b-D-ribofuranosyl)-thymidine",CC1=CN([C@H]2C[C@H](O)[C@@H](CO)S2)C(=O)NC1=O,966.667,2160.723802848197,1425771.6484280583,both_concentrations_present,Human foreskin fibroblast
+229,9a,CN1C2=C(C(=O)CC(C)(C)C2)[N+]([O-])=C1C1=CC=C([N+](=O)[O-])C=C1,13.31,1194.1610609901643,1394409.2282415968,both_concentrations_present,Vero
+207,M23,C1=CC=C(C2=NC3=CC=C(C4=NC5=CC=CC=C5N4)C=C3N2)C=C1,5.71428571428571,1138.572348430077,1283367.3902601756,both_concentrations_present,HeLa cells
+74,9c,CN1C2=C(C(=O)CC(C)(C)C2)[N+]([O-])=C1C1=CC=C(C(F)(F)F)C=C1,146.021,1239.4053569195296,1195489.3519563333,both_concentrations_present,Vero
+183,3b,CC1(C)CC(=O)C2=C(C1)N=C(C1=CC=C(C#N)C=C1)N2O,351.185,1434.8489783616174,1174327.617998528,both_concentrations_present,Vero
+300,sid103202903,O=c1[nH]c(=O)n([C@H]2C[C@H](O)[C@@H](CO)O2)cc1/C=C/Br,117.5,1051.58297680888,872511.0075641385,both_concentrations_present,cells HEL
+208,5b,CON1C(C2=CC=C(C#N)C=C2)=NC2=C1C(=O)CC(C)(C)C2,26.567,793.3280050781054,587922.4389083864,both_concentrations_present,Vero
+263,Trifuridine,O=C1NC(=O)N([C@H]2C[C@H](O)[C@@H](CO)O2)C=C1C(F)(F)F,1811.594,1185.320331301808,392218.70810469287,both_concentrations_present,Human foreskin fibroblast
+121,CHEMBL6145964,CC1(C)CC(=O)c2c(nc(-c3ccc(C(F)(F)F)cc3)n2O)C1,300.324675324675,805.1618655479031,254860.58863248373,both_concentrations_present,Vero
+2,PAV-825,CCC(CC)C1=CC2=C(C=C1)N=C1C(C(C)(C)C)=CC(N(CC)CC)=CC1=[S+]2,6.881,368.33181510530665,130646.6917402906,both_concentrations_present,HeLa cells
+68,Cytarabine,Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1,123.529,475.2873083892855,123733.90752089169,both_concentrations_present,BHK-21
+320,sid312354110,Cc1nc2cc(C(F)(F)F)ccc2n1C[C@@H]1CCCN2CCCC[C@H]12,4.348,185.62849312318207,32862.617186984055,both_concentrations_present,Vero
+43,Vidarabine,Nc1ncnc2c1ncn2C1OC(CO)C(O)C1O,132.0,0.0,17424.0,both_concentrations_present,BHK-21
+18,CHEMBL6102784,COn1c(-c2ccc([N+](=O)[O-])cc2)nc2c1C(=O)CC(C)(C)C2,291.5,190.76165173938443,10148.214810277068,both_concentrations_present,Vero
+260,sid103334942,Nc1ncnc2c1ncn2[C@@H]1C=C(CCl)[C@@H](O)[C@H]1O,57.14,110.69282231594195,2867.9047780028504,both_concentrations_present,PRK cells
+196,sid160681401,Nc1ncnc2c1ncn2[C@@H]1O[C@H](/C=C\Br)[C@@H](O)[C@H]1O,1.333,0.0,1.776889,both_concentrations_present,E6SM cells
+161,sid103210945,Nc1nc2c(nc(N3CCCCC3)n2COCCO)c(=O)[nH]1,0.92,0.0,0.8464,both_concentrations_present,PRK cells
