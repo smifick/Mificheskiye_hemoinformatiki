@@ -1,0 +1,19 @@
+{
+  "diagnostic_only": true,
+  "used_for_fitting_or_selection": false,
+  "selected_MSE": 11341011.015450312,
+  "target_MSE": 5670505.507725156,
+  "true_code_oracle_existing_r_MSE": 4262335.074213728,
+  "true_measured_SI_oracle_unbounded_MSE": 7189799.343644612,
+  "true_measured_SI_oracle_inherited_cap_MSE": 9312143.147924503,
+  "best_any_nonnegative_r_measured_only_fixed_p_MSE": 7134992.451695114,
+  "largest_row_only_perfect_MSE": 7350312.978964038,
+  "largest_row_source_row": 16,
+  "largest_row_observed": 36066.667,
+  "largest_row_prediction": 331.2032185460435,
+  "largest_row_physical_prediction": 116.3410678470667,
+  "largest_row_MSE_contribution": 3990698.036486274,
+  "source_flag_rows": 89,
+  "source_flag_code_rows": 1,
+  "interpretation": "Physical oracles modify measured rows only. Undefined physical responses of technical-code/zero rows remain at actual predictions. Per-label oracles are descriptive bounds and cannot be deployed."
+}
