@@ -1,0 +1,17 @@
+{
+  "legacy_commit": "368c69feb439542254bffa90e28d058aa5879790",
+  "outer_seed": 7349,
+  "outer_folds": 5,
+  "validation_external_molecule_or_scaffold_overlap": 0,
+  "validation_external_lookup": false,
+  "external_competition_test_identities_excluded": true,
+  "source_presence_feature": true,
+  "competition_eligibility": "Historical comparator; source-presence feature and unreviewed tier C pairs are outside the current strict structure-only protocol",
+  "source_sha256": {
+    "train_v5.py": "3cb061db4c6a7d81a86998509130c5d50afe9eb1563e075178b6d64b421986e3",
+    "train_v6.py": "acd5537b10d1ac197ac3a9b58a77a2dce608e0d999c4fd417b3fd5631758e7cf",
+    "train_v7.py": "22ad919846e26e899f4f67e0121aa2c74c32fa43b5dce1fe02e90b720f0db782",
+    "train_kernel_v7.py": "a634c18e292accefe7f5c828154af573617cbaa1637281eb448249142a8ef1fe"
+  },
+  "rule_evidence_updated_after_user_screenshots": true
+}

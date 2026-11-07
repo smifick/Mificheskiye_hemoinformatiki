@@ -1,0 +1,39 @@
+{
+  "train_sha256": "239efa4b3aa667b3681f6e1062d86ca5b0ba441364b8f2b894b4c428e272ba81",
+  "rows": 320,
+  "label_kinds": {
+    "measured_ratio": 237,
+    "technical_10000": 81,
+    "technical_zero": 2
+  },
+  "ratio_agrees_rtol_2pct": 237,
+  "extreme": {
+    "row_index": 14,
+    "source_row": 16,
+    "SI VACV": 36066.667,
+    "CC50_uM": 1082.0,
+    "IC50_uM_VACV": 0.03,
+    "Culture": "Vero",
+    "doi_status": "not supplied by organizer",
+    "relation_status": "numeric CSV; original comparison operators not supplied"
+  },
+  "reproduction": {
+    "reference_krr_raw": {
+      "MSE": 18897306.37849188,
+      "max_abs_difference_vs_previous": 9.094947017729282e-13
+    },
+    "control_lgbm_raw": {
+      "MSE": 18755172.808899082,
+      "max_abs_difference_vs_previous": 9.094947017729282e-13
+    },
+    "H2_combined_ridge": {
+      "MSE": 20598729.91468229,
+      "max_abs_difference_vs_previous": 9.094947017729282e-13
+    }
+  },
+  "boosting_counterexample": {
+    "training_max": 1.0,
+    "prediction": 1.9931121513868348,
+    "exceeds_training_max": true
+  }
+}

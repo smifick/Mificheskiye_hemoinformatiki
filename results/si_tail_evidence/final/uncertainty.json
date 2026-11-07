@@ -1,0 +1,74 @@
+[
+  {
+    "model": "mean_glm_nonnegative",
+    "reference": "baseline_krr_nonnegative",
+    "mean_MSE_difference": 2401438.799191548,
+    "cluster_bootstrap_95pct": [
+      314573.97259538143,
+      5296097.8847025735
+    ],
+    "bootstrap_replicates": 2000,
+    "seed": 8911,
+    "scope": "Conditional diagnostic on saved OOF losses; no refitting during bootstrap"
+  },
+  {
+    "model": "mean_glm_nonnegative",
+    "reference": "baseline_lgbm_nonnegative",
+    "mean_MSE_difference": 2020397.9264329863,
+    "cluster_bootstrap_95pct": [
+      -584721.5386638602,
+      5242496.433056189
+    ],
+    "bootstrap_replicates": 2000,
+    "seed": 8911,
+    "scope": "Conditional diagnostic on saved OOF losses; no refitting during bootstrap"
+  },
+  {
+    "model": "smearing_nonnegative",
+    "reference": "baseline_krr_nonnegative",
+    "mean_MSE_difference": -412959.6121377003,
+    "cluster_bootstrap_95pct": [
+      -1520207.7542313319,
+      499259.9104088384
+    ],
+    "bootstrap_replicates": 2000,
+    "seed": 8911,
+    "scope": "Conditional diagnostic on saved OOF losses; no refitting during bootstrap"
+  },
+  {
+    "model": "smearing_nonnegative",
+    "reference": "baseline_lgbm_nonnegative",
+    "mean_MSE_difference": -794000.484896262,
+    "cluster_bootstrap_95pct": [
+      -2500412.6074844906,
+      793876.0384628668
+    ],
+    "bootstrap_replicates": 2000,
+    "seed": 8911,
+    "scope": "Conditional diagnostic on saved OOF losses; no refitting during bootstrap"
+  },
+  {
+    "model": "nested_selector_nonnegative",
+    "reference": "baseline_krr_nonnegative",
+    "mean_MSE_difference": 372343.46815358,
+    "cluster_bootstrap_95pct": [
+      -71002.7766478351,
+      826122.6131248365
+    ],
+    "bootstrap_replicates": 2000,
+    "seed": 8911,
+    "scope": "Conditional diagnostic on saved OOF losses; no refitting during bootstrap"
+  },
+  {
+    "model": "nested_selector_nonnegative",
+    "reference": "baseline_lgbm_nonnegative",
+    "mean_MSE_difference": -8697.404604981677,
+    "cluster_bootstrap_95pct": [
+      -1834900.6282653254,
+      1932836.1140206687
+    ],
+    "bootstrap_replicates": 2000,
+    "seed": 8911,
+    "scope": "Conditional diagnostic on saved OOF losses; no refitting during bootstrap"
+  }
+]

@@ -1,0 +1,938 @@
+[
+  {
+    "seed": 2718,
+    "fold": 0,
+    "models": {
+      "baseline_krr": {
+        "spec": {
+          "name": "baseline_krr",
+          "family": "baseline",
+          "kind": "krr"
+        },
+        "fit_diagnostics": {}
+      },
+      "baseline_lgbm": {
+        "spec": {
+          "name": "baseline_lgbm",
+          "family": "baseline",
+          "kind": "lgbm"
+        },
+        "fit_diagnostics": {}
+      },
+      "mean_glm": {
+        "spec": {
+          "name": "glm_p1_a10",
+          "family": "mean_glm",
+          "power": 1.0,
+          "alpha": 10.0
+        },
+        "fit_diagnostics": {}
+      },
+      "smearing": {
+        "spec": {
+          "name": "regime_conditional_a3_prior5",
+          "family": "smearing",
+          "correction": "conditional",
+          "physical_alpha": 3.0,
+          "prior_count": 5.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 138,
+          "physical_max": 200.0,
+          "global_factor": 2.904494874483229,
+          "ratio_max": 31.40386690780907,
+          "ratio_q95": 13.968672234718156,
+          "external_rows": 0
+        }
+      },
+      "nested_selector": {
+        "spec": {
+          "name": "regime_conditional_a3_prior5",
+          "family": "smearing",
+          "correction": "conditional",
+          "physical_alpha": 3.0,
+          "prior_count": 5.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 138,
+          "physical_max": 200.0,
+          "global_factor": 2.904494874483229,
+          "ratio_max": 31.40386690780907,
+          "ratio_q95": 13.968672234718156,
+          "external_rows": 0
+        }
+      },
+      "smearing_none_control": {
+        "spec": {
+          "name": "regime_none_a3_prior10",
+          "family": "smearing",
+          "correction": "none",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 138,
+          "physical_max": 200.0,
+          "global_factor": 1.0,
+          "ratio_max": 1.0,
+          "ratio_q95": 1.0,
+          "external_rows": 0
+        }
+      },
+      "smearing_global_control": {
+        "spec": {
+          "name": "regime_global_a3_prior10",
+          "family": "smearing",
+          "correction": "global",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 138,
+          "physical_max": 200.0,
+          "global_factor": 2.904494874483229,
+          "ratio_max": 31.40386690780907,
+          "ratio_q95": 13.968672234718156,
+          "external_rows": 0
+        }
+      }
+    }
+  },
+  {
+    "seed": 2718,
+    "fold": 1,
+    "models": {
+      "baseline_krr": {
+        "spec": {
+          "name": "baseline_krr",
+          "family": "baseline",
+          "kind": "krr"
+        },
+        "fit_diagnostics": {}
+      },
+      "baseline_lgbm": {
+        "spec": {
+          "name": "baseline_lgbm",
+          "family": "baseline",
+          "kind": "lgbm"
+        },
+        "fit_diagnostics": {}
+      },
+      "mean_glm": {
+        "spec": {
+          "name": "glm_p1_a10",
+          "family": "mean_glm",
+          "power": 1.0,
+          "alpha": 10.0
+        },
+        "fit_diagnostics": {}
+      },
+      "smearing": {
+        "spec": {
+          "name": "regime_none_a3_prior10",
+          "family": "smearing",
+          "correction": "none",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 138,
+          "physical_max": 200.0,
+          "global_factor": 1.0,
+          "ratio_max": 1.0,
+          "ratio_q95": 1.0,
+          "external_rows": 0
+        }
+      },
+      "nested_selector": {
+        "spec": {
+          "name": "baseline_krr",
+          "family": "baseline",
+          "kind": "krr"
+        },
+        "fit_diagnostics": {}
+      },
+      "smearing_none_control": {
+        "spec": {
+          "name": "regime_none_a3_prior10",
+          "family": "smearing",
+          "correction": "none",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 138,
+          "physical_max": 200.0,
+          "global_factor": 1.0,
+          "ratio_max": 1.0,
+          "ratio_q95": 1.0,
+          "external_rows": 0
+        }
+      },
+      "smearing_global_control": {
+        "spec": {
+          "name": "regime_global_a3_prior10",
+          "family": "smearing",
+          "correction": "global",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 138,
+          "physical_max": 200.0,
+          "global_factor": 2.8045598748346348,
+          "ratio_max": 34.05178374163399,
+          "ratio_q95": 14.19304672104107,
+          "external_rows": 0
+        }
+      }
+    }
+  },
+  {
+    "seed": 2718,
+    "fold": 2,
+    "models": {
+      "baseline_krr": {
+        "spec": {
+          "name": "baseline_krr",
+          "family": "baseline",
+          "kind": "krr"
+        },
+        "fit_diagnostics": {}
+      },
+      "baseline_lgbm": {
+        "spec": {
+          "name": "baseline_lgbm",
+          "family": "baseline",
+          "kind": "lgbm"
+        },
+        "fit_diagnostics": {}
+      },
+      "mean_glm": {
+        "spec": {
+          "name": "glm_p1_a10",
+          "family": "mean_glm",
+          "power": 1.0,
+          "alpha": 10.0
+        },
+        "fit_diagnostics": {}
+      },
+      "smearing": {
+        "spec": {
+          "name": "regime_global_a3_prior10",
+          "family": "smearing",
+          "correction": "global",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 131,
+          "physical_max": 132.0,
+          "global_factor": 2.2012531230389896,
+          "ratio_max": 19.863768696194324,
+          "ratio_q95": 10.194291932550968,
+          "external_rows": 0
+        }
+      },
+      "nested_selector": {
+        "spec": {
+          "name": "baseline_krr",
+          "family": "baseline",
+          "kind": "krr"
+        },
+        "fit_diagnostics": {}
+      },
+      "smearing_none_control": {
+        "spec": {
+          "name": "regime_none_a3_prior10",
+          "family": "smearing",
+          "correction": "none",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 131,
+          "physical_max": 132.0,
+          "global_factor": 1.0,
+          "ratio_max": 1.0,
+          "ratio_q95": 1.0,
+          "external_rows": 0
+        }
+      },
+      "smearing_global_control": {
+        "spec": {
+          "name": "regime_global_a3_prior10",
+          "family": "smearing",
+          "correction": "global",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 131,
+          "physical_max": 132.0,
+          "global_factor": 2.2012531230389896,
+          "ratio_max": 19.863768696194324,
+          "ratio_q95": 10.194291932550968,
+          "external_rows": 0
+        }
+      }
+    }
+  },
+  {
+    "seed": 2718,
+    "fold": 3,
+    "models": {
+      "baseline_krr": {
+        "spec": {
+          "name": "baseline_krr",
+          "family": "baseline",
+          "kind": "krr"
+        },
+        "fit_diagnostics": {}
+      },
+      "baseline_lgbm": {
+        "spec": {
+          "name": "baseline_lgbm",
+          "family": "baseline",
+          "kind": "lgbm"
+        },
+        "fit_diagnostics": {}
+      },
+      "mean_glm": {
+        "spec": {
+          "name": "glm_p1_a10",
+          "family": "mean_glm",
+          "power": 1.0,
+          "alpha": 10.0
+        },
+        "fit_diagnostics": {}
+      },
+      "smearing": {
+        "spec": {
+          "name": "regime_global_a10_prior10",
+          "family": "smearing",
+          "correction": "global",
+          "physical_alpha": 10.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 114,
+          "physical_max": 84.659,
+          "global_factor": 2.1977935299086884,
+          "ratio_max": 13.80757704332825,
+          "ratio_q95": 10.425091894206917,
+          "external_rows": 0
+        }
+      },
+      "nested_selector": {
+        "spec": {
+          "name": "baseline_krr",
+          "family": "baseline",
+          "kind": "krr"
+        },
+        "fit_diagnostics": {}
+      },
+      "smearing_none_control": {
+        "spec": {
+          "name": "regime_none_a3_prior10",
+          "family": "smearing",
+          "correction": "none",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 114,
+          "physical_max": 84.659,
+          "global_factor": 1.0,
+          "ratio_max": 1.0,
+          "ratio_q95": 1.0,
+          "external_rows": 0
+        }
+      },
+      "smearing_global_control": {
+        "spec": {
+          "name": "regime_global_a3_prior10",
+          "family": "smearing",
+          "correction": "global",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 114,
+          "physical_max": 84.659,
+          "global_factor": 2.0836663290356032,
+          "ratio_max": 12.6798657143452,
+          "ratio_q95": 9.555275139555722,
+          "external_rows": 0
+        }
+      }
+    }
+  },
+  {
+    "seed": 2718,
+    "fold": 4,
+    "models": {
+      "baseline_krr": {
+        "spec": {
+          "name": "baseline_krr",
+          "family": "baseline",
+          "kind": "krr"
+        },
+        "fit_diagnostics": {}
+      },
+      "baseline_lgbm": {
+        "spec": {
+          "name": "baseline_lgbm",
+          "family": "baseline",
+          "kind": "lgbm"
+        },
+        "fit_diagnostics": {}
+      },
+      "mean_glm": {
+        "spec": {
+          "name": "glm_p1_a10",
+          "family": "mean_glm",
+          "power": 1.0,
+          "alpha": 10.0
+        },
+        "fit_diagnostics": {}
+      },
+      "smearing": {
+        "spec": {
+          "name": "regime_conditional_a3_prior5",
+          "family": "smearing",
+          "correction": "conditional",
+          "physical_alpha": 3.0,
+          "prior_count": 5.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 133,
+          "physical_max": 200.0,
+          "global_factor": 2.659822951204159,
+          "ratio_max": 32.18248290735152,
+          "ratio_q95": 11.48710305903439,
+          "external_rows": 0
+        }
+      },
+      "nested_selector": {
+        "spec": {
+          "name": "regime_conditional_a3_prior5",
+          "family": "smearing",
+          "correction": "conditional",
+          "physical_alpha": 3.0,
+          "prior_count": 5.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 133,
+          "physical_max": 200.0,
+          "global_factor": 2.659822951204159,
+          "ratio_max": 32.18248290735152,
+          "ratio_q95": 11.48710305903439,
+          "external_rows": 0
+        }
+      },
+      "smearing_none_control": {
+        "spec": {
+          "name": "regime_none_a3_prior10",
+          "family": "smearing",
+          "correction": "none",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 133,
+          "physical_max": 200.0,
+          "global_factor": 1.0,
+          "ratio_max": 1.0,
+          "ratio_q95": 1.0,
+          "external_rows": 0
+        }
+      },
+      "smearing_global_control": {
+        "spec": {
+          "name": "regime_global_a3_prior10",
+          "family": "smearing",
+          "correction": "global",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 133,
+          "physical_max": 200.0,
+          "global_factor": 2.659822951204159,
+          "ratio_max": 32.18248290735152,
+          "ratio_q95": 11.48710305903439,
+          "external_rows": 0
+        }
+      }
+    }
+  },
+  {
+    "seed": 7349,
+    "fold": 0,
+    "models": {
+      "baseline_krr": {
+        "spec": {
+          "name": "baseline_krr",
+          "family": "baseline",
+          "kind": "krr"
+        },
+        "fit_diagnostics": {}
+      },
+      "baseline_lgbm": {
+        "spec": {
+          "name": "baseline_lgbm",
+          "family": "baseline",
+          "kind": "lgbm"
+        },
+        "fit_diagnostics": {}
+      },
+      "mean_glm": {
+        "spec": {
+          "name": "glm_p1_a1",
+          "family": "mean_glm",
+          "power": 1.0,
+          "alpha": 1.0
+        },
+        "fit_diagnostics": {}
+      },
+      "smearing": {
+        "spec": {
+          "name": "regime_none_a3_prior10",
+          "family": "smearing",
+          "correction": "none",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 123,
+          "physical_max": 200.0,
+          "global_factor": 1.0,
+          "ratio_max": 1.0,
+          "ratio_q95": 1.0,
+          "external_rows": 0
+        }
+      },
+      "nested_selector": {
+        "spec": {
+          "name": "regime_none_a3_prior10",
+          "family": "smearing",
+          "correction": "none",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 123,
+          "physical_max": 200.0,
+          "global_factor": 1.0,
+          "ratio_max": 1.0,
+          "ratio_q95": 1.0,
+          "external_rows": 0
+        }
+      },
+      "smearing_none_control": {
+        "spec": {
+          "name": "regime_none_a3_prior10",
+          "family": "smearing",
+          "correction": "none",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 123,
+          "physical_max": 200.0,
+          "global_factor": 1.0,
+          "ratio_max": 1.0,
+          "ratio_q95": 1.0,
+          "external_rows": 0
+        }
+      },
+      "smearing_global_control": {
+        "spec": {
+          "name": "regime_global_a3_prior10",
+          "family": "smearing",
+          "correction": "global",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 123,
+          "physical_max": 200.0,
+          "global_factor": 2.794635845052069,
+          "ratio_max": 29.693453024272063,
+          "ratio_q95": 13.873034974868807,
+          "external_rows": 0
+        }
+      }
+    }
+  },
+  {
+    "seed": 7349,
+    "fold": 1,
+    "models": {
+      "baseline_krr": {
+        "spec": {
+          "name": "baseline_krr",
+          "family": "baseline",
+          "kind": "krr"
+        },
+        "fit_diagnostics": {}
+      },
+      "baseline_lgbm": {
+        "spec": {
+          "name": "baseline_lgbm",
+          "family": "baseline",
+          "kind": "lgbm"
+        },
+        "fit_diagnostics": {}
+      },
+      "mean_glm": {
+        "spec": {
+          "name": "glm_p1_a10",
+          "family": "mean_glm",
+          "power": 1.0,
+          "alpha": 10.0
+        },
+        "fit_diagnostics": {}
+      },
+      "smearing": {
+        "spec": {
+          "name": "regime_conditional_a3_prior5",
+          "family": "smearing",
+          "correction": "conditional",
+          "physical_alpha": 3.0,
+          "prior_count": 5.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 148,
+          "physical_max": 129.394,
+          "global_factor": 2.5908846123157505,
+          "ratio_max": 31.758734419805812,
+          "ratio_q95": 13.022452631928179,
+          "external_rows": 0
+        }
+      },
+      "nested_selector": {
+        "spec": {
+          "name": "regime_conditional_a3_prior5",
+          "family": "smearing",
+          "correction": "conditional",
+          "physical_alpha": 3.0,
+          "prior_count": 5.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 148,
+          "physical_max": 129.394,
+          "global_factor": 2.5908846123157505,
+          "ratio_max": 31.758734419805812,
+          "ratio_q95": 13.022452631928179,
+          "external_rows": 0
+        }
+      },
+      "smearing_none_control": {
+        "spec": {
+          "name": "regime_none_a3_prior10",
+          "family": "smearing",
+          "correction": "none",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 148,
+          "physical_max": 129.394,
+          "global_factor": 1.0,
+          "ratio_max": 1.0,
+          "ratio_q95": 1.0,
+          "external_rows": 0
+        }
+      },
+      "smearing_global_control": {
+        "spec": {
+          "name": "regime_global_a3_prior10",
+          "family": "smearing",
+          "correction": "global",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 148,
+          "physical_max": 129.394,
+          "global_factor": 2.5908846123157505,
+          "ratio_max": 31.758734419805812,
+          "ratio_q95": 13.022452631928179,
+          "external_rows": 0
+        }
+      }
+    }
+  },
+  {
+    "seed": 7349,
+    "fold": 2,
+    "models": {
+      "baseline_krr": {
+        "spec": {
+          "name": "baseline_krr",
+          "family": "baseline",
+          "kind": "krr"
+        },
+        "fit_diagnostics": {}
+      },
+      "baseline_lgbm": {
+        "spec": {
+          "name": "baseline_lgbm",
+          "family": "baseline",
+          "kind": "lgbm"
+        },
+        "fit_diagnostics": {}
+      },
+      "mean_glm": {
+        "spec": {
+          "name": "glm_p1_a1",
+          "family": "mean_glm",
+          "power": 1.0,
+          "alpha": 1.0
+        },
+        "fit_diagnostics": {}
+      },
+      "smearing": {
+        "spec": {
+          "name": "regime_none_a3_prior10",
+          "family": "smearing",
+          "correction": "none",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 116,
+          "physical_max": 132.0,
+          "global_factor": 1.0,
+          "ratio_max": 1.0,
+          "ratio_q95": 1.0,
+          "external_rows": 0
+        }
+      },
+      "nested_selector": {
+        "spec": {
+          "name": "baseline_krr",
+          "family": "baseline",
+          "kind": "krr"
+        },
+        "fit_diagnostics": {}
+      },
+      "smearing_none_control": {
+        "spec": {
+          "name": "regime_none_a3_prior10",
+          "family": "smearing",
+          "correction": "none",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 116,
+          "physical_max": 132.0,
+          "global_factor": 1.0,
+          "ratio_max": 1.0,
+          "ratio_q95": 1.0,
+          "external_rows": 0
+        }
+      },
+      "smearing_global_control": {
+        "spec": {
+          "name": "regime_global_a3_prior10",
+          "family": "smearing",
+          "correction": "global",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 116,
+          "physical_max": 132.0,
+          "global_factor": 2.48399138827502,
+          "ratio_max": 25.798109051894507,
+          "ratio_q95": 11.577110513181417,
+          "external_rows": 0
+        }
+      }
+    }
+  },
+  {
+    "seed": 7349,
+    "fold": 3,
+    "models": {
+      "baseline_krr": {
+        "spec": {
+          "name": "baseline_krr",
+          "family": "baseline",
+          "kind": "krr"
+        },
+        "fit_diagnostics": {}
+      },
+      "baseline_lgbm": {
+        "spec": {
+          "name": "baseline_lgbm",
+          "family": "baseline",
+          "kind": "lgbm"
+        },
+        "fit_diagnostics": {}
+      },
+      "mean_glm": {
+        "spec": {
+          "name": "glm_p1_a10",
+          "family": "mean_glm",
+          "power": 1.0,
+          "alpha": 10.0
+        },
+        "fit_diagnostics": {}
+      },
+      "smearing": {
+        "spec": {
+          "name": "regime_global_a3_prior10",
+          "family": "smearing",
+          "correction": "global",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 145,
+          "physical_max": 132.0,
+          "global_factor": 2.9178714613871315,
+          "ratio_max": 35.51760339092563,
+          "ratio_q95": 14.410675063824446,
+          "external_rows": 0
+        }
+      },
+      "nested_selector": {
+        "spec": {
+          "name": "baseline_krr",
+          "family": "baseline",
+          "kind": "krr"
+        },
+        "fit_diagnostics": {}
+      },
+      "smearing_none_control": {
+        "spec": {
+          "name": "regime_none_a3_prior10",
+          "family": "smearing",
+          "correction": "none",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 145,
+          "physical_max": 132.0,
+          "global_factor": 1.0,
+          "ratio_max": 1.0,
+          "ratio_q95": 1.0,
+          "external_rows": 0
+        }
+      },
+      "smearing_global_control": {
+        "spec": {
+          "name": "regime_global_a3_prior10",
+          "family": "smearing",
+          "correction": "global",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 145,
+          "physical_max": 132.0,
+          "global_factor": 2.9178714613871315,
+          "ratio_max": 35.51760339092563,
+          "ratio_q95": 14.410675063824446,
+          "external_rows": 0
+        }
+      }
+    }
+  },
+  {
+    "seed": 7349,
+    "fold": 4,
+    "models": {
+      "baseline_krr": {
+        "spec": {
+          "name": "baseline_krr",
+          "family": "baseline",
+          "kind": "krr"
+        },
+        "fit_diagnostics": {}
+      },
+      "baseline_lgbm": {
+        "spec": {
+          "name": "baseline_lgbm",
+          "family": "baseline",
+          "kind": "lgbm"
+        },
+        "fit_diagnostics": {}
+      },
+      "mean_glm": {
+        "spec": {
+          "name": "glm_p1_a10",
+          "family": "mean_glm",
+          "power": 1.0,
+          "alpha": 10.0
+        },
+        "fit_diagnostics": {}
+      },
+      "smearing": {
+        "spec": {
+          "name": "regime_conditional_a3_prior5",
+          "family": "smearing",
+          "correction": "conditional",
+          "physical_alpha": 3.0,
+          "prior_count": 5.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 142,
+          "physical_max": 200.0,
+          "global_factor": 2.6507134191009456,
+          "ratio_max": 31.32742371746691,
+          "ratio_q95": 10.856962173133097,
+          "external_rows": 0
+        }
+      },
+      "nested_selector": {
+        "spec": {
+          "name": "baseline_lgbm",
+          "family": "baseline",
+          "kind": "lgbm"
+        },
+        "fit_diagnostics": {}
+      },
+      "smearing_none_control": {
+        "spec": {
+          "name": "regime_none_a3_prior10",
+          "family": "smearing",
+          "correction": "none",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 142,
+          "physical_max": 200.0,
+          "global_factor": 1.0,
+          "ratio_max": 1.0,
+          "ratio_q95": 1.0,
+          "external_rows": 0
+        }
+      },
+      "smearing_global_control": {
+        "spec": {
+          "name": "regime_global_a3_prior10",
+          "family": "smearing",
+          "correction": "global",
+          "physical_alpha": 3.0,
+          "prior_count": 10.0
+        },
+        "fit_diagnostics": {
+          "physical_n": 142,
+          "physical_max": 200.0,
+          "global_factor": 2.6507134191009456,
+          "ratio_max": 31.32742371746691,
+          "ratio_q95": 10.856962173133097,
+          "external_rows": 0
+        }
+      }
+    }
+  }
+]

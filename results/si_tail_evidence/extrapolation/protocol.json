@@ -1,0 +1,155 @@
+{
+  "seeds": [
+    2718,
+    7349
+  ],
+  "outer_splits": 5,
+  "inner_splits": 3,
+  "train_sha256": "239efa4b3aa667b3681f6e1062d86ca5b0ba441364b8f2b894b4c428e272ba81",
+  "model_columns": [
+    "SMILES",
+    "SI VACV"
+  ],
+  "audit_metadata_used_as_features": false,
+  "physical_tail_threshold": "95th percentile of outer training measured SI; codes excluded",
+  "diagnostic": true,
+  "diagnostic_policy": "Remove entire training scaffold groups containing physical y above training physical q90; evaluate original validation groups",
+  "candidates": [
+    {
+      "name": "baseline_krr",
+      "family": "baseline",
+      "kind": "krr"
+    },
+    {
+      "name": "baseline_lgbm",
+      "family": "baseline",
+      "kind": "lgbm"
+    },
+    {
+      "name": "glm_p1_a1",
+      "family": "mean_glm",
+      "power": 1.0,
+      "alpha": 1.0
+    },
+    {
+      "name": "glm_p1_a10",
+      "family": "mean_glm",
+      "power": 1.0,
+      "alpha": 10.0
+    },
+    {
+      "name": "glm_p1_a100",
+      "family": "mean_glm",
+      "power": 1.0,
+      "alpha": 100.0
+    },
+    {
+      "name": "glm_p1.5_a1",
+      "family": "mean_glm",
+      "power": 1.5,
+      "alpha": 1.0
+    },
+    {
+      "name": "glm_p1.5_a10",
+      "family": "mean_glm",
+      "power": 1.5,
+      "alpha": 10.0
+    },
+    {
+      "name": "glm_p1.5_a100",
+      "family": "mean_glm",
+      "power": 1.5,
+      "alpha": 100.0
+    },
+    {
+      "name": "glm_p2_a1",
+      "family": "mean_glm",
+      "power": 2.0,
+      "alpha": 1.0
+    },
+    {
+      "name": "glm_p2_a10",
+      "family": "mean_glm",
+      "power": 2.0,
+      "alpha": 10.0
+    },
+    {
+      "name": "glm_p2_a100",
+      "family": "mean_glm",
+      "power": 2.0,
+      "alpha": 100.0
+    },
+    {
+      "name": "regime_none_a3_prior10",
+      "family": "smearing",
+      "correction": "none",
+      "physical_alpha": 3.0,
+      "prior_count": 10.0
+    },
+    {
+      "name": "regime_global_a3_prior10",
+      "family": "smearing",
+      "correction": "global",
+      "physical_alpha": 3.0,
+      "prior_count": 10.0
+    },
+    {
+      "name": "regime_conditional_a3_prior5",
+      "family": "smearing",
+      "correction": "conditional",
+      "physical_alpha": 3.0,
+      "prior_count": 5.0
+    },
+    {
+      "name": "regime_conditional_a3_prior25",
+      "family": "smearing",
+      "correction": "conditional",
+      "physical_alpha": 3.0,
+      "prior_count": 25.0
+    },
+    {
+      "name": "regime_none_a10_prior10",
+      "family": "smearing",
+      "correction": "none",
+      "physical_alpha": 10.0,
+      "prior_count": 10.0
+    },
+    {
+      "name": "regime_global_a10_prior10",
+      "family": "smearing",
+      "correction": "global",
+      "physical_alpha": 10.0,
+      "prior_count": 10.0
+    },
+    {
+      "name": "regime_conditional_a10_prior5",
+      "family": "smearing",
+      "correction": "conditional",
+      "physical_alpha": 10.0,
+      "prior_count": 5.0
+    },
+    {
+      "name": "regime_conditional_a10_prior25",
+      "family": "smearing",
+      "correction": "conditional",
+      "physical_alpha": 10.0,
+      "prior_count": 25.0
+    }
+  ],
+  "predictions_capped": false,
+  "external_data": false,
+  "final_acceptance": "Retain fixed strongest eligible baseline LightGBM unless a new family improves overall, physical-low and physical-medium MSE on every prespecified seed",
+  "source_sha256": {
+    "si_tail_evidence.py": "a58d2073f04adef59a9cc0a8de010bed4a2846c9ea35d609bc271aa1f56d34dd",
+    "benchmark_si_tail_evidence.py": "533055244a27e3a7d92e8adcdffdcf70d1b10bdd2de2068dae8fb1ac7e749d17"
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "rdkit": "2026.9.1",
+    "lightgbm": "4.7.0",
+    "joblib": "1.5.3"
+  }
+}

@@ -1,0 +1,340 @@
+[
+  {
+    "doi": "10.1198/jasa.2011.r10138",
+    "title": "Making and Evaluating Point Forecasts",
+    "authors": [
+      "Gneiting"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2011,
+          6
+        ]
+      ]
+    },
+    "journal": [
+      "Journal of the American Statistical Association"
+    ],
+    "volume": "106",
+    "issue": "494",
+    "pages": "746-762",
+    "url": "https://doi.org/10.1198/jasa.2011.r10138",
+    "review_details": "docs/si_tail_evidence_sources.md"
+  },
+  {
+    "doi": "10.1080/01621459.1983.10478017",
+    "title": "Smearing Estimate: A Nonparametric Retransformation Method",
+    "authors": [
+      "Duan"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1983,
+          9
+        ]
+      ]
+    },
+    "journal": [
+      "Journal of the American Statistical Association"
+    ],
+    "volume": "78",
+    "issue": "383",
+    "pages": "605-610",
+    "url": "https://doi.org/10.1080/01621459.1983.10478017",
+    "review_details": "docs/si_tail_evidence_sources.md"
+  },
+  {
+    "doi": "10.1162/rest.88.4.641",
+    "title": "The Log of Gravity",
+    "authors": [
+      "Silva",
+      "Tenreyro"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2006,
+          11,
+          1
+        ]
+      ]
+    },
+    "journal": [
+      "The Review of Economics and Statistics"
+    ],
+    "volume": "88",
+    "issue": "4",
+    "pages": "641-658",
+    "url": "https://doi.org/10.1162/rest.88.4.641",
+    "review_details": "docs/si_tail_evidence_sources.md"
+  },
+  {
+    "doi": "10.1016/s0167-6296(01)00086-8",
+    "title": "Estimating log models: to transform or not to transform?",
+    "authors": [
+      "Manning",
+      "Mullahy"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2001,
+          7
+        ]
+      ]
+    },
+    "journal": [
+      "Journal of Health Economics"
+    ],
+    "volume": "20",
+    "issue": "4",
+    "pages": "461-494",
+    "url": "https://doi.org/10.1016/s0167-6296(01)00086-8",
+    "review_details": "docs/si_tail_evidence_sources.md"
+  },
+  {
+    "doi": "10.1214/aos/1176343003",
+    "title": "Statistical Inference Using Extreme Order Statistics",
+    "authors": [
+      "III"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1975,
+          1,
+          1
+        ]
+      ]
+    },
+    "journal": [
+      "The Annals of Statistics"
+    ],
+    "volume": "3",
+    "issue": "1",
+    "pages": "119-131",
+    "url": "https://doi.org/10.1214/aos/1176343003",
+    "review_details": "docs/si_tail_evidence_sources.md"
+  },
+  {
+    "doi": "10.1162/neco.1994.6.2.181",
+    "title": "Hierarchical Mixtures of Experts and the EM Algorithm",
+    "authors": [
+      "Jordan",
+      "Jacobs"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1994,
+          3
+        ]
+      ]
+    },
+    "journal": [
+      "Neural Computation"
+    ],
+    "volume": "6",
+    "issue": "2",
+    "pages": "181-214",
+    "url": "https://doi.org/10.1162/neco.1994.6.2.181",
+    "review_details": "docs/si_tail_evidence_sources.md"
+  },
+  {
+    "doi": "10.1021/ci400084k",
+    "title": "Time-Split Cross-Validation as a Method for Estimating the Goodness of Prospective Prediction.",
+    "authors": [
+      "Sheridan"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          4,
+          5
+        ]
+      ]
+    },
+    "journal": [
+      "Journal of Chemical Information and Modeling"
+    ],
+    "volume": "53",
+    "issue": "4",
+    "pages": "783-790",
+    "url": "https://doi.org/10.1021/ci400084k",
+    "review_details": "docs/si_tail_evidence_sources.md"
+  },
+  {
+    "doi": "10.3390/molecules17054791",
+    "title": "Comparison of Different Approaches to Define the Applicability Domain of QSAR Models",
+    "authors": [
+      "Sahigara",
+      "Mansouri",
+      "Ballabio",
+      "Mauri",
+      "Consonni",
+      "Todeschini"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2012,
+          4,
+          25
+        ]
+      ]
+    },
+    "journal": [
+      "Molecules"
+    ],
+    "volume": "17",
+    "issue": "5",
+    "pages": "4791-4810",
+    "url": "https://doi.org/10.3390/molecules17054791",
+    "review_details": "docs/si_tail_evidence_sources.md"
+  },
+  {
+    "doi": "10.3390/v15010029",
+    "title": "Structure-Based Design, Synthesis, and Biological Evaluation of the Cage–Amide Derived Orthopox Virus Replication Inhibitors",
+    "authors": [
+      "Mozhaitsev",
+      "Suslov",
+      "Rastrepaeva",
+      "Yarovaya",
+      "Borisevich",
+      "Khamitov",
+      "Kolybalov",
+      "Arkhipov",
+      "Bormotov",
+      "Shishkina",
+      "Serova",
+      "Brunilin",
+      "Vernigora",
+      "Nawrozkij",
+      "Agafonov",
+      "Maksyutov",
+      "Volcho",
+      "Salakhutdinov"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          21
+        ]
+      ]
+    },
+    "journal": [
+      "Viruses"
+    ],
+    "volume": "15",
+    "issue": "1",
+    "pages": "29",
+    "url": "https://doi.org/10.3390/v15010029",
+    "review_details": "docs/si_tail_evidence_sources.md"
+  },
+  {
+    "doi": "10.1016/j.ejmech.2023.115601",
+    "title": "Disulfide-incorporated lipid prodrugs of cidofovir: Synthesis, antiviral activity, and release mechanism",
+    "authors": [
+      "Wang",
+      "Cao",
+      "Bei",
+      "Xu",
+      "Zhang",
+      "Zhao",
+      "Song",
+      "Wang"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          10
+        ]
+      ]
+    },
+    "journal": [
+      "European Journal of Medicinal Chemistry"
+    ],
+    "volume": "258",
+    "issue": null,
+    "pages": "115601",
+    "url": "https://doi.org/10.1016/j.ejmech.2023.115601",
+    "review_details": "docs/si_tail_evidence_sources.md"
+  },
+  {
+    "doi": "10.1039/d0md00108b",
+    "title": "New chemical agents based on adamantane–monoterpene conjugates against orthopoxvirus infections",
+    "authors": [
+      "Suslov",
+      "Mozhaytsev",
+      "Korchagina",
+      "Bormotov",
+      "Yarovaya",
+      "Volcho",
+      "Serova",
+      "Agafonov",
+      "Maksyutov",
+      "Shishkina",
+      "Salakhutdinov"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "journal": [
+      "RSC Medicinal Chemistry"
+    ],
+    "volume": "11",
+    "issue": "10",
+    "pages": "1185-1195",
+    "url": "https://doi.org/10.1039/d0md00108b",
+    "review_details": "docs/si_tail_evidence_sources.md"
+  },
+  {
+    "doi": "10.1002/cmdc.202100771",
+    "title": "Design, Synthesis, and Biological Evaluation of (+)‐Camphor‐ and (−)‐Fenchone‐Based Derivatives as Potent Orthopoxvirus Inhibitors",
+    "authors": [
+      "Sokolova",
+      "Kovaleva",
+      "Kuranov",
+      "Bormotov",
+      "Borisevich",
+      "Zhukovets",
+      "Yarovaya",
+      "Serova",
+      "Nawrozkij",
+      "Vernigora",
+      "Davidenko",
+      "Khamitov",
+      "Peshkov",
+      "Shishkina",
+      "Maksuytov",
+      "Salakhutdinov"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          22
+        ]
+      ]
+    },
+    "journal": [
+      "ChemMedChem"
+    ],
+    "volume": "17",
+    "issue": "12",
+    "pages": null,
+    "url": "https://doi.org/10.1002/cmdc.202100771",
+    "review_details": "docs/si_tail_evidence_sources.md"
+  }
+]

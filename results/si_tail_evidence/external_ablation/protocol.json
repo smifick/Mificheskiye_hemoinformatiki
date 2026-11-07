@@ -1,0 +1,45 @@
+{
+  "competition_submission": false,
+  "external_rule_status": "External collection supported by user-provided Dataset Description screenshot; inclusion requires verified endpoints and beneficial ablation",
+  "seed": 2718,
+  "folds": 5,
+  "frozen_physical_model": "uncapped regime global smearing; alpha=3",
+  "specs": [
+    [
+      "none",
+      null,
+      0.0
+    ],
+    [
+      "previous_curated_w0.1",
+      "previous_curated_vero",
+      0.1
+    ],
+    [
+      "previous_curated_w1",
+      "previous_curated_vero",
+      1.0
+    ],
+    [
+      "new_publication_w0.1",
+      "new_complete_publication",
+      0.1
+    ],
+    [
+      "combined_w0.1",
+      "all",
+      0.1
+    ],
+    [
+      "combined_w1",
+      "all",
+      1.0
+    ]
+  ],
+  "test_overlaps_removed_by_bank_curation": true,
+  "validation_molecule_and_scaffold_exclusion": true,
+  "inner_smearing_molecule_and_scaffold_exclusion": true,
+  "no_external_lookup": true,
+  "external_rule_status_at_initial_fit": "unverified",
+  "rule_evidence_updated_after_user_screenshots": true
+}

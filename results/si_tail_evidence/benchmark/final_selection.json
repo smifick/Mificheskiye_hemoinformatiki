@@ -1,0 +1,20 @@
+{
+  "selected_policy": "smearing",
+  "selected_spec": {
+    "name": "regime_conditional_a10_prior25",
+    "family": "smearing",
+    "correction": "conditional",
+    "physical_alpha": 10.0,
+    "prior_count": 25.0
+  },
+  "accepted_new_policies": [
+    "smearing"
+  ],
+  "submission_rows": 597,
+  "submission_min": 75.78952070823613,
+  "submission_max": 9796.94733458019,
+  "exact_reload": true,
+  "external_training_rows": 0,
+  "competition_external_data_rule": "External collection supported by user-provided Dataset Description screenshot; no external labels in this selected candidate",
+  "public_score": null
+}

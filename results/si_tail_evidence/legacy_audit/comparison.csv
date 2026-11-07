@@ -1,0 +1,5 @@
+model,MSE,extreme_prediction
+legacy_v7_external_capped,17963696.359484978,324.81833072606196
+legacy_v7_external_uncapped,17963696.359484978,324.81833072606196
+legacy_v7_no_external_labels_capped,17927200.455238353,325.3175468780206
+legacy_v7_no_external_labels_uncapped,17927200.455238353,325.3175468780206
