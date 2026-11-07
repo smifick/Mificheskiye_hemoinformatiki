@@ -1,0 +1,13 @@
+scheme,seed,model,MSE
+scaffold,901,clean_legacy,10510931.353848558
+scaffold,901,clean_aux_pubchem_0.5,10510271.281472255
+scaffold,902,clean_legacy,10547720.545326818
+scaffold,902,clean_aux_pubchem_0.5,10547439.65956198
+scaffold,903,clean_legacy,10437532.921733888
+scaffold,903,clean_aux_pubchem_0.5,10437153.238331348
+parent,901,clean_legacy,8013631.233077084
+parent,901,clean_aux_pubchem_0.5,8014246.032958078
+parent,902,clean_legacy,8270056.998412686
+parent,902,clean_aux_pubchem_0.5,8269813.539987713
+parent,903,clean_legacy,8149148.839815569
+parent,903,clean_aux_pubchem_0.5,8148801.15216088

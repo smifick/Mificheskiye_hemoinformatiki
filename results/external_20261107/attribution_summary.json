@@ -1,0 +1,57 @@
+{
+  "public": {
+    "successful_MSE": 6327610.34997,
+    "v7_MSE": 9421022.05828,
+    "v6_MSE": 9649437.79854,
+    "gain_vs_v7_pct": 32.83520290233527,
+    "gain_vs_v6_pct": 34.4250879473269,
+    "artifact_confirmation": "User explicitly confirmed submission(2).csv is the unmodified results/audit_20261107/submission.csv",
+    "successful_submission_sha256": "ff3aff978dc2737176be3006a33d1233a5c8432f1aeba57075ede83a4275649c",
+    "successful_model_sha256": "f58b880b834cf9bb118f7559ba7533e20933329446b781764b3919ad4d3b07c1",
+    "commit": "b6c2e0c384d043582753993e442be7c042c3139a"
+  },
+  "primary_OOF": {
+    "baseline_MSE": 17964365.735259127,
+    "selected_MSE": 11341011.015450312,
+    "relative_reduction_pct": 36.86940478398848,
+    "SSE_reduction": 2119473510.3388205,
+    "rows_improved": 178,
+    "rows_worsened": 53,
+    "rows_equal_absolute_SSE_tolerance_1e_minus6": 89,
+    "top_positive_gain_fractions": {
+      "1": 0.03714157195410278,
+      "5": 0.16264662172645733,
+      "10": 0.300793042142161,
+      "20": 0.5135326886830675
+    },
+    "model_row_reproduction_max_error": 1.8189894035458565e-12,
+    "unchanged_source_flag_rows": 89,
+    "source_flag_rows": 89,
+    "rare_tail_rows": 1,
+    "rare_tail_SSE_share": 0.35188203512452165,
+    "rare_tail_gain_share": 0.0
+  },
+  "attribution_limits": "Only classifier inputs/heads changed in this comparison. Physical branch, external bank, structure processing, official labels and target transform are held fixed. One Public score cannot identify the test-row errors or causally assign the Public improvement to a component.",
+  "data_policy": "New user instruction prohibits external numerical labels for any competition-test structure. The successful historical baseline retained exact external lookup; it must be frozen as control, not silently reclassified as compliant with the new policy.",
+  "python": "3.12.14",
+  "legacy_test_external_label_overlap": {
+    "external_measurement_rows": 52,
+    "by_tier": {
+      "V": 32,
+      "C": 20
+    },
+    "tautomer_structures": 36,
+    "test_rows_using_exact_lookup": 39,
+    "test_predictions_unchanged_vs_v7": 196,
+    "test_predictions_changed_vs_v7": 401,
+    "lookup_prediction_change": 0.0,
+    "note": "16 structures is only the reviewed Vero/all-cells subset, not the full V+C bank."
+  },
+  "input_sha256": {
+    "results/audit_20261107/baseline_oof.npz": "675ba12050b51eeb31eb7abbbc81a9bfb0dbc2a006d9259540c99e3e371e9db0",
+    "results/audit_20261107/targeted_development.csv": "4f906dc383a7ed73252f23bf674e455dbc9c5072ba44761125247d70cb60bef1",
+    "results/audit_20261107/paired_new_model_errors.csv": "4182fad3d7a4f0a5285435f63fc3340de602f4cdb2009263ab790a99e70589c9",
+    "data/raw/train.csv": "239efa4b3aa667b3681f6e1062d86ca5b0ba441364b8f2b894b4c428e272ba81",
+    "data/raw/test.csv": "1b0c6a014bbe556c42ef2277e867d2e1a647ad31c157a9cd81bbc7e262481abd"
+  }
+}

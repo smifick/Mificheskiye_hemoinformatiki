@@ -1,0 +1,8 @@
+{
+  "same_context_exact_physical_collision_rows": 0,
+  "same_structure_value_review_rows": 2,
+  "PMC_PubChem_shared_structures": 0,
+  "ChEMBL_PubChem_shared_structures": 0,
+  "PMC_new_DOI_already_in_legacy": false,
+  "note": "Different DOI can still hide repeated reporting. Unresolved numeric coincidences stay on review; no universal cross-source independence is claimed."
+}

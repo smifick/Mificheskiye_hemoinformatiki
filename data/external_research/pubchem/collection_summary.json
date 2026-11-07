@@ -1,0 +1,51 @@
+{
+  "export_rows": 390,
+  "structures": 98,
+  "scaffolds": 31,
+  "train_overlap_structures": 0,
+  "test_overlap_structures": 0,
+  "existing_external_endpoint_overlap_structures": 0,
+  "new_structures_vs_official_and_previous": 98,
+  "new_scaffolds_vs_official": 31,
+  "new_scaffolds_vs_official_and_previous": 31,
+  "retained_auxiliary_rows_after_test_exclusion": 390,
+  "exact_positive_auxiliary_rows": 208,
+  "verified_SI_rows": 0,
+  "used_as_SI_training_labels": 0,
+  "note": "New structures/assay observations are not independent SI labels; the 3 panel compounds have censored antiviral IC50.",
+  "retrieved_utc": "2026-11-07T00:23:47.928738+00:00",
+  "discovery_query": "vaccinia NOT ChEMBL[sourcename]",
+  "discovery_AIDs": 53,
+  "selected_dose_response_AIDs": [
+    1117284,
+    1117274,
+    1117273,
+    1117272,
+    1117271,
+    1053207,
+    1053168,
+    1053167,
+    1053166,
+    1053115,
+    977617,
+    977616,
+    977615
+  ],
+  "panel_AID": 602175,
+  "large_primary_screen_downloaded": false,
+  "activity_outcomes": {
+    "Active": 199,
+    "Inactive": 181,
+    "": 9,
+    "Inconclusive": 1
+  },
+  "endpoints": {
+    "AC50": 372,
+    "IC50": 9,
+    "TC50": 9
+  },
+  "license_url": "https://pubchem.ncbi.nlm.nih.gov/docs/downloads",
+  "raw_description_protocols_redistributed": false,
+  "doi_policy": "Blank unless a primary measurement publication is unambiguously identified; background PMID xrefs are not DOI provenance.",
+  "sids_vs_csv_completeness_verified": true
+}

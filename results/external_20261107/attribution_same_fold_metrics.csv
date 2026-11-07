@@ -1,0 +1,5 @@
+model,OOF_MSE,archived_MSE,max_aggregate_difference,same_physical_branch,same_external_bank,same_structure_processing,same_target_transform
+v7,17964365.735259127,17964365.735259127,0.0,True,True,True,True
+mlm_raw_logistic_0.1,13862341.829855785,13862341.829855785,0.0,True,True,True,True
+raw_smiles_notation_logistic,12187437.628526505,12187437.628526503,1.862645149230957e-09,True,True,True,True
+notation_mlm_probability_average,11341011.015450312,11341011.015450312,0.0,True,True,True,True

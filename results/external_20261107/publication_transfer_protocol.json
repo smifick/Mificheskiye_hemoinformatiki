@@ -1,0 +1,8 @@
+{
+  "source": "PMC10995631",
+  "mode": "physical conditional output only, no technical-code labels",
+  "excluded_source_rows": 13,
+  "new_independent_validation_claim": false,
+  "not_used_for_selection": true,
+  "warning": "Retrospective diagnostic: source and labels were inspected and used in earlier source-ablation candidates. Not a new blind test."
+}

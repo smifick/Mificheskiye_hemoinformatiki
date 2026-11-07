@@ -8,3 +8,6 @@ results/audit_20261107/state_cache.joblib
 results/audit_20261107/embeddings_*.npz
 results/audit_20261107/batch32_archive/
 results/audit_20261107/pre_notation_extension/
+data/external_research/chembl/endpoint_audit.csv
+data/external_research/chembl/excluded_endpoints.csv
+data/external_research/pubchem/all_auxiliary_endpoints.csv

@@ -1,0 +1,12 @@
+test_bounds_do_not_become_exact_values (test_pmc_research.TestPMCTables.test_bounds_do_not_become_exact_values) ... ok
+test_corrupted_raw_cache_rejected (test_pmc_research.TestPMCTables.test_corrupted_raw_cache_rejected) ... ok
+test_inchikey_mismatch_rejected (test_pmc_research.TestPMCTables.test_inchikey_mismatch_rejected) ... ok
+test_multi_CID_is_review_not_first_hit (test_pmc_research.TestPMCTables.test_multi_CID_is_review_not_first_hit) ... ok
+test_near_synonym_is_rejected (test_pmc_research.TestPMCTables.test_near_synonym_is_rejected) ... ok
+test_selected_table_bounds_excluded_and_no_unrelated_table (test_pmc_research.TestPMCTables.test_selected_table_bounds_excluded_and_no_unrelated_table) ... ok
+test_truncated_search_is_not_reported_complete (test_pmc_research.TestPMCTables.test_truncated_search_is_not_reported_complete) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.002s
+
+OK

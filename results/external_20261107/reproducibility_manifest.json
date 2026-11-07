@@ -1,0 +1,59 @@
+{
+  "study": "external_20261107",
+  "base_commit": "b6c2e0c384d043582753993e442be7c042c3139a",
+  "successful_public_MSE": 6327610.34997,
+  "selected_model": "clean_legacy",
+  "new_public_MSE": null,
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.8.0",
+      "rdkit": "2026.9.1",
+      "torch": "2.15.0+cpu",
+      "transformers": "4.57.3",
+      "requests": "2.34.2",
+      "joblib": "1.5.3"
+    }
+  },
+  "source_sha256": {
+    "src/check_publication_transfer.py": "45767bfcd2801d07236b5096e7c7c464672b481bc67e1577f4bd38622860cd89",
+    "src/collect_chembl_research.py": "49cc568d5f9dca2a2bf9652664f3e3145360d81e24be34b47e6d761d573a4f1b",
+    "src/collect_pmc_research.py": "1b39bf5096bac86be04356ca53f9ee09e75ad2a31f4eb58e793296272ba22fdd",
+    "src/collect_pubchem_research.py": "a64772bb50196d7cbd29a07ccf87fed66e5f666f691924321970687ba0d9b7f7",
+    "src/external_si_model.py": "4a8c6b567a16c2a253462b37ef680c9796c445b73aed9a6e34721f2ed8cd8a75",
+    "src/package_external_research.py": "122557b7f78ab071b6a846dec085a90a7653eb0b50dc3494bdda13cf5728ffe7",
+    "src/prepare_external_training.py": "40837600d9001d01d09af3e138d4b5f0dc7a99da61593996148819c6d0d61096",
+    "src/run_external_research.py": "22243dcbff81b9c6e71a4056b8d91bb23be05ff26968a5f9fd8eb917107c7598",
+    "src/summarize_external_research.py": "aadcced0c647ffbab9a15752f2725ca3dc67cbc7028e1e64ebacc384f42c820a",
+    "src/validate_external_research.py": "e7cbe234b9c25cdfadba12de40b8ca7a1b8ba973617ec0e400b9f1b533f48b42",
+    "tests/test_external_si_model.py": "74169ca341690fe2b80c15023a64655d180ce0e699614d4d99f9723da46217f1",
+    "requirements-research.txt": "666e8f6c6f041d472cc84e67952896375566b0a009b3f3eb2654ce9d59558d07",
+    "requirements.txt": "835e9adc2c1c3e13b4c4688304f3252c548fee3bccc9ae81dad2e2d1cc265cce"
+  },
+  "input_sha256": {
+    "data/raw/train.csv": "239efa4b3aa667b3681f6e1062d86ca5b0ba441364b8f2b894b4c428e272ba81",
+    "data/raw/test.csv": "1b0c6a014bbe556c42ef2277e867d2e1a647ad31c157a9cd81bbc7e262481abd",
+    "data/external_research/training_bank.csv": "1c3eab8b275db203f86014ea22af30cbc5f22db1f11f438bbd412aed4f51fe67",
+    "data/external_research/pmc/training_si.csv": "b29fa491d28bdc7a3ef92473816b40ac2570a5d4d3e74037c7ef9c3a45bd5995",
+    "data/external_research/chembl/endpoint_bank.csv": "7d4a14edc464cab8a9c9759549dd25b030923ff63b512a6d955a4068b1e0892e",
+    "data/external_research/pubchem/auxiliary_endpoints.csv": "f503e756f31b3167b354784ee983de578b9294d3a7c27786896ebdba68e08a85"
+  },
+  "output_sha256": {
+    "model.joblib": "851bb16e772929ee19277a6c654a9cb5b85bfc6a27f786e711059d9fb8f236eb",
+    "submission.csv": "0e85b214b67dbc26d06625992ec5ca54d4628502ec3b144bf5eeec661da6aac0",
+    "submission.zip": "0d036ed5bbc9de76a80d0bc1134ec9a2f2651ed6f781525c0cf122782829d9bf",
+    "open_data_bundle.zip": "9faab8d75d7696943b54d8c1d55609f9b6a8fa89d64cd57a62b878fcacc5cd65",
+    "source_splits.csv": "34d7a43f20535c6e6fc598b3ea380e75bf77891f33171dec76dc4eb176f3e17b"
+  },
+  "all_frozen_successful_checksums_preserved": true,
+  "all_archive_member_checksums_verified": true,
+  "unit_tests_passed": 72,
+  "external_test_numerical_labels_used": 0,
+  "lookup_entries": 0,
+  "new_source_rows_in_final": 0,
+  "sampling": "SHA256 of activity ID, independent of numeric value; regression check added",
+  "warning": "Organizer labels reused; no new blind validation. Source presence is unchanged. Model bytes can differ across Python hash seeds even with identical numeric predictions."
+}

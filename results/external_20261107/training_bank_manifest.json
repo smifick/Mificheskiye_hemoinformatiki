@@ -1,0 +1,41 @@
+{
+  "rows": 657,
+  "sha256": "1c3eab8b275db203f86014ea22af30cbc5f22db1f11f438bbd412aed4f51fe67",
+  "test_label_rows_excluded": 52,
+  "auxiliary_sampling": "128 ChEMBL measurements per endpoint selected by SHA256 of activity ID only; all exact PubChem numeric rows. No selection by values or organizer responses.",
+  "physical_SI_definition": "PMC author-matched CC50/IC50; old V/C quality remains explicitly flagged by source",
+  "no_external_test_labels": true,
+  "new_code10000_labels": 0,
+  "source_counts": [
+    {
+      "source": "PMC10995631",
+      "rows": 12,
+      "structures": 12,
+      "scaffolds": 6
+    },
+    {
+      "source": "aux_chembl",
+      "rows": 384,
+      "structures": 317,
+      "scaffolds": 141
+    },
+    {
+      "source": "aux_pubchem",
+      "rows": 208,
+      "structures": 63,
+      "scaffolds": 21
+    },
+    {
+      "source": "legacy_C",
+      "rows": 29,
+      "structures": 26,
+      "scaffolds": 12
+    },
+    {
+      "source": "legacy_V",
+      "rows": 24,
+      "structures": 22,
+      "scaffolds": 15
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+pmcid,doi,table,source_row,compound_id,cell_line,strain,source_url,license,endpoint,value_uM,relation,raw_value
+PMC10995631,10.1099/jgv.0.001971,Table 2,1,Bufalin,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,IC50,0.00064,=,0.640
+PMC10995631,10.1099/jgv.0.001971,Table 2,1,Bufalin,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,CC50,0.0659,=,65.9
+PMC10995631,10.1099/jgv.0.001971,Table 2,2,Cinobufagin,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,IC50,0.00124,=,1.24
+PMC10995631,10.1099/jgv.0.001971,Table 2,2,Cinobufagin,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,CC50,0.0188,=,18.8
+PMC10995631,10.1099/jgv.0.001971,Table 2,3,Convallotoxin,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,IC50,0.0005729999999999999,=,0.573
+PMC10995631,10.1099/jgv.0.001971,Table 2,3,Convallotoxin,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,CC50,0.00572,=,5.72
+PMC10995631,10.1099/jgv.0.001971,Table 2,4,Digitoxigenin,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,IC50,0.0179,=,17.9
+PMC10995631,10.1099/jgv.0.001971,Table 2,4,Digitoxigenin,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,CC50,0.107,=,107
+PMC10995631,10.1099/jgv.0.001971,Table 2,5,Digitoxin,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,IC50,0.00172,=,1.72
+PMC10995631,10.1099/jgv.0.001971,Table 2,5,Digitoxin,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,CC50,0.167,=,167
+PMC10995631,10.1099/jgv.0.001971,Table 2,6,Digoxigenin,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,IC50,0.0273,=,27.3
+PMC10995631,10.1099/jgv.0.001971,Table 2,6,Digoxigenin,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,CC50,0.247,=,247
+PMC10995631,10.1099/jgv.0.001971,Table 2,7,Digoxin,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,IC50,0.00464,=,4.64
+PMC10995631,10.1099/jgv.0.001971,Table 2,7,Digoxin,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,CC50,0.0659,=,65.9
+PMC10995631,10.1099/jgv.0.001971,Table 2,8,Gitoxin,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,IC50,0.0339,=,33.9
+PMC10995631,10.1099/jgv.0.001971,Table 2,8,Gitoxin,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,CC50,0.267,=,267
+PMC10995631,10.1099/jgv.0.001971,Table 2,9,Lanatoside C,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,IC50,0.00656,=,6.56
+PMC10995631,10.1099/jgv.0.001971,Table 2,9,Lanatoside C,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,CC50,0.134,=,134
+PMC10995631,10.1099/jgv.0.001971,Table 2,10,Neriifolin,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,IC50,0.00034399999999999996,=,0.344
+PMC10995631,10.1099/jgv.0.001971,Table 2,10,Neriifolin,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,CC50,0.0282,=,28.2
+PMC10995631,10.1099/jgv.0.001971,Table 2,11,Ouabain,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,IC50,0.0028799999999999997,=,2.88
+PMC10995631,10.1099/jgv.0.001971,Table 2,11,Ouabain,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,CC50,0.0369,=,36.9
+PMC10995631,10.1099/jgv.0.001971,Table 2,12,Sarmentogenin,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,IC50,0.0348,=,34.8
+PMC10995631,10.1099/jgv.0.001971,Table 2,12,Sarmentogenin,HeLa,Western Reserve,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/#T2,CC-BY-4.0,CC50,0.55,=,550

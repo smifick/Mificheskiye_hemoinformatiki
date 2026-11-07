@@ -1,0 +1,123 @@
+{
+  "frozen_successful_commit": "b6c2e0c384d043582753993e442be7c042c3139a",
+  "successful_public_MSE": 6327610.34997,
+  "new_policy": "Exclude all external test-structure labels and disable exact lookup",
+  "unchanged": "Notation/MLM code head, source presence, kernel representation, alpha3, log1p, 5-fold training-only smearing, output cap10000",
+  "candidates": [
+    {
+      "name": "clean_legacy",
+      "source_weights": {
+        "legacy_V": 1.0,
+        "legacy_C": 1.0
+      },
+      "rho": 0.0,
+      "alpha": 3.0
+    },
+    {
+      "name": "clean_reviewed_V",
+      "source_weights": {
+        "legacy_V": 1.0
+      },
+      "rho": 0.0,
+      "alpha": 3.0
+    },
+    {
+      "name": "organizer_only",
+      "source_weights": {},
+      "rho": 0.0,
+      "alpha": 3.0
+    },
+    {
+      "name": "clean_legacy_PMC_0.25",
+      "source_weights": {
+        "legacy_V": 1.0,
+        "legacy_C": 1.0,
+        "PMC10995631": 0.25
+      },
+      "rho": 0.0,
+      "alpha": 3.0
+    },
+    {
+      "name": "clean_legacy_PMC_1.0",
+      "source_weights": {
+        "legacy_V": 1.0,
+        "legacy_C": 1.0,
+        "PMC10995631": 1.0
+      },
+      "rho": 0.0,
+      "alpha": 3.0
+    },
+    {
+      "name": "reviewed_V_PMC",
+      "source_weights": {
+        "legacy_V": 1.0,
+        "PMC10995631": 1.0
+      },
+      "rho": 0.0,
+      "alpha": 3.0
+    },
+    {
+      "name": "clean_aux_chembl_0.25",
+      "source_weights": {
+        "legacy_V": 1.0,
+        "legacy_C": 1.0,
+        "aux_chembl": 0.25
+      },
+      "rho": 0.25,
+      "alpha": 3.0
+    },
+    {
+      "name": "clean_aux_chembl_0.5",
+      "source_weights": {
+        "legacy_V": 1.0,
+        "legacy_C": 1.0,
+        "aux_chembl": 0.25
+      },
+      "rho": 0.5,
+      "alpha": 3.0
+    },
+    {
+      "name": "clean_aux_pubchem_0.25",
+      "source_weights": {
+        "legacy_V": 1.0,
+        "legacy_C": 1.0,
+        "aux_pubchem": 0.25
+      },
+      "rho": 0.25,
+      "alpha": 3.0
+    },
+    {
+      "name": "clean_aux_pubchem_0.5",
+      "source_weights": {
+        "legacy_V": 1.0,
+        "legacy_C": 1.0,
+        "aux_pubchem": 0.25
+      },
+      "rho": 0.5,
+      "alpha": 3.0
+    },
+    {
+      "name": "clean_PMC_aux_both",
+      "source_weights": {
+        "legacy_V": 1.0,
+        "legacy_C": 1.0,
+        "PMC10995631": 1.0,
+        "aux_chembl": 0.25,
+        "aux_pubchem": 0.25
+      },
+      "rho": 0.25,
+      "alpha": 3.0
+    }
+  ],
+  "primary": "actual archived 5-fold scaffold",
+  "secondary": "5-fold parent seed42",
+  "nested": "5 outer folds; choose source weights/model using only 3 scaffold inner folds seed827, with all outer held-out scaffolds blocked externally",
+  "confirmation_seeds": [
+    901,
+    902,
+    903
+  ],
+  "acceptance": "Nested source-selection beats clean_legacy on both schemes; fixed development winner beats clean_legacy on both confirmation schemes by at least0.5%. Otherwise clean_legacy.",
+  "no_independent_validation_claim": true,
+  "numeric_auxiliary_tasks_separate": true
+}

@@ -1,0 +1,133 @@
+{
+  "source": "ChEMBL",
+  "official_url": "https://www.ebi.ac.uk/chembl/",
+  "programmatic_access": "https://www.ebi.ac.uk/chembl/api/data/",
+  "api_documentation": "https://www.ebi.ac.uk/chembl/api/data/docs",
+  "license": "CC-BY-SA-3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "license_evidence_url": "https://chembl.gitbook.io/chembl-interface-documentation/frequently-asked-questions/general-questions",
+  "release": "ChEMBL_37",
+  "census": {
+    "status": "complete_target_endpoint_census",
+    "target_ids": [
+      "CHEMBL613493",
+      "CHEMBL613168"
+    ],
+    "target_discovery_rows": 8,
+    "new_organism_target_ids_vs_archive": [],
+    "organism_target_activity_rows": 4935,
+    "endpoint_counts": {
+      "MIC": 599,
+      "ED50": 172,
+      "CC50": 5,
+      "IC50": 532,
+      "Antiviral activity": 15,
+      "VR": 23,
+      "MIC50": 123,
+      "Inhibition": 303,
+      "Virus rating": 42,
+      "TC50": 3,
+      "EC50": 1645,
+      "ID50": 71,
+      "Activity": 1149,
+      "ID99": 5,
+      "MCC": 68,
+      "MCC50": 6,
+      "Concentration": 9,
+      "Cytotoxicity": 8,
+      "EC90": 11,
+      "Selectivity index": 4,
+      "log10PFU": 6,
+      "Ratio EC50": 21,
+      "Ratio": 1,
+      "Emax": 1,
+      "TIME": 1,
+      "FC": 48,
+      "Ratio IC50": 2,
+      "MED50": 1,
+      "MID": 61
+    },
+    "new_activity_ids": 2753,
+    "before": {
+      "activities": 24527044,
+      "chembl_db_version": "ChEMBL_37",
+      "chembl_release_date": "2026-05-01",
+      "compound_records": 3824604,
+      "disinct_compounds": 2921148,
+      "publications": 101100,
+      "status": "UP",
+      "targets": 18552
+    },
+    "after": {
+      "activities": 24527044,
+      "chembl_db_version": "ChEMBL_37",
+      "chembl_release_date": "2026-05-01",
+      "compound_records": 3824604,
+      "disinct_compounds": 2921148,
+      "publications": 101100,
+      "status": "UP",
+      "targets": 18552
+    }
+  },
+  "all_source_records": 9606,
+  "valid_declared_endpoints": 2735,
+  "eligible_separate_endpoint_rows": 2160,
+  "compatible_new_CC50_IC50_SI": 0,
+  "per_task": [
+    {
+      "task": "VACV_EC50",
+      "rows": 440,
+      "molecules": 302,
+      "scaffolds": 127,
+      "publications": 73,
+      "new_molecules_vs_train_test_curated": 288,
+      "new_scaffolds_vs_train_test_curated": 90,
+      "raw_API_activities_new_to_archive": 0
+    },
+    {
+      "task": "VACV_IC50",
+      "rows": 263,
+      "molecules": 238,
+      "scaffolds": 114,
+      "publications": 20,
+      "new_molecules_vs_train_test_curated": 191,
+      "new_scaffolds_vs_train_test_curated": 68,
+      "raw_API_activities_new_to_archive": 0
+    },
+    {
+      "task": "cytotoxicity_CC50",
+      "rows": 1453,
+      "molecules": 728,
+      "scaffolds": 196,
+      "publications": 66,
+      "new_molecules_vs_train_test_curated": 672,
+      "new_scaffolds_vs_train_test_curated": 136,
+      "raw_API_activities_new_to_archive": 0
+    },
+    {
+      "task": "reported_CC50/EC50",
+      "rows": 4,
+      "molecules": 4,
+      "scaffolds": 1,
+      "publications": 1,
+      "new_molecules_vs_train_test_curated": 4,
+      "new_scaffolds_vs_train_test_curated": 0,
+      "raw_API_activities_new_to_archive": 0
+    }
+  ],
+  "molecular_structures": true,
+  "experimental_context": "Organism-level VACV functional IC50/EC50; cytotoxicity from matched publications, with cell metadata where provided; explicit reported CC50/EC50 ratios remain a distinct task.",
+  "known_limitations": [
+    "No new publication-verified SI CC50/IC50 labels",
+    "Most auxiliary numeric endpoints already present in old archive",
+    "CC50 covers heterogeneous cells and conditions",
+    "Censoring and unsupported endpoint types excluded",
+    "Official test labels excluded; fold-specific scaffold filtering still required"
+  ],
+  "model_rows_used": null,
+  "change_in_MSE": null,
+  "model_note": "Collector output only; root study must populate actual fold-safe usage and transfer metrics after fitting.",
+  "primary_API_reference": "https://doi.org/10.1093/nar/gkv352",
+  "primary_database_reference": "https://doi.org/10.1093/nar/gkad1004",
+  "bank_sha256": "7d4a14edc464cab8a9c9759549dd25b030923ff63b512a6d955a4068b1e0892e"
+}

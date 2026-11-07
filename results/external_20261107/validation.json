@@ -1,0 +1,29 @@
+{
+  "rows": 597,
+  "columns": [
+    "index",
+    "SI VACV"
+  ],
+  "ID_match_sample": true,
+  "finite": true,
+  "nonnegative": true,
+  "only_smiles_CLI_checks": [
+    {
+      "input": "only_smiles",
+      "max_absolute_error": 0.0
+    },
+    {
+      "input": "poisoned_reversed",
+      "max_absolute_error": 1.8189894035458565e-12
+    }
+  ],
+  "external_test_labels_used": 0,
+  "exact_lookup_entries": 0,
+  "actual_external_training_rows": 53,
+  "external_sources": {
+    "legacy_C": 29,
+    "legacy_V": 24
+  },
+  "model_sha256": "851bb16e772929ee19277a6c654a9cb5b85bfc6a27f786e711059d9fb8f236eb",
+  "submission_sha256": "0e85b214b67dbc26d06625992ec5ca54d4628502ec3b144bf5eeec661da6aac0"
+}
