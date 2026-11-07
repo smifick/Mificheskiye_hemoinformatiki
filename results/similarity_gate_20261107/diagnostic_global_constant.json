@@ -1,0 +1,28 @@
+{
+  "diagnostic_only": true,
+  "warning": "Fitted to the outer evaluation OOF labels; not an independent quality estimate",
+  "gate": {
+    "format_version": 1,
+    "spec": {
+      "name": "constant",
+      "family": "constant",
+      "penalty": 0.0
+    },
+    "family": "constant",
+    "penalty": 0.0,
+    "w0": 0.0,
+    "s0": 0.38766964696030726,
+    "d0": 0.1662164235712099,
+    "beta_s": 0.0,
+    "beta_d": 0.0,
+    "disagreement_scale": 10000.0,
+    "alpha_source": 0.0,
+    "training_rows": 320,
+    "optimizer": "deterministic multistart bounded L-BFGS-B",
+    "optimization_starts": 0,
+    "optimizer_converged_starts": 0,
+    "penalized_objective": 0.11341011015450311,
+    "training_MSE": 11341011.015450314,
+    "mean_squared_weight_deviation": 0.0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "no_fitting_or_selection": true,
+  "relative_advantage": "negative delta_SE favors S, positive favors M",
+  "bin_edges": {
+    "s": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0000001
+    ],
+    "d": [
+      0.0,
+      0.1,
+      0.3,
+      0.6,
+      1.0000001
+    ]
+  },
+  "inner_evidence": "descriptive training evidence, repeated source-row appearances counted separately and unique counts shown",
+  "outer_evidence": "diagnostic comparison after predictions frozen; not used to redesign gate",
+  "groups": "unique structure/scaffold counts do not establish statistical independence",
+  "repeats": "same historical molecules; no new independent observations",
+  "similarity_shift": "reference bank grows across nesting levels and in final inference; gate centers remain fixed from training"
+}

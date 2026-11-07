@@ -1,0 +1,15 @@
+{
+  "rows": 597,
+  "source_present": 196,
+  "source_absent": 401,
+  "lookup_rows": 39,
+  "expert_pair_diff_before_lookup": 401,
+  "expert_pair_diff_after_lookup": 401,
+  "pair_diff_hidden_by_lookup": 0,
+  "different_source_present": 0,
+  "different_source_absent": 401,
+  "different_structures": 384,
+  "different_scaffolds": 142,
+  "alpha_source": 0.0,
+  "old_PR8_count_not_reused": true
+}

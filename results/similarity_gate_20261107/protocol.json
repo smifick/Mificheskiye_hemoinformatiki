@@ -1,0 +1,101 @@
+{
+  "baseline_commit": "b6c2e0c384d043582753993e442be7c042c3139a",
+  "alpha_source": 0.0,
+  "specs": [
+    {
+      "name": "constant",
+      "family": "constant",
+      "penalty": 0.0
+    },
+    {
+      "name": "s_lambda0.01",
+      "family": "s",
+      "penalty": 0.01
+    },
+    {
+      "name": "s_lambda0.1",
+      "family": "s",
+      "penalty": 0.1
+    },
+    {
+      "name": "s_lambda1",
+      "family": "s",
+      "penalty": 1.0
+    },
+    {
+      "name": "d_lambda0.01",
+      "family": "d",
+      "penalty": 0.01
+    },
+    {
+      "name": "d_lambda0.1",
+      "family": "d",
+      "penalty": 0.1
+    },
+    {
+      "name": "d_lambda1",
+      "family": "d",
+      "penalty": 1.0
+    },
+    {
+      "name": "sd_lambda0.01",
+      "family": "sd",
+      "penalty": 0.01
+    },
+    {
+      "name": "sd_lambda0.1",
+      "family": "sd",
+      "penalty": 0.1
+    },
+    {
+      "name": "sd_lambda1",
+      "family": "sd",
+      "penalty": 1.0
+    }
+  ],
+  "beta_s_bounds": [
+    0,
+    0.5
+  ],
+  "beta_d_bounds": [
+    -0.5,
+    0.5
+  ],
+  "free_sign_s_control": false,
+  "level": "FINAL SI after per-expert clipping, before common lookup",
+  "constant_w0": "analytic optimal bounded constant from training OOF",
+  "centers": "training calibration mean s,d only",
+  "objective": "mean(((finalSI-y)/10000)^2)+lambda*mean((w-w0)^2)",
+  "disagreement_scale": 10000,
+  "similarity": "Morgan2048 Tanimoto maximum to actual source-absent organizer structural-code A training bank; no external/test",
+  "outer_primary": "archived5 scaffold folds",
+  "confirmation_seeds": [
+    6611,
+    6612
+  ],
+  "inner_seed": 314,
+  "subinner_seed": 271,
+  "inner_folds": 3,
+  "subinner_folds": 3,
+  "selection": "honest extra nested calibration per tuning fold; no metaCV of globally archived OOF",
+  "tie_rule": "MSE tolerance1e-6; constant then d then s then sd; stronger regularization first",
+  "diagnostic_bins_s": [
+    0,
+    0.3,
+    0.5,
+    0.7,
+    0.9,
+    1.0000001
+  ],
+  "diagnostic_bins_d": [
+    0,
+    0.1,
+    0.3,
+    0.6,
+    1.0000001
+  ],
+  "acceptance": "dynamic selected procedure beats productionM and tuned constant in primary and both repeats; gain vs constant remains after largest positive row; final chosen family dynamic and changes test; validation passes",
+  "no_new_independent_data": true,
+  "no_leaderboard_selection": true,
+  "fallback": "retain production PR3 constant wS0 and alpha_source0"
+}
