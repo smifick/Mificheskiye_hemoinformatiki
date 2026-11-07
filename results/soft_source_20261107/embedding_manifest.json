@@ -1,0 +1,14 @@
+{
+  "model": [
+    "DeepChem/ChemBERTa-77M-MLM",
+    "ed8a5374f2024ec8da53760af91a33fb8f6a15ff"
+  ],
+  "view": "raw",
+  "batch_size": 1,
+  "threads": 3,
+  "shape": [
+    917,
+    768
+  ],
+  "input_sha256": "a12a00520a4d458d68fd077e0e96603b5e53da2741f1b91de4f01693aa41acd7"
+}

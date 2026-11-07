@@ -1,0 +1,28 @@
+{
+  "calibration_selected_alpha": 0.1,
+  "recommended_alpha": 0.0,
+  "calibration_selection": {
+    "MSE": {
+      "0.0": 11393346.604774036,
+      "0.025": 11388809.201631477,
+      "0.05": 11385423.495483335,
+      "0.1": 11382107.174170282,
+      "0.2": 11389294.895477118
+    },
+    "information_sufficient": true,
+    "effects": {
+      "rows": 320,
+      "source_present": 89,
+      "lookup_applied": 0,
+      "source_and_lookup": 0,
+      "source_individual_differs": 89,
+      "effective_rows": 89,
+      "effective_structures": 87,
+      "effective_scaffolds": 41
+    }
+  },
+  "statistical_acceptance_passed": false,
+  "validation_required_before_use": true,
+  "validation_passed": true,
+  "production_models_retrained": false
+}
