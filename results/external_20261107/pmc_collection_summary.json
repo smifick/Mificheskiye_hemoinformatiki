@@ -1,0 +1,31 @@
+{
+  "retrieved_utc": "2026-11-07T00:28:17.654926+00:00",
+  "search_query": "(TITLE_ABS:\"vaccinia\" AND (TITLE_ABS:\"selectivity\" OR TITLE_ABS:\"cytotoxicity\")) AND OPEN_ACCESS:Y",
+  "bibliographic_hits": 138,
+  "reviewed_fulltext_sources": 1,
+  "negative_pilot_sources": 1,
+  "table_rows": 12,
+  "individual_endpoint_rows": 24,
+  "exact_numeric_pairs_before_identity": 12,
+  "verified_SI_rows": 12,
+  "unique_resolved_structures": 12,
+  "training_eligible_rows": 12,
+  "training_structures": 12,
+  "training_scaffolds": 6,
+  "new_to_project_structures_training": 8,
+  "new_to_organizer_scaffolds_training": 6,
+  "new_to_project_scaffolds_training": 3,
+  "test_overlapping_rows_excluded": 0,
+  "ambiguous_identities": 0,
+  "policy": "Exact author-defined IC50/CC50 pairs; bounds and missing results excluded; exact-name unique CID plus exact CID synonym and SMILES/InChIKey agreement; no external test-structure labels in training; caller must additionally remove validation structures/scaffolds per fold.",
+  "source_version": "Europe PMC live corpus; PMCID, DOI and response SHA256 pinned",
+  "licenses": {
+    "PMC10995631": "CC-BY-4.0",
+    "PubChem_structure": "https://pubchem.ncbi.nlm.nih.gov/docs/copyright"
+  },
+  "raw_response_policy": "Full XML stays in cache; exported evidence contains selected numeric columns, attribution and license URL only.",
+  "input_SHA256": {
+    "data/raw/train.csv": "239efa4b3aa667b3681f6e1062d86ca5b0ba441364b8f2b894b4c428e272ba81",
+    "data/raw/test.csv": "1b0c6a014bbe556c42ef2277e867d2e1a647ad31c157a9cd81bbc7e262481abd"
+  }
+}

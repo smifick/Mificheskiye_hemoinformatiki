@@ -1,0 +1,16 @@
+{
+  "selected": "clean_aux_pubchem_0.5",
+  "ranking": {
+    "clean_aux_pubchem_0.5": 0.9999541630987658,
+    "clean_aux_pubchem_0.25": 0.9999772665015083,
+    "clean_legacy": 1.0,
+    "clean_legacy_PMC_0.25": 1.0000113582311219,
+    "clean_legacy_PMC_1.0": 1.0000162152095147,
+    "clean_PMC_aux_both": 1.0002295851803598,
+    "clean_aux_chembl_0.25": 1.0002488144370085,
+    "organizer_only": 1.0003370741427435,
+    "clean_aux_chembl_0.5": 1.0004900848189713,
+    "reviewed_V_PMC": 1.0013975554770567,
+    "clean_reviewed_V": 1.0014893831689786
+  }
+}

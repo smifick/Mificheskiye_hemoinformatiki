@@ -1,0 +1,6 @@
+source,rows,structures,scaffolds,structures_new_vs_official,scaffolds_new_vs_official,structures_new_vs_previous_project,scaffolds_new_vs_previous_project
+PMC10995631,12,12,6,12,6,8,3
+aux_chembl,384,317,141,292,89,0,0
+aux_pubchem,208,63,21,63,21,63,21
+legacy_C,29,26,12,16,3,0,0
+legacy_V,24,22,15,19,0,0,0

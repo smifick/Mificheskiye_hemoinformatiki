@@ -1,0 +1,30 @@
+{
+  "models": [
+    {
+      "url": "https://huggingface.co/api/models/DeepChem/ChemBERTa-77M-MLM/revision/ed8a5374f2024ec8da53760af91a33fb8f6a15ff",
+      "retrieved_utc": "2026-11-07T00:19:46.537816+00:00",
+      "sha256": "822f9b28815a8473be30cd311ded4d2f97feded5654690f47ce26e61139ae8c5",
+      "raw_file": "data/external_research/methods/chemberta_mlm_metadata.json",
+      "model_id": "DeepChem/ChemBERTa-77M-MLM",
+      "revision": "ed8a5374f2024ec8da53760af91a33fb8f6a15ff",
+      "cardData": null,
+      "license_tags": [],
+      "README_present": false,
+      "LICENSE_files": []
+    },
+    {
+      "url": "https://huggingface.co/api/models/DeepChem/ChemBERTa-77M-MTR/revision/66b895cab8adebea0cb59a8effa66b2020f204ca",
+      "retrieved_utc": "2026-11-07T00:19:46.825172+00:00",
+      "sha256": "29f2cd67de84d343ad6c98e90073d48003d1a637e67e56956e83fe775e42f5d5",
+      "raw_file": "data/external_research/methods/chemberta_mtr_metadata.json",
+      "model_id": "DeepChem/ChemBERTa-77M-MTR",
+      "revision": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+      "cardData": null,
+      "license_tags": [],
+      "README_present": false,
+      "LICENSE_files": []
+    }
+  ],
+  "conclusion": "The pinned model repositories supply neither a model card nor an explicit weight-license declaration in the inspected metadata/file list. Source-code or article licenses cannot establish the weight license. No checkpoint redistribution is added in this audit.",
+  "pretraining_source": "ChemBERTa-2 paper arXiv:2209.01712 reports up to 77M PubChem compounds. Exact overlap with contest structures cannot be excluded without a membership manifest; no supervised SI VACV pretraining claim is made."
+}

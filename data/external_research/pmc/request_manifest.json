@@ -1,0 +1,379 @@
+[
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3A%22vaccinia%22+AND+%28TITLE_ABS%3A%22selectivity%22+OR+TITLE_ABS%3A%22cytotoxicity%22%29%29+AND+OPEN_ACCESS%3AY&format=json&pageSize=100&cursorMark=%2A&resultType=core",
+    "retrieved_utc": "2026-11-07T00:25:28.114598+00:00",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "496b38c6cb7e06287175b43f74a12b090d1bdb241a679a9cc3d19d6df79e2488",
+    "bytes": 916537,
+    "cache_file": "/workspace/work/external_source_cache/pmc/3450055cd47bda420501a33e70e6ac9b981a38682e8cd80e8cc990edac67f0b9.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:00.164212+00:00"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3A%22vaccinia%22+AND+%28TITLE_ABS%3A%22selectivity%22+OR+TITLE_ABS%3A%22cytotoxicity%22%29%29+AND+OPEN_ACCESS%3AY&format=json&pageSize=100&cursorMark=AoIIPwyKUSgzOTczMjgwNg%3D%3D&resultType=core",
+    "retrieved_utc": "2026-11-07T00:25:29.200157+00:00",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "3c2d720de9808151f4abe4b6d6e3226d7cc48b875281882637c007ecf8dbaa79",
+    "bytes": 312911,
+    "cache_file": "/workspace/work/external_source_cache/pmc/999f06e6136e394cb70688afcd37a0f088eb2d6dd03d850e3edfbee908710656.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:00.171685+00:00"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3A%22vaccinia%22+AND+%28TITLE_ABS%3A%22selectivity%22+OR+TITLE_ABS%3A%22cytotoxicity%22%29%29+AND+OPEN_ACCESS%3AY&format=json&pageSize=100&cursorMark=AoIIPejK5Sc1MDEwNjk3&resultType=core",
+    "retrieved_utc": "2026-11-07T00:25:29.568666+00:00",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "833645cda6e8099303a8b0fc2657705dd2e22b2f3f74e63fd50f41bb231a5aa6",
+    "bytes": 289,
+    "cache_file": "/workspace/work/external_source_cache/pmc/a6d85aafd1a3754557a8a66fbd992796f3d658071ea86565443c8776134b35fd.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:00.175001+00:00"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10995631/fullTextXML",
+    "sha256": "754abfa14e9890c55f602386e5ac56f3e64970f9e63e503a0418caf57ab4f405",
+    "bytes": 130511,
+    "retrieved_utc": "2026-11-07T00:22:21.296248+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/904792be5239b7f3d4ab852594d78316aa130ecf84ba4a4de0dfffe365c971af.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:00.178397+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Bufalin/cids/JSON",
+    "sha256": "6a0579b8b6dfbf45649dd8bd4a3bf7b41c178e889a0d5e574474d5036d7a805c",
+    "bytes": 63,
+    "retrieved_utc": "2026-11-07T00:22:22.206276+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/edb2a3b5633fc5fe8d5a50bf30383af4e9ecb1dfc04a0b78819c1593f3fb15ad.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.613985+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9547215/synonyms/JSON",
+    "sha256": "e137951e739f4419b9273103c1b1bddcda857dbbefaa70c4760e545a9146e437",
+    "bytes": 2811,
+    "retrieved_utc": "2026-11-07T00:22:23.084825+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/5eb003ad7ab3e911f123cebe0d4602a307eb408c66433b3e7305a9d53bb9854b.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.614077+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9547215/property/IsomericSMILES,InChIKey/JSON",
+    "sha256": "cfc07d3f2883f5188e532421d937dddc5337c8a35c5b835d9f680b7700cf7124",
+    "bytes": 250,
+    "retrieved_utc": "2026-11-07T00:22:23.938880+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/f66cda3d85186e4e511e87cb060849da7e03e068b456ee6dedaee29d9b6402d9.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.614156+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Cinobufagin/cids/JSON",
+    "sha256": "76ba59de8f34760d8c877424846c2cc2f227b0a636381447b5c12674a4a243ff",
+    "bytes": 64,
+    "retrieved_utc": "2026-11-07T00:22:24.792302+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/5a88a90117c9ddda9ac0fdef436d322b5b1a70def30aa9608db4ef9db77d6187.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.615014+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11969542/synonyms/JSON",
+    "sha256": "8fd132dbb080de16f0d0fdf877f936b2e2b26d99848c5c82ef8820c949d62958",
+    "bytes": 2467,
+    "retrieved_utc": "2026-11-07T00:22:25.729054+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/06413142e5f5c800f3b5babd446256afcb45386ece16eb28c7db96a260259154.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.615083+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11969542/property/IsomericSMILES,InChIKey/JSON",
+    "sha256": "3086ae63bb8410cfa892b9cdabb47283fa2237c9494dba67fda6525adf2a7397",
+    "bytes": 273,
+    "retrieved_utc": "2026-11-07T00:22:26.654783+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/57bb8347ed69c169bfc4068e953afd2952463dce9afa0296710e04a32c3cf367.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.615148+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Convallotoxin/cids/JSON",
+    "sha256": "d09b175bc0886fc4dabafb6456cf726bd6ea643cadfb2cb66040b32bf1fa8af5",
+    "bytes": 62,
+    "retrieved_utc": "2026-11-07T00:22:27.596286+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/96a673a750866cfb9ad7f55944c628dc22df0299a6798429af086ba2e340a2fe.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.615745+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/441852/synonyms/JSON",
+    "sha256": "78821212b206a32825c0769bbb3814281b8235b116f1b6bd2ef2f6987eb373da",
+    "bytes": 4555,
+    "retrieved_utc": "2026-11-07T00:22:28.508281+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/214353b8aa4e3b3623fe65850514062e59348ef2b7f3bd52758ecc4571b53caf.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.615813+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/441852/property/IsomericSMILES,InChIKey/JSON",
+    "sha256": "471ef0c541f834ab1ffc2b3e9561b2947a5db582579043a101d5dc8a1da5383b",
+    "bytes": 295,
+    "retrieved_utc": "2026-11-07T00:22:29.421085+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/9c058a0b044678a039a16fba78238a92ff8a0f85336db6c4053e34f709ae08aa.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.615917+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Digitoxigenin/cids/JSON",
+    "sha256": "ad93dc289d511a1624fbdce8c2b48c30dee3e45693cecbe5e26be22d7b43a283",
+    "bytes": 63,
+    "retrieved_utc": "2026-11-07T00:22:30.147976+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/d6ba8d082a32963898d7ee23f59a54c4ba30cea95a4208e3c65406d33efb2dcc.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.616534+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/4369270/synonyms/JSON",
+    "sha256": "f53226caa3955a8664c50e1cce002621c209f94d944b10823ce31cd93bc2d600",
+    "bytes": 5190,
+    "retrieved_utc": "2026-11-07T00:22:30.962132+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/44b2a469375fec1c4f16a35a6f22cafe7d84a3c05ad7b18ea6373f5e6bc94f81.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.616600+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/4369270/property/IsomericSMILES,InChIKey/JSON",
+    "sha256": "327083c445bab5ba220ad8fcf73dd41c7ddd55af9fb8cdaf67754925af1283ba",
+    "bytes": 248,
+    "retrieved_utc": "2026-11-07T00:22:31.936857+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/456eaf38f089b8c13f3579e54029542e8f26b2ae03964fd606c809793799dd25.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.616677+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Digitoxin/cids/JSON",
+    "sha256": "61df1314e12de73c3e5c4ef3614f8e97e9f7d13ce219260a9de504ebe366e0c2",
+    "bytes": 62,
+    "retrieved_utc": "2026-11-07T00:22:32.664718+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/c2f178678571398e7a0bd28c4fddee3ec75fe97026f87f96c74b44b6618662a2.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.617397+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/441207/synonyms/JSON",
+    "sha256": "dccc7195cf62eb6bca91a9bffa4221dc6a6756784a956f122c8913840564acb2",
+    "bytes": 11186,
+    "retrieved_utc": "2026-11-07T00:22:33.450880+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/a27b81e8b444b9f783ee865eaf567ecbc33005435fe654eb1e9e9bf5e8d7780d.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.617471+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/441207/property/IsomericSMILES,InChIKey/JSON",
+    "sha256": "d4a7c81a143b5b6042053d12c4e46ff3dd0c0363e000b8445333204fad6ffbb7",
+    "bytes": 350,
+    "retrieved_utc": "2026-11-07T00:22:34.350101+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/dc2d64e389315a49c6cecc29a3a5dea2a234901ecfcc92e3fe13f3a5fd42f1d2.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.617577+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Digoxigenin/cids/JSON",
+    "sha256": "aeb314581cccd0979efbeaf9285a1d9f527edc364d7c28984436e8f49a716262",
+    "bytes": 61,
+    "retrieved_utc": "2026-11-07T00:22:35.074652+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/360baa03c8de05d9cb173a4c7aa0fd36b647bff43cd59a7ce532a3b69703dd4a.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.618396+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/15478/synonyms/JSON",
+    "sha256": "b389a32f430255ab977ad43fa08c7486fe27c00b47d6dfeb5189524b30ea3c67",
+    "bytes": 4820,
+    "retrieved_utc": "2026-11-07T00:22:35.995146+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/7b0d82a08fa241a5318424df1c9073ce7232269d3ac1252f1f8c9a2a019a15ea.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.618464+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/15478/property/IsomericSMILES,InChIKey/JSON",
+    "sha256": "bbd1734d792faa4c2e3b40c97ef14c15e80b7751dfb8a4b2e62000bf189149ea",
+    "bytes": 253,
+    "retrieved_utc": "2026-11-07T00:22:36.769712+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/8a5d4f94802bc35f8dcf260075cf73028b61a54854b80d525f7ef61c7e53d4f3.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.618539+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Digoxin/cids/JSON",
+    "sha256": "dc06037e9396f76fed02eed39e2c5c486bbb0756c2fc0ecc70aaa26a200208b6",
+    "bytes": 63,
+    "retrieved_utc": "2026-11-07T00:22:37.494257+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/a96a2f166cd9da25d03cfe5f13dda5dcb09df45cd8c2764b3f827df4bcdb1de8.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.619090+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2724385/synonyms/JSON",
+    "sha256": "3a37fe990af74d8819885390c1d0aeacbdd72cf3ce13b28f32baeee3ee1827f3",
+    "bytes": 12475,
+    "retrieved_utc": "2026-11-07T00:22:38.389607+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/9242f9f6da5c6a42911a367ec406065c3a4d54ac6c2267eacad8c41f8bdfe449.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.619160+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2724385/property/IsomericSMILES,InChIKey/JSON",
+    "sha256": "30368b0e4ae2a8f6420dbad5c6fbf3e43b39bfb8325039aac946f30397740e5e",
+    "bytes": 358,
+    "retrieved_utc": "2026-11-07T00:22:39.297257+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/ab2eab1f688b1cf18dca8f1e8c2e26287b9a23ff6672da8c0693051a3342307a.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.619265+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Gitoxin/cids/JSON",
+    "sha256": "40252c2f3cf06144fc7f53661fdb8b3a0d8384a3aa2083991b4a7c70fec64e88",
+    "bytes": 61,
+    "retrieved_utc": "2026-11-07T00:22:40.219600+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/af0a6ee5dccca4570364c5481171fc10ca7a4d755c0db773d0df62954ce0ba60.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.620146+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/91540/synonyms/JSON",
+    "sha256": "7f43227c5003af3e5e81349f22b0652072ded20a79854620f9e56186bd429fbb",
+    "bytes": 4221,
+    "retrieved_utc": "2026-11-07T00:22:41.106437+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/ff34039f0554bb1c11016f4dae6cb326871e503108c79a349bb9725515f3b2b0.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.620213+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/91540/property/IsomericSMILES,InChIKey/JSON",
+    "sha256": "c30dca5d27d45ff583ce69c3f470a16e89baaaa87e58486cff14f26f8fea1283",
+    "bytes": 357,
+    "retrieved_utc": "2026-11-07T00:22:41.917226+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/d9aa352fe9af3e5442707557796889ee0a59f673f459d1c0d8c5274cdc07e851.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.620279+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Lanatoside%20C/cids/JSON",
+    "sha256": "b3d1c96f4edcc279ec477e2ccc0338d9d03fe3237f47c1db4c0a73a1f22491a7",
+    "bytes": 62,
+    "retrieved_utc": "2026-11-07T00:22:42.654772+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/2b2b12afccc58391f5eac508883b4b61f20d79fd34adb650d9f1256be66cef7d.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.621077+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/656630/synonyms/JSON",
+    "sha256": "4febd3d80706b9b573c8004b8f311a0d879aec81e0b86260a0acd0ea9f131437",
+    "bytes": 5144,
+    "retrieved_utc": "2026-11-07T00:22:43.574747+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/50981cd17a3880896edcd474841a4aafb7cc38aeb01cbbf93d41939cb5d2504d.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.621142+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/656630/property/IsomericSMILES,InChIKey/JSON",
+    "sha256": "7d8c4d5ad2a88943689bdeb7c8f24f510baa7c3d45c5ff3f0e9b77f5d76def16",
+    "bytes": 410,
+    "retrieved_utc": "2026-11-07T00:22:44.469408+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/6067facdd088154611123fb1f8e3afdd12d4b0d47519aa6e5dc0e5a6cac9c267.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.621221+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Neriifolin/cids/JSON",
+    "sha256": "170bf833d7b0a8250dca1ffd9f5642b1f7fd5d3341279d83a4c7115e4b779ea4",
+    "bytes": 62,
+    "retrieved_utc": "2026-11-07T00:22:45.193405+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/a87f966a4fa2cf667699cbe30a42dbdd6400c7e966658199eb039a9afbac2e2d.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.622264+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/441867/synonyms/JSON",
+    "sha256": "f0bc348634be0eef1dc9a7a3c349a9b96b2a1945d1884adea45552c8537df256",
+    "bytes": 2724,
+    "retrieved_utc": "2026-11-07T00:22:46.089473+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/d64ee2c2f52cc175d93b587a71443b0568f35dcd3df86342e29cd217611e113c.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.622403+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/441867/property/IsomericSMILES,InChIKey/JSON",
+    "sha256": "838660a8a61084ab928ce8871940e561a8fd8f2e960c72432b26d5bcf39433de",
+    "bytes": 293,
+    "retrieved_utc": "2026-11-07T00:22:46.992629+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/fc16d8e42368dba01802896b93ff99ca648bad095bce10081797fae9aa88a095.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.622470+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Ouabain/cids/JSON",
+    "sha256": "f3db5482888eac256b7b14ebe9cd204f4b02e8aa4632c33b49abb6ad305187b6",
+    "bytes": 62,
+    "retrieved_utc": "2026-11-07T00:22:47.843127+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/90499fba00b61d50c0f62e8b36af8af5f4c4f3233b42f84e0a9db46c2f5b2a31.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.623115+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/439501/synonyms/JSON",
+    "sha256": "0c051a2e09ae21150e6ad03031cab67aa9f895ad840a3cb8032862088b800736",
+    "bytes": 8839,
+    "retrieved_utc": "2026-11-07T00:22:48.754182+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/a1f26724389b437cdf728a7888a5f9a2345e8cb015835ba105a78e643d6355e4.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.623187+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/439501/property/IsomericSMILES,InChIKey/JSON",
+    "sha256": "8104ebd25116f4029a992ec8f7324b462b0318ac086d200ed48c887458459613",
+    "bytes": 308,
+    "retrieved_utc": "2026-11-07T00:22:49.538841+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/7c51ba1af18b3a8a3f9f7c73ded79c28694d3bb3bcbdb185d573441e709499e5.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.623280+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Sarmentogenin/cids/JSON",
+    "sha256": "71a16e185d9462db6867f798ae2c963b7608af2f4f33595d42ec88bfec059a44",
+    "bytes": 60,
+    "retrieved_utc": "2026-11-07T00:22:50.412945+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/5ce4a16b5243e66ba98376c35c7ac835ae8a75e270ab47118d1f5ac74a18b75b.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.623946+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6437/synonyms/JSON",
+    "sha256": "77bf8172e242f4fdb1f3c82d41b79001012611b507bd2a451a1c386e5282492b",
+    "bytes": 1346,
+    "retrieved_utc": "2026-11-07T00:22:51.297133+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/113fb454039b05adbe2f93a0fd0cc23ba280d870f57e4c48edc901a5aeb00cd6.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.624009+00:00"
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6437/property/IsomericSMILES,InChIKey/JSON",
+    "sha256": "5870b1ba44efaf2c518bdcef8795f0e9a78ca8d4309e31b9cacc9510a689a956",
+    "bytes": 253,
+    "retrieved_utc": "2026-11-07T00:22:52.204148+00:00",
+    "cache_file": "/workspace/work/external_source_cache/pmc/2850780b5d10d80e1bfb74b5637dc6b6c97d4c499d78539b311cf4b56530c517.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.624068+00:00"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9533862/fullTextXML",
+    "retrieved_utc": "2026-11-07T00:27:35.541473+00:00",
+    "status": 200,
+    "content_type": "application/xml",
+    "sha256": "52ea8637c9b079285a9274baf017344b9cd377f89d86e3b40f9c3f2178bab82e",
+    "bytes": 83661,
+    "cache_file": "/workspace/work/external_source_cache/pmc/83a5ddf71c2feadd495d217aa57f25127ceb042c66035a7e0ed33b61755ddc34.raw",
+    "cache_hit": true,
+    "accessed_utc": "2026-11-07T00:28:17.652242+00:00"
+  }
+]

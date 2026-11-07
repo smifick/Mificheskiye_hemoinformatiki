@@ -1,0 +1,9 @@
+scheme,method,data,MSE
+scaffold,v7,clean_legacy,17963696.35948498
+scaffold,successful_notation_MLM,clean_legacy,11343799.855508037
+scaffold,v7,clean_legacy_PMC_1.0,17963625.779565744
+scaffold,successful_notation_MLM,clean_legacy_PMC_1.0,11343951.14846762
+parent,v7,clean_legacy,12630172.135334156
+parent,successful_notation_MLM,clean_legacy,8201349.2014316935
+parent,v7,clean_legacy_PMC_1.0,12630133.070550617
+parent,successful_notation_MLM,clean_legacy_PMC_1.0,8201505.792721858

@@ -1,0 +1,11 @@
+{
+  "rows": 597,
+  "mean": 2306.4043231100177,
+  "std": 3107.3941102114304,
+  "max": 9826.349543713008,
+  "min": 42.655655509803296,
+  "correlation_with_successful": 0.9996020777151271,
+  "prediction_RMSE_vs_successful": 93.84768463798434,
+  "changed_rows_at_1e_6": 597,
+  "warning": "Prediction disagreement only; new test MSE cannot be computed without labels."
+}

@@ -1,0 +1,9 @@
+pmcid,doi,table,source_row,compound_id,numeric_exact_pair,disposition,source_url
+PMC9533862,10.1016/j.antiviral.2010.10.001,Table 1,1,Nigericin,True,not_admitted_conditional_license_not_revalidated,https://pmc.ncbi.nlm.nih.gov/articles/PMC9533862/#tbl0010
+PMC9533862,10.1016/j.antiviral.2010.10.001,Table 1,2,Nigericin,True,not_admitted_conditional_license_not_revalidated,https://pmc.ncbi.nlm.nih.gov/articles/PMC9533862/#tbl0010
+PMC9533862,10.1016/j.antiviral.2010.10.001,Table 1,3,Monensin,True,not_admitted_conditional_license_not_revalidated,https://pmc.ncbi.nlm.nih.gov/articles/PMC9533862/#tbl0010
+PMC9533862,10.1016/j.antiviral.2010.10.001,Table 1,4,Concanamycin A,True,not_admitted_conditional_license_not_revalidated,https://pmc.ncbi.nlm.nih.gov/articles/PMC9533862/#tbl0010
+PMC9533862,10.1016/j.antiviral.2010.10.001,Table 1,5,Concanamycin B,True,not_admitted_conditional_license_not_revalidated,https://pmc.ncbi.nlm.nih.gov/articles/PMC9533862/#tbl0010
+PMC9533862,10.1016/j.antiviral.2010.10.001,Table 1,6,Concanamycin C,True,not_admitted_conditional_license_not_revalidated,https://pmc.ncbi.nlm.nih.gov/articles/PMC9533862/#tbl0010
+PMC9533862,10.1016/j.antiviral.2010.10.001,Table 1,7,Cidofovir,False,not_admitted_conditional_license_not_revalidated,https://pmc.ncbi.nlm.nih.gov/articles/PMC9533862/#tbl0010
+PMC9533862,10.1016/j.antiviral.2010.10.001,Table 1,8,ST-246,False,not_admitted_conditional_license_not_revalidated,https://pmc.ncbi.nlm.nih.gov/articles/PMC9533862/#tbl0010

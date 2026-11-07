@@ -1,0 +1,8 @@
+test_explicit_ratio_definitions_and_ambiguity (test_chembl_research.ChEMBLResearchTests.test_explicit_ratio_definitions_and_ambiguity) ... ok
+test_preserve_stereochemistry_and_reject_empty_graph (test_chembl_research.ChEMBLResearchTests.test_preserve_stereochemistry_and_reject_empty_graph) ... ok
+test_published_bank_has_no_test_labels_or_external_codes (test_chembl_research.ChEMBLResearchTests.test_published_bank_has_no_test_labels_or_external_codes) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 2.098s
+
+OK

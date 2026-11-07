@@ -1,0 +1,23 @@
+{
+  "source_commit": "b6c2e0c384d043582753993e442be7c042c3139a",
+  "source_branch": "research/si-audit-20261107",
+  "model": "results/audit_20261107/selected_model.joblib",
+  "submission": "results/audit_20261107/submission.csv",
+  "public_MSE": 6327610.34997,
+  "evidence": "User screenshot submission(2).csv plus explicit confirmation it is unchanged results/audit_20261107/submission.csv",
+  "improvement_pct_vs_v7": 32.83520290233527,
+  "improvement_pct_vs_v6": 34.4250879473269,
+  "sha256": {
+    "results/audit_20261107/selected_model.joblib": "f58b880b834cf9bb118f7559ba7533e20933329446b781764b3919ad4d3b07c1",
+    "results/audit_20261107/submission.csv": "ff3aff978dc2737176be3006a33d1233a5c8432f1aeba57075ede83a4275649c",
+    "results/audit_20261107/targeted_splits.csv": "34d7a43f20535c6e6fc598b3ea380e75bf77891f33171dec76dc4eb176f3e17b",
+    "results/audit_20261107/targeted_nested_oof.csv": "cc089716d9cbcc36179abc3a5888a19ab411018c10846649188bc531201f64dc",
+    "results/audit_20261107/targeted_protocol.json": "a6e18840393a090ea91228efeba7415c03acc4cc1bf40f3c0a0df80ee12c4260",
+    "src/run_targeted_research.py": "ac411c9cd39a6bc79090cb6fb6f21de2fb1c4990c2ace6282afbcca68fa7a55c",
+    "src/predict_research.py": "0cac2660b4797e114bb0688f4bdb1dec1f18397d1844daf5ea55b1398368404a",
+    "src/research_heads.py": "c9142f244f185bc449cd1c00832035b8bef61ea059d4afcb4705ff2553124484",
+    "src/smiles_style.py": "d353514b79724a5b2b798211aa1721a40e9d0d0af73caedaa6e98c760d148dc8",
+    "data/raw/train.csv": "239efa4b3aa667b3681f6e1062d86ca5b0ba441364b8f2b894b4c428e272ba81",
+    "data/raw/test.csv": "1b0c6a014bbe556c42ef2277e867d2e1a647ad31c157a9cd81bbc7e262481abd"
+  }
+}

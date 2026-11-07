@@ -1,0 +1,106 @@
+[
+  {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/status.json",
+    "sha256": "29dc1fb09487a8d2962253a4d0d92c4ded0aa0d831effab42445d0c3483d4740",
+    "cache_file": "/workspace/work/external_source_cache/chembl/ChEMBL_37/a2dce7a562c25e48bf9064df4f96544b2741b80047626bfc37f5daf64d7f707c.json",
+    "from_cache": true,
+    "fetched_utc": "2026-11-07T00:20:09.708024+00:00",
+    "accessed_utc": "2026-11-07T00:26:00.055991+00:00"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?organism__icontains=vaccinia&limit=1000",
+    "sha256": "8898ee32c27624a1b7dcaa277e349dfb609da04947e0004bab74fbc282d1593f",
+    "cache_file": "/workspace/work/external_source_cache/chembl/ChEMBL_37/59cd195a5f8758ebe333ea7dfc3dddf9ba28c969992743fc99aeb6c1bc7378e9.json",
+    "from_cache": true,
+    "fetched_utc": "2026-11-07T00:24:51.243417+00:00",
+    "accessed_utc": "2026-11-07T00:26:00.056275+00:00"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id__in=CHEMBL613168%2CCHEMBL613493&limit=1000",
+    "sha256": "706512b142715586989ed418d6c8287c0b8a39a0358ccad28ba9f76cd6e34bd1",
+    "cache_file": "/workspace/work/external_source_cache/chembl/ChEMBL_37/d5444ab74a44f7da75835b9fae9d3d75e372277a6f573e360fd8fa79595b0265.json",
+    "from_cache": true,
+    "fetched_utc": "2026-11-07T00:18:02.041072+00:00",
+    "accessed_utc": "2026-11-07T00:26:00.063973+00:00"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?limit=1000&offset=1000&target_chembl_id__in=CHEMBL613168%2CCHEMBL613493",
+    "sha256": "ec3d9b22717c95d84dadaef78d883a88b4146638331d264667625105dcee2320",
+    "cache_file": "/workspace/work/external_source_cache/chembl/ChEMBL_37/24da695b4dd633a7b067dd3210d72f515bfeae41207d2f15a85afeba2f8638a8.json",
+    "from_cache": true,
+    "fetched_utc": "2026-11-07T00:18:06.147104+00:00",
+    "accessed_utc": "2026-11-07T00:26:00.071056+00:00"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?limit=1000&offset=2000&target_chembl_id__in=CHEMBL613168%2CCHEMBL613493",
+    "sha256": "484833bb4d296cd856712103b94929a94f11b16eac0c67423f050eeb731fc1de",
+    "cache_file": "/workspace/work/external_source_cache/chembl/ChEMBL_37/ea58ce5414f933a32c01ce32568b4adbb7221cb23c4e1634032649df18729223.json",
+    "from_cache": true,
+    "fetched_utc": "2026-11-07T00:18:13.536976+00:00",
+    "accessed_utc": "2026-11-07T00:26:00.078310+00:00"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?limit=1000&offset=3000&target_chembl_id__in=CHEMBL613168%2CCHEMBL613493",
+    "sha256": "a8cdbbb89d7e3642ce322a57ec0365ab6cdcf293ea744fe991d1270f9c950c0a",
+    "cache_file": "/workspace/work/external_source_cache/chembl/ChEMBL_37/1f2b5936c8aa3651799b67d3edc4789d1d8350a9974fb53bfd8f684841768000.json",
+    "from_cache": true,
+    "fetched_utc": "2026-11-07T00:18:19.870420+00:00",
+    "accessed_utc": "2026-11-07T00:26:00.099717+00:00"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?limit=1000&offset=4000&target_chembl_id__in=CHEMBL613168%2CCHEMBL613493",
+    "sha256": "5452e1bab18ae25743a76e367ca576b7f83d79bdf6accb166ebf97c55029dacf",
+    "cache_file": "/workspace/work/external_source_cache/chembl/ChEMBL_37/4ba034034acb8b070ed02aa3371ec88dc5e0d94aacc95084aeb651b3ba41912b.json",
+    "from_cache": true,
+    "fetched_utc": "2026-11-07T00:18:25.960036+00:00",
+    "accessed_utc": "2026-11-07T00:26:00.107297+00:00"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/document.json?document_chembl_id__in=CHEMBL1121647%2CCHEMBL1121821%2CCHEMBL1122461%2CCHEMBL1122513%2CCHEMBL1122521%2CCHEMBL1122552%2CCHEMBL1122581%2CCHEMBL1122625%2CCHEMBL1122693%2CCHEMBL1122696%2CCHEMBL1122756%2CCHEMBL1122818%2CCHEMBL1122970%2CCHEMBL1123027%2CCHEMBL1123080%2CCHEMBL1123099%2CCHEMBL1123109%2CCHEMBL1123152%2CCHEMBL1123153%2CCHEMBL1123311%2CCHEMBL1123381%2CCHEMBL1123400%2CCHEMBL1123547%2CCHEMBL1123899%2CCHEMBL1123904%2CCHEMBL1123958%2CCHEMBL1124029%2CCHEMBL1124036%2CCHEMBL1124149%2CCHEMBL1124192&limit=1000",
+    "sha256": "533983964f69f868cc3ed94b6c9081232e0d62be07a99414a396888a69979e11",
+    "cache_file": "/workspace/work/external_source_cache/chembl/ChEMBL_37/40a627e3515706213dcd15aae806aad3b4ca7a69d08782645397b51b4ae4ccaf.json",
+    "from_cache": true,
+    "fetched_utc": "2026-11-07T00:20:10.557533+00:00",
+    "accessed_utc": "2026-11-07T00:26:00.111041+00:00"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/document.json?document_chembl_id__in=CHEMBL1124205%2CCHEMBL1124462%2CCHEMBL1124622%2CCHEMBL1124664%2CCHEMBL1124666%2CCHEMBL1124765%2CCHEMBL1124827%2CCHEMBL1124988%2CCHEMBL1125081%2CCHEMBL1126104%2CCHEMBL1126604%2CCHEMBL1126655%2CCHEMBL1126736%2CCHEMBL1127016%2CCHEMBL1127471%2CCHEMBL1127647%2CCHEMBL1129609%2CCHEMBL1132137%2CCHEMBL1134025%2CCHEMBL1134637%2CCHEMBL1135471%2CCHEMBL1136374%2CCHEMBL1138488%2CCHEMBL1140035%2CCHEMBL1140758%2CCHEMBL1141413%2CCHEMBL1142254%2CCHEMBL1143932%2CCHEMBL1144007%2CCHEMBL1144182&limit=1000",
+    "sha256": "c3e68a9a4805f8cc8c3537652231d29c732924a6e285c3ba30dc4cfb547b562c",
+    "cache_file": "/workspace/work/external_source_cache/chembl/ChEMBL_37/702d29d11b8b304574029547c5e9f555372f18cafbfbb090d71dc44cf9737d08.json",
+    "from_cache": true,
+    "fetched_utc": "2026-11-07T00:20:11.674268+00:00",
+    "accessed_utc": "2026-11-07T00:26:00.111628+00:00"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/document.json?document_chembl_id__in=CHEMBL1144203%2CCHEMBL1144551%2CCHEMBL1144557%2CCHEMBL1146075%2CCHEMBL1146876%2CCHEMBL1147740%2CCHEMBL1147969%2CCHEMBL1148744%2CCHEMBL1149790%2CCHEMBL1150051%2CCHEMBL1151696%2CCHEMBL1151929%2CCHEMBL1152768%2CCHEMBL1152844%2CCHEMBL1152859%2CCHEMBL1153449%2CCHEMBL1153581%2CCHEMBL1153936%2CCHEMBL1154067%2CCHEMBL1154091%2CCHEMBL1154819%2CCHEMBL1156068%2CCHEMBL1156147%2CCHEMBL1156695%2CCHEMBL1177846%2CCHEMBL1177887%2CCHEMBL1221337%2CCHEMBL1649270%2CCHEMBL1671794%2CCHEMBL1759968&limit=1000",
+    "sha256": "0e4783b9e738e693ae9e3e31ba47751e485fbed61cc84d1d1caa1a4e64ae6acb",
+    "cache_file": "/workspace/work/external_source_cache/chembl/ChEMBL_37/02ef32e0c2867b2f3dfe33a24b51ce6b6c419ce468300e21c1a6ba355c7f14fc.json",
+    "from_cache": true,
+    "fetched_utc": "2026-11-07T00:20:12.146848+00:00",
+    "accessed_utc": "2026-11-07T00:26:00.112119+00:00"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/document.json?document_chembl_id__in=CHEMBL1821600%2CCHEMBL1833830%2CCHEMBL1909580%2CCHEMBL1926651%2CCHEMBL1933044%2CCHEMBL2010769%2CCHEMBL2010803%2CCHEMBL2203037%2CCHEMBL2331304%2CCHEMBL2331506%2CCHEMBL2331518%2CCHEMBL2396525%2CCHEMBL3045051%2CCHEMBL3045159%2CCHEMBL3085678%2CCHEMBL3112527%2CCHEMBL3132850%2CCHEMBL3227941%2CCHEMBL3227966%2CCHEMBL3227984%2CCHEMBL3227988%2CCHEMBL3244025%2CCHEMBL3244032%2CCHEMBL3244072%2CCHEMBL3244073%2CCHEMBL3244145%2CCHEMBL3244165%2CCHEMBL3244322%2CCHEMBL3244367%2CCHEMBL3244391&limit=1000",
+    "sha256": "41c7d4ed6aff9ba8ce55b72260c9e67f61053e5dbde8f48e5d829245b223bc7c",
+    "cache_file": "/workspace/work/external_source_cache/chembl/ChEMBL_37/8afc4f69d03a7d43ae44cc14b48ec26a050e8b02649787eaf0da9b8252030e07.json",
+    "from_cache": true,
+    "fetched_utc": "2026-11-07T00:20:12.764713+00:00",
+    "accessed_utc": "2026-11-07T00:26:00.112500+00:00"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/document.json?document_chembl_id__in=CHEMBL3259765%2CCHEMBL3271965%2CCHEMBL3271997%2CCHEMBL3272036%2CCHEMBL3272098%2CCHEMBL3272338%2CCHEMBL3286377%2CCHEMBL3396947%2CCHEMBL3407452%2CCHEMBL3603790%2CCHEMBL3612061%2CCHEMBL3621200%2CCHEMBL3751697%2CCHEMBL3871297%2CCHEMBL3877247%2CCHEMBL4152296%2CCHEMBL4219208%2CCHEMBL4334462%2CCHEMBL4808183%2CCHEMBL5149963&limit=1000",
+    "sha256": "898615aab9dd7a72a1707594f862cfb432d5c816c2fa25245ff79e0b44ea7b86",
+    "cache_file": "/workspace/work/external_source_cache/chembl/ChEMBL_37/4dbac6099dad2851eefdfef76d7bd3982aaacddec608379b9795ccdd8087d9bc.json",
+    "from_cache": true,
+    "fetched_utc": "2026-11-07T00:20:13.182838+00:00",
+    "accessed_utc": "2026-11-07T00:26:00.112844+00:00"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/status.json",
+    "sha256": "29dc1fb09487a8d2962253a4d0d92c4ded0aa0d831effab42445d0c3483d4740",
+    "cache_file": null,
+    "from_cache": false,
+    "fetched_utc": "2026-11-07T00:26:03.380377+00:00",
+    "accessed_utc": "2026-11-07T00:26:03.380401+00:00"
+  }
+]
