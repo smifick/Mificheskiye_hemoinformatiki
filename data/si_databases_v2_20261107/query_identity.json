@@ -1,0 +1,11 @@
+{
+  "test_index": 233,
+  "test_CSV_line": 235,
+  "training_anchor_source_row": 16,
+  "training_anchor_SI": 36066.667,
+  "similarity": 0.8,
+  "fingerprint": "Morgan r2 2048 chirality on standardized tautomer parent",
+  "test_target_read": false,
+  "test_prediction_created": false,
+  "interpretation": "Similarity only; never assign training-anchor SI to a test molecule"
+}

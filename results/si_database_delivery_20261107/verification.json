@@ -1,0 +1,14 @@
+{
+  "task": "published numeric database packaging for corrected train_v2; no model training",
+  "data_checks_passed": 17,
+  "data_checks_failed": 0,
+  "independent_rebuild_files_identical": 23,
+  "zip_archive_integrity_passed": true,
+  "zip_contents_match_individual_files": true,
+  "zip_contains_uploaded_train_or_test": false,
+  "zip_sha256": "bd320afbeadee5b63dbb846766d820f3b63aa9c87c59625cd54ac0332a7498af",
+  "zip_bytes": 93492,
+  "model_training_performed": false,
+  "submission_created": false,
+  "new_MSE_claimed": false
+}

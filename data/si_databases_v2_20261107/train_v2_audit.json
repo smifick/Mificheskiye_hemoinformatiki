@@ -1,0 +1,20 @@
+{
+  "train_v2_verified": true,
+  "archive_sha256": "fc748c1cdf13e7db6a9ea746c7e796edfe9f45f14af9d1edcc6686852f7a8f71",
+  "train_rows": 320,
+  "test_rows": 597,
+  "identical_train_SMILES": true,
+  "test_allowed_fields_unchanged": true,
+  "changed_labels": 81,
+  "old_10000_to_zero": 81,
+  "zero_labels": 83,
+  "labels_equal10000": 0,
+  "max_SI": 36066.667,
+  "unchanged_other_labels": true,
+  "user_reported_submission": "submission_filtered237.csv",
+  "user_reported_MSE": 1228652.39224,
+  "score_verification": "user supplied; not independently queried from Kaggle",
+  "concentrations_loaded": false,
+  "ratios_computed": false,
+  "uploaded_raw_files_published": false
+}

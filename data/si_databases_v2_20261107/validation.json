@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "uploaded_train_v2_verified": true,
+    "only_expected_81_label_changes": true,
+    "external_targets_are_stored_author_SI": true,
+    "external_targets_finite_positive": true,
+    "external_relation_exact": true,
+    "source_record_ids_unique": true,
+    "all_source_validation_status_recorded": true,
+    "all_public_SMILES_parse": true,
+    "ready_columns_exact_allowlist": true,
+    "ready_values_and_row_order_match_provenance": true,
+    "no_test_overlap_in_augmentation": true,
+    "no_train_overlap_in_augmentation": true,
+    "no_test_overlap_in_review_subset": true,
+    "augmentation_structure_keys_unique": true,
+    "no_SI_in_endpoint_review_files": true,
+    "no_organizer_concentrations_loaded": true,
+    "no_new_concentration_ratios": true
+  },
+  "passed": 17,
+  "failed": 0
+}
