@@ -1,0 +1,60 @@
+{
+  "commit": "b6c2e0c384d043582753993e442be7c042c3139a",
+  "PR8_commit": "a9b250dc5642bcfdec765e313e602b165e04fdd8",
+  "alpha_source": 0.0,
+  "file_sha256": {
+    "results/audit_20261107/selected_model.joblib": "f58b880b834cf9bb118f7559ba7533e20933329446b781764b3919ad4d3b07c1",
+    "results/v7_final/model.joblib": "43a1565e3dc2aec5b8c340fb2f4fd02d3032d25b39e75c3c2ed0dcc68d9eed5b",
+    "results/audit_20261107/submission.csv": "ff3aff978dc2737176be3006a33d1233a5c8432f1aeba57075ede83a4275649c",
+    "submission_candidate_v7.csv": "e3e24c3d85a22896b232b227077d573212580014869098c0c6f2e5702a595d05",
+    "src/train_v5.py": "235f22b5fff9b2b6c528a60089808d7865b0fca58c10bc7ea4c6f0d60c3f4ecc",
+    "src/train_v6.py": "9e0abc2be6760c1899e8749b776d5ce79ff142211cfea3bd83dd6e8a9df796d9",
+    "src/train_v7.py": "22ad919846e26e899f4f67e0121aa2c74c32fa43b5dce1fe02e90b720f0db782",
+    "src/research_heads.py": "c9142f244f185bc449cd1c00832035b8bef61ea059d4afcb4705ff2553124484",
+    "src/predict_research.py": "0cac2660b4797e114bb0688f4bdb1dec1f18397d1844daf5ea55b1398368404a",
+    "src/extract_chemberta.py": "dba38d5f417c5a70634ca947dd110ded7e43e411aee8b7d687bad5c0c1655568",
+    "data/raw/train.csv": "239efa4b3aa667b3681f6e1062d86ca5b0ba441364b8f2b894b4c428e272ba81",
+    "data/raw/test.csv": "1b0c6a014bbe556c42ef2277e867d2e1a647ad31c157a9cd81bbc7e262481abd",
+    "data/external/external_endpoints.csv": "6c9db63764780e75058275cc75842364e5215630d35cd64c011ece7b55dd7298",
+    "data/external/external_si_database.csv": "77b3dd9cce245e270f20b57c62aa331b2f7684ed292bcb440e6406aea3622f93",
+    "data/external_curated/vacv_si.csv": "0b3c8213889a6253ff3df9a27aa57ed35b72edf57d24ddfd56ba0f42582f00a9"
+  },
+  "expert_S": "deployed v7 completeSI mixture legacy/feature50:50",
+  "expert_M": "PR3 notationMLM probability mixture50:50 then completeSI",
+  "composition": "mix SI AFTER expert clipping, BEFORE shared lookup; wS0 exactly PR3",
+  "source_smoothing": "(flagged_training_codes+0.5)/(flagged_training_count+2)",
+  "source_absent_only_heads": true,
+  "production_reference_rows": 231,
+  "reference_branch": "legacy code classifier A; organizer source-absent, no external or test",
+  "fingerprint": "actual V7.matrices bits, Morgan radius2 bits2048 chirality; T.std preprocessing",
+  "physical_shared": true,
+  "physical_cfg": {
+    "a_c": 0.5,
+    "a_m": 3.0,
+    "cap": 2000.0,
+    "B": "log_smear",
+    "cal_p": false,
+    "w": {
+      "V": 1.0,
+      "C": 1.0
+    }
+  },
+  "zero_rate": 0.00625,
+  "source_p_group": 0.016483516483516484,
+  "encoder": {
+    "model": "DeepChem/ChemBERTa-77M-MLM",
+    "revision": "ed8a5374f2024ec8da53760af91a33fb8f6a15ff",
+    "batch": 1,
+    "threads": 3
+  },
+  "lookup": "unchanged frozen V/C exact lookup last; disabled for heldout CV exactly as PR3",
+  "physical_and_head_weights_in_original_bundles": true,
+  "prior_constant_control": "PR3 notation_mlm_probability_average_blend50",
+  "fixed_internal_weights": {
+    "S_legacy": 0.5,
+    "S_feature": 0.5,
+    "M_notation": 0.5,
+    "M_MLM": 0.5
+  },
+  "unchanged_limits_and_order": "F uses clip(1-p-zero,0,1), then SI clip0..10000 per expert; common lookup clip0..10000 last"
+}

@@ -1,0 +1,4 @@
+scheme,n,d_only_MSE,sd_MSE,addition_of_s_MSE_reduction,addition_of_s_improvement_pct,interpretation
+primary,320,11402997.978337374,11347877.972501833,55120.00583554059,0.48338170312977047,family-specific regularization selected only inside train; repeated schemes use same molecules
+confirmation6611,320,10328878.133779496,10324321.980892042,4556.152887454256,0.0441108204438323,family-specific regularization selected only inside train; repeated schemes use same molecules
+confirmation6612,320,9928348.2920185,9946379.767950077,-18031.475931577384,-0.18161606947324493,family-specific regularization selected only inside train; repeated schemes use same molecules

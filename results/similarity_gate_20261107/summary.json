@@ -1,0 +1,37 @@
+{
+  "experts_level": "finalSI after original per-expert clipping, before common lookup",
+  "alpha_source": 0.0,
+  "primary_MSE": {
+    "production_M": 11341011.015450314,
+    "expert_S": 17964365.735259123,
+    "fixed50": 13086218.606969198,
+    "prediction_constant": 11413327.068291605,
+    "prediction_s": 11413327.068291605,
+    "prediction_d": 11402997.978337374,
+    "prediction_sd": 11347877.972501833,
+    "prediction_selected": 11349150.846767563
+  },
+  "primary_gate_vs_constant_improvement_pct": 0.5622919692044426,
+  "production_M_max_reproduction_error": 6.366462912410498e-12,
+  "production_S_max_reproduction_error": 1.8189894035458565e-12,
+  "production_pair_different_rows": 401,
+  "source_present_pair_different": 0,
+  "production_candidate_affected": 0,
+  "production_candidate_structures": 0,
+  "production_candidate_scaffolds": 0,
+  "primary_selected_affected": 78,
+  "primary_selected_structures": 77,
+  "primary_selected_scaffolds": 38,
+  "gain_vs_constant_SSE": 20536390.887693204,
+  "largest_positive_gain_SSE": 2163194.2110679774,
+  "gain_without_largest_positive": 18373196.676625226,
+  "scaffold_bootstrap_gain_vs_constant_MSE_CI95": [
+    8480.570530749874,
+    145736.8551705894
+  ],
+  "statistical_acceptance_passed": false,
+  "recommended_wS_constant": 0.0,
+  "new_Kaggle_MSE": null,
+  "known_PR3_Public_MSE": 6327610.34997,
+  "independent_new_data": false
+}

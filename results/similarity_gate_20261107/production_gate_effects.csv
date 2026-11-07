@@ -1,0 +1,6 @@
+method,rows,changed_rows,changed_structures,changed_scaffolds,changed_source_present,changed_source_absent,changed_lookup_rows,max_abs_SI_change
+candidate,597,0,0,0,0,0,0,0.0
+trained_constant,597,0,0,0,0,0,0,0.0
+recommended,597,0,0,0,0,0,0,0.0
+fixed50,597,401,384,142,0,401,0,4450.877980227145
+expert_S,597,401,384,142,0,401,0,8901.75596045429

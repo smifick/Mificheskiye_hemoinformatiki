@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "reference_models_checked": 207,
+  "reference_banks_exact_and_no_validation_overlap": true,
+  "outer_poison_refitted": true,
+  "checked_outer_fold": 1,
+  "checked_spec": {
+    "name": "sd_lambda0.01",
+    "family": "sd",
+    "penalty": 0.01
+  },
+  "outer_poison_selected_specs": {
+    "NaN": {
+      "name": "sd_lambda0.01",
+      "family": "sd",
+      "penalty": 0.01
+    },
+    "large1e12": {
+      "name": "sd_lambda0.01",
+      "family": "sd",
+      "penalty": 0.01
+    }
+  },
+  "outer_poison_prediction_max_error": {
+    "NaN": 2.2737367544323206e-13,
+    "large1e12": 2.2737367544323206e-13
+  },
+  "CLI": {
+    "max_error": {
+      "fallback_clean": 0.0,
+      "fallback_poison_reversed": 1.3642420526593924e-12,
+      "nonzero_clean": 1.8189894035458565e-12,
+      "nonzero_poison_reversed": 1.8189894035458565e-12
+    },
+    "nonzero_test_gate": {
+      "format_version": 1,
+      "spec": {
+        "name": "sd_lambda0.01",
+        "family": "sd",
+        "penalty": 0.01
+      },
+      "family": "sd",
+      "penalty": 0.01,
+      "w0": 0.06282671262423939,
+      "s0": 0.36002756381166207,
+      "d0": 0.1394727135205499,
+      "beta_s": 0.5,
+      "beta_d": -0.5,
+      "disagreement_scale": 10000.0,
+      "alpha_source": 0.0,
+      "training_rows": 261,
+      "optimizer": "deterministic multistart bounded L-BFGS-B",
+      "optimization_starts": 9,
+      "optimizer_converged_starts": 9,
+      "penalized_objective": 0.11961472579328364,
+      "training_MSE": 11954725.13752718,
+      "mean_squared_weight_deviation": 0.006747441801183542
+    },
+    "nonzero_test_rows": 8,
+    "fallback_rows": 597
+  },
+  "production_hashes_unchanged": true,
+  "alpha_source": 0.0,
+  "JSON_roundtrip_exact": true,
+  "lookup_and_source_present_unchanged": true,
+  "IDs_preserved": true,
+  "submission_order_matches_sample": true
+}

@@ -1,0 +1,2537 @@
+[
+  {
+    "scheme": "primary",
+    "fold": 0,
+    "selected_spec": {
+      "name": "sd_lambda0.01",
+      "family": "sd",
+      "penalty": 0.01
+    },
+    "selected_gate": {
+      "format_version": 1,
+      "spec": {
+        "name": "sd_lambda0.01",
+        "family": "sd",
+        "penalty": 0.01
+      },
+      "family": "sd",
+      "penalty": 0.01,
+      "w0": 0.0,
+      "s0": 0.3590964546323067,
+      "d0": 0.16509535738463063,
+      "beta_s": 0.3557378739702861,
+      "beta_d": -0.5,
+      "disagreement_scale": 10000.0,
+      "alpha_source": 0.0,
+      "training_rows": 261,
+      "optimizer": "deterministic multistart bounded L-BFGS-B",
+      "optimization_starts": 9,
+      "optimizer_converged_starts": 9,
+      "penalized_objective": 0.0942063108072118,
+      "training_MSE": 9417089.400310377,
+      "mean_squared_weight_deviation": 0.0035416804108005717
+    },
+    "family_gates": {
+      "constant": {
+        "format_version": 1,
+        "spec": {
+          "name": "constant",
+          "family": "constant",
+          "penalty": 0.0
+        },
+        "family": "constant",
+        "penalty": 0.0,
+        "w0": 0.0,
+        "s0": 0.3590964546323067,
+        "d0": 0.16509535738463063,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 261,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 0,
+        "optimizer_converged_starts": 0,
+        "penalized_objective": 0.09435152125885872,
+        "training_MSE": 9435152.125885874,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "s": {
+        "format_version": 1,
+        "spec": {
+          "name": "s_lambda1",
+          "family": "s",
+          "penalty": 1.0
+        },
+        "family": "s",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.3590964546323067,
+        "d0": 0.16509535738463063,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 261,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.09435152125885872,
+        "training_MSE": 9435152.125885874,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "d": {
+        "format_version": 1,
+        "spec": {
+          "name": "d_lambda1",
+          "family": "d",
+          "penalty": 1.0
+        },
+        "family": "d",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.3590964546323067,
+        "d0": 0.16509535738463063,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 261,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.09435152125885872,
+        "training_MSE": 9435152.125885874,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "sd": {
+        "format_version": 1,
+        "spec": {
+          "name": "sd_lambda0.01",
+          "family": "sd",
+          "penalty": 0.01
+        },
+        "family": "sd",
+        "penalty": 0.01,
+        "w0": 0.0,
+        "s0": 0.3590964546323067,
+        "d0": 0.16509535738463063,
+        "beta_s": 0.3557378739702861,
+        "beta_d": -0.5,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 261,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 9,
+        "optimizer_converged_starts": 9,
+        "penalized_objective": 0.0942063108072118,
+        "training_MSE": 9417089.400310377,
+        "mean_squared_weight_deviation": 0.0035416804108005717
+      }
+    },
+    "family_specs": {
+      "constant": {
+        "name": "constant",
+        "family": "constant",
+        "penalty": 0.0
+      },
+      "s": {
+        "name": "s_lambda1",
+        "family": "s",
+        "penalty": 1.0
+      },
+      "d": {
+        "name": "d_lambda1",
+        "family": "d",
+        "penalty": 1.0
+      },
+      "sd": {
+        "name": "sd_lambda0.01",
+        "family": "sd",
+        "penalty": 0.01
+      }
+    },
+    "inner_MSE": {
+      "constant": 9435152.125885874,
+      "s_lambda0.01": 9435152.125885874,
+      "s_lambda0.1": 9435152.125885874,
+      "s_lambda1": 9435152.125885874,
+      "d_lambda0.01": 9453227.177931584,
+      "d_lambda0.1": 9449386.314118655,
+      "d_lambda1": 9439160.922292877,
+      "sd_lambda0.01": 9427266.140129188,
+      "sd_lambda0.1": 9449455.922794009,
+      "sd_lambda1": 9439166.716792092
+    },
+    "n": 59,
+    "production_M_MSE": 19047832.36057665,
+    "constant_MSE": 19047832.36057665,
+    "selected_MSE": 19003365.598898966
+  },
+  {
+    "scheme": "primary",
+    "fold": 1,
+    "selected_spec": {
+      "name": "sd_lambda0.01",
+      "family": "sd",
+      "penalty": 0.01
+    },
+    "selected_gate": {
+      "format_version": 1,
+      "spec": {
+        "name": "sd_lambda0.01",
+        "family": "sd",
+        "penalty": 0.01
+      },
+      "family": "sd",
+      "penalty": 0.01,
+      "w0": 0.06282671262423939,
+      "s0": 0.36002756381166207,
+      "d0": 0.1394727135205499,
+      "beta_s": 0.5,
+      "beta_d": -0.5,
+      "disagreement_scale": 10000.0,
+      "alpha_source": 0.0,
+      "training_rows": 261,
+      "optimizer": "deterministic multistart bounded L-BFGS-B",
+      "optimization_starts": 9,
+      "optimizer_converged_starts": 9,
+      "penalized_objective": 0.11961472579328364,
+      "training_MSE": 11954725.13752718,
+      "mean_squared_weight_deviation": 0.006747441801183542
+    },
+    "family_gates": {
+      "constant": {
+        "format_version": 1,
+        "spec": {
+          "name": "constant",
+          "family": "constant",
+          "penalty": 0.0
+        },
+        "family": "constant",
+        "penalty": 0.0,
+        "w0": 0.06282671262423939,
+        "s0": 0.36002756381166207,
+        "d0": 0.1394727135205499,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 261,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 0,
+        "optimizer_converged_starts": 0,
+        "penalized_objective": 0.11993356854663716,
+        "training_MSE": 11993356.854663715,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "s": {
+        "format_version": 1,
+        "spec": {
+          "name": "s_lambda1",
+          "family": "s",
+          "penalty": 1.0
+        },
+        "family": "s",
+        "penalty": 1.0,
+        "w0": 0.06282671262423939,
+        "s0": 0.36002756381166207,
+        "d0": 0.1394727135205499,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 261,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.11993356854663716,
+        "training_MSE": 11993356.854663715,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "d": {
+        "format_version": 1,
+        "spec": {
+          "name": "d_lambda0.01",
+          "family": "d",
+          "penalty": 0.01
+        },
+        "family": "d",
+        "penalty": 0.01,
+        "w0": 0.06282671262423939,
+        "s0": 0.36002756381166207,
+        "d0": 0.1394727135205499,
+        "beta_s": 0.0,
+        "beta_d": -0.03657279187714583,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 261,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.11992558140060801,
+        "training_MSE": 11992522.500886079,
+        "mean_squared_weight_deviation": 3.5639174720539024e-05
+      },
+      "sd": {
+        "format_version": 1,
+        "spec": {
+          "name": "sd_lambda0.01",
+          "family": "sd",
+          "penalty": 0.01
+        },
+        "family": "sd",
+        "penalty": 0.01,
+        "w0": 0.06282671262423939,
+        "s0": 0.36002756381166207,
+        "d0": 0.1394727135205499,
+        "beta_s": 0.5,
+        "beta_d": -0.5,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 261,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 9,
+        "optimizer_converged_starts": 9,
+        "penalized_objective": 0.11961472579328364,
+        "training_MSE": 11954725.13752718,
+        "mean_squared_weight_deviation": 0.006747441801183542
+      }
+    },
+    "family_specs": {
+      "constant": {
+        "name": "constant",
+        "family": "constant",
+        "penalty": 0.0
+      },
+      "s": {
+        "name": "s_lambda1",
+        "family": "s",
+        "penalty": 1.0
+      },
+      "d": {
+        "name": "d_lambda0.01",
+        "family": "d",
+        "penalty": 0.01
+      },
+      "sd": {
+        "name": "sd_lambda0.01",
+        "family": "sd",
+        "penalty": 0.01
+      }
+    },
+    "inner_MSE": {
+      "constant": 12041216.94398904,
+      "s_lambda0.01": 12041216.94398904,
+      "s_lambda0.1": 12041216.94398904,
+      "s_lambda1": 12041216.94398904,
+      "d_lambda0.01": 12030227.575663667,
+      "d_lambda0.1": 12032720.850787286,
+      "d_lambda1": 12038804.861747844,
+      "sd_lambda0.01": 11978547.996442894,
+      "sd_lambda0.1": 12032197.810444452,
+      "sd_lambda1": 12038717.247659486
+    },
+    "n": 59,
+    "production_M_MSE": 5870875.774775831,
+    "constant_MSE": 6263098.434254035,
+    "selected_MSE": 5961953.988695394
+  },
+  {
+    "scheme": "primary",
+    "fold": 2,
+    "selected_spec": {
+      "name": "constant",
+      "family": "constant",
+      "penalty": 0.0
+    },
+    "selected_gate": {
+      "format_version": 1,
+      "spec": {
+        "name": "constant",
+        "family": "constant",
+        "penalty": 0.0
+      },
+      "family": "constant",
+      "penalty": 0.0,
+      "w0": 0.0,
+      "s0": 0.39325243203304766,
+      "d0": 0.1813109094313963,
+      "beta_s": 0.0,
+      "beta_d": 0.0,
+      "disagreement_scale": 10000.0,
+      "alpha_source": 0.0,
+      "training_rows": 266,
+      "optimizer": "deterministic multistart bounded L-BFGS-B",
+      "optimization_starts": 0,
+      "optimizer_converged_starts": 0,
+      "penalized_objective": 0.10928673133774888,
+      "training_MSE": 10928673.13377489,
+      "mean_squared_weight_deviation": 0.0
+    },
+    "family_gates": {
+      "constant": {
+        "format_version": 1,
+        "spec": {
+          "name": "constant",
+          "family": "constant",
+          "penalty": 0.0
+        },
+        "family": "constant",
+        "penalty": 0.0,
+        "w0": 0.0,
+        "s0": 0.39325243203304766,
+        "d0": 0.1813109094313963,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 266,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 0,
+        "optimizer_converged_starts": 0,
+        "penalized_objective": 0.10928673133774888,
+        "training_MSE": 10928673.13377489,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "s": {
+        "format_version": 1,
+        "spec": {
+          "name": "s_lambda1",
+          "family": "s",
+          "penalty": 1.0
+        },
+        "family": "s",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.39325243203304766,
+        "d0": 0.1813109094313963,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 266,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.10928673133774888,
+        "training_MSE": 10928673.13377489,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "d": {
+        "format_version": 1,
+        "spec": {
+          "name": "d_lambda1",
+          "family": "d",
+          "penalty": 1.0
+        },
+        "family": "d",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.39325243203304766,
+        "d0": 0.1813109094313963,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 266,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.10928673133774888,
+        "training_MSE": 10928673.13377489,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "sd": {
+        "format_version": 1,
+        "spec": {
+          "name": "sd_lambda1",
+          "family": "sd",
+          "penalty": 1.0
+        },
+        "family": "sd",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.39325243203304766,
+        "d0": 0.1813109094313963,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 266,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 9,
+        "optimizer_converged_starts": 9,
+        "penalized_objective": 0.10928673133774888,
+        "training_MSE": 10928673.13377489,
+        "mean_squared_weight_deviation": 0.0
+      }
+    },
+    "family_specs": {
+      "constant": {
+        "name": "constant",
+        "family": "constant",
+        "penalty": 0.0
+      },
+      "s": {
+        "name": "s_lambda1",
+        "family": "s",
+        "penalty": 1.0
+      },
+      "d": {
+        "name": "d_lambda1",
+        "family": "d",
+        "penalty": 1.0
+      },
+      "sd": {
+        "name": "sd_lambda1",
+        "family": "sd",
+        "penalty": 1.0
+      }
+    },
+    "inner_MSE": {
+      "constant": 11051615.79944507,
+      "s_lambda0.01": 11051615.79944507,
+      "s_lambda0.1": 11051615.79944507,
+      "s_lambda1": 11051615.79944507,
+      "d_lambda0.01": 11178343.266091319,
+      "d_lambda0.1": 11136263.05165208,
+      "d_lambda1": 11067216.787302403,
+      "sd_lambda0.01": 11178343.265705133,
+      "sd_lambda0.1": 11136263.051499963,
+      "sd_lambda1": 11067216.7873024
+    },
+    "n": 54,
+    "production_M_MSE": 5692117.930303741,
+    "constant_MSE": 5692117.930303741,
+    "selected_MSE": 5692117.930303741
+  },
+  {
+    "scheme": "primary",
+    "fold": 3,
+    "selected_spec": {
+      "name": "d_lambda0.01",
+      "family": "d",
+      "penalty": 0.01
+    },
+    "selected_gate": {
+      "format_version": 1,
+      "spec": {
+        "name": "d_lambda0.01",
+        "family": "d",
+        "penalty": 0.01
+      },
+      "family": "d",
+      "penalty": 0.01,
+      "w0": 0.0,
+      "s0": 0.33707865891675554,
+      "d0": 0.17833939408249028,
+      "beta_s": 0.0,
+      "beta_d": -0.5,
+      "disagreement_scale": 10000.0,
+      "alpha_source": 0.0,
+      "training_rows": 218,
+      "optimizer": "deterministic multistart bounded L-BFGS-B",
+      "optimization_starts": 3,
+      "optimizer_converged_starts": 3,
+      "penalized_objective": 0.0903511384599658,
+      "training_MSE": 9031884.212542059,
+      "mean_squared_weight_deviation": 0.003229633454521773
+    },
+    "family_gates": {
+      "constant": {
+        "format_version": 1,
+        "spec": {
+          "name": "constant",
+          "family": "constant",
+          "penalty": 0.0
+        },
+        "family": "constant",
+        "penalty": 0.0,
+        "w0": 0.0,
+        "s0": 0.33707865891675554,
+        "d0": 0.17833939408249028,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 218,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 0,
+        "optimizer_converged_starts": 0,
+        "penalized_objective": 0.09049935160653018,
+        "training_MSE": 9049935.16065302,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "s": {
+        "format_version": 1,
+        "spec": {
+          "name": "s_lambda1",
+          "family": "s",
+          "penalty": 1.0
+        },
+        "family": "s",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.33707865891675554,
+        "d0": 0.17833939408249028,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 218,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.09049935160653018,
+        "training_MSE": 9049935.16065302,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "d": {
+        "format_version": 1,
+        "spec": {
+          "name": "d_lambda0.01",
+          "family": "d",
+          "penalty": 0.01
+        },
+        "family": "d",
+        "penalty": 0.01,
+        "w0": 0.0,
+        "s0": 0.33707865891675554,
+        "d0": 0.17833939408249028,
+        "beta_s": 0.0,
+        "beta_d": -0.5,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 218,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.0903511384599658,
+        "training_MSE": 9031884.212542059,
+        "mean_squared_weight_deviation": 0.003229633454521773
+      },
+      "sd": {
+        "format_version": 1,
+        "spec": {
+          "name": "sd_lambda0.01",
+          "family": "sd",
+          "penalty": 0.01
+        },
+        "family": "sd",
+        "penalty": 0.01,
+        "w0": 0.0,
+        "s0": 0.33707865891675554,
+        "d0": 0.17833939408249028,
+        "beta_s": 0.27397925925722466,
+        "beta_d": -0.5,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 218,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 9,
+        "optimizer_converged_starts": 9,
+        "penalized_objective": 0.09022965419902484,
+        "training_MSE": 9019486.260943906,
+        "mean_squared_weight_deviation": 0.0034791589585778386
+      }
+    },
+    "family_specs": {
+      "constant": {
+        "name": "constant",
+        "family": "constant",
+        "penalty": 0.0
+      },
+      "s": {
+        "name": "s_lambda1",
+        "family": "s",
+        "penalty": 1.0
+      },
+      "d": {
+        "name": "d_lambda0.01",
+        "family": "d",
+        "penalty": 0.01
+      },
+      "sd": {
+        "name": "sd_lambda0.01",
+        "family": "sd",
+        "penalty": 0.01
+      }
+    },
+    "inner_MSE": {
+      "constant": 9049935.16065302,
+      "s_lambda0.01": 9049935.16065302,
+      "s_lambda0.1": 9049935.16065302,
+      "s_lambda1": 9049935.16065302,
+      "d_lambda0.01": 9038456.036040528,
+      "d_lambda0.1": 9046713.973483935,
+      "d_lambda1": 9049609.818578571,
+      "sd_lambda0.01": 9044326.426946204,
+      "sd_lambda0.1": 9047210.699605217,
+      "sd_lambda1": 9049666.847618377
+    },
+    "n": 102,
+    "production_M_MSE": 14892449.350988748,
+    "constant_MSE": 14892449.350988748,
+    "selected_MSE": 14891024.550393157
+  },
+  {
+    "scheme": "primary",
+    "fold": 4,
+    "selected_spec": {
+      "name": "constant",
+      "family": "constant",
+      "penalty": 0.0
+    },
+    "selected_gate": {
+      "format_version": 1,
+      "spec": {
+        "name": "constant",
+        "family": "constant",
+        "penalty": 0.0
+      },
+      "family": "constant",
+      "penalty": 0.0,
+      "w0": 0.0,
+      "s0": 0.40123860997603605,
+      "d0": 0.15962591897317802,
+      "beta_s": 0.0,
+      "beta_d": 0.0,
+      "disagreement_scale": 10000.0,
+      "alpha_source": 0.0,
+      "training_rows": 274,
+      "optimizer": "deterministic multistart bounded L-BFGS-B",
+      "optimization_starts": 0,
+      "optimizer_converged_starts": 0,
+      "penalized_objective": 0.10360471461235175,
+      "training_MSE": 10360471.461235177,
+      "mean_squared_weight_deviation": 0.0
+    },
+    "family_gates": {
+      "constant": {
+        "format_version": 1,
+        "spec": {
+          "name": "constant",
+          "family": "constant",
+          "penalty": 0.0
+        },
+        "family": "constant",
+        "penalty": 0.0,
+        "w0": 0.0,
+        "s0": 0.40123860997603605,
+        "d0": 0.15962591897317802,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 274,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 0,
+        "optimizer_converged_starts": 0,
+        "penalized_objective": 0.10360471461235175,
+        "training_MSE": 10360471.461235177,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "s": {
+        "format_version": 1,
+        "spec": {
+          "name": "s_lambda1",
+          "family": "s",
+          "penalty": 1.0
+        },
+        "family": "s",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.40123860997603605,
+        "d0": 0.15962591897317802,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 274,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.10360471461235175,
+        "training_MSE": 10360471.461235177,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "d": {
+        "format_version": 1,
+        "spec": {
+          "name": "d_lambda1",
+          "family": "d",
+          "penalty": 1.0
+        },
+        "family": "d",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.40123860997603605,
+        "d0": 0.15962591897317802,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 274,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.10360471461235175,
+        "training_MSE": 10360471.461235177,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "sd": {
+        "format_version": 1,
+        "spec": {
+          "name": "sd_lambda1",
+          "family": "sd",
+          "penalty": 1.0
+        },
+        "family": "sd",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.40123860997603605,
+        "d0": 0.15962591897317802,
+        "beta_s": 0.0007908851275891308,
+        "beta_d": -0.0015116690502465424,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 274,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 9,
+        "optimizer_converged_starts": 9,
+        "penalized_objective": 0.10360468536348072,
+        "training_MSE": 10360465.624422392,
+        "mean_squared_weight_deviation": 2.9119256805726145e-08
+      }
+    },
+    "family_specs": {
+      "constant": {
+        "name": "constant",
+        "family": "constant",
+        "penalty": 0.0
+      },
+      "s": {
+        "name": "s_lambda1",
+        "family": "s",
+        "penalty": 1.0
+      },
+      "d": {
+        "name": "d_lambda1",
+        "family": "d",
+        "penalty": 1.0
+      },
+      "sd": {
+        "name": "sd_lambda1",
+        "family": "sd",
+        "penalty": 1.0
+      }
+    },
+    "inner_MSE": {
+      "constant": 10508862.967741026,
+      "s_lambda0.01": 10508862.967741026,
+      "s_lambda0.1": 10508862.967741026,
+      "s_lambda1": 10508862.967741026,
+      "d_lambda0.01": 10531104.659662955,
+      "d_lambda0.1": 10522775.047022639,
+      "d_lambda1": 10511794.160012249,
+      "sd_lambda0.01": 10534978.606919274,
+      "sd_lambda0.1": 10523317.913324418,
+      "sd_lambda1": 10511849.448021136
+    },
+    "n": 46,
+    "production_M_MSE": 7228598.759153243,
+    "constant_MSE": 7228598.759153243,
+    "selected_MSE": 7228598.759153243
+  },
+  {
+    "scheme": "confirmation6611",
+    "fold": 0,
+    "selected_spec": {
+      "name": "d_lambda0.1",
+      "family": "d",
+      "penalty": 0.1
+    },
+    "selected_gate": {
+      "format_version": 1,
+      "spec": {
+        "name": "d_lambda0.1",
+        "family": "d",
+        "penalty": 0.1
+      },
+      "family": "d",
+      "penalty": 0.1,
+      "w0": 0.0,
+      "s0": 0.39888489002342825,
+      "d0": 0.1792876610011489,
+      "beta_s": 0.0,
+      "beta_d": -0.073606464064257,
+      "disagreement_scale": 10000.0,
+      "alpha_source": 0.0,
+      "training_rows": 267,
+      "optimizer": "deterministic multistart bounded L-BFGS-B",
+      "optimization_starts": 3,
+      "optimizer_converged_starts": 3,
+      "penalized_objective": 0.1068855028133684,
+      "training_MSE": 10687866.600191383,
+      "mean_squared_weight_deviation": 6.836811454563485e-05
+    },
+    "family_gates": {
+      "constant": {
+        "format_version": 1,
+        "spec": {
+          "name": "constant",
+          "family": "constant",
+          "penalty": 0.0
+        },
+        "family": "constant",
+        "penalty": 0.0,
+        "w0": 0.0,
+        "s0": 0.39888489002342825,
+        "d0": 0.1792876610011489,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 267,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 0,
+        "optimizer_converged_starts": 0,
+        "penalized_objective": 0.10689239494934233,
+        "training_MSE": 10689239.494934233,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "s": {
+        "format_version": 1,
+        "spec": {
+          "name": "s_lambda1",
+          "family": "s",
+          "penalty": 1.0
+        },
+        "family": "s",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.39888489002342825,
+        "d0": 0.1792876610011489,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 267,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.10689239494934233,
+        "training_MSE": 10689239.494934233,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "d": {
+        "format_version": 1,
+        "spec": {
+          "name": "d_lambda0.1",
+          "family": "d",
+          "penalty": 0.1
+        },
+        "family": "d",
+        "penalty": 0.1,
+        "w0": 0.0,
+        "s0": 0.39888489002342825,
+        "d0": 0.1792876610011489,
+        "beta_s": 0.0,
+        "beta_d": -0.073606464064257,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 267,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.1068855028133684,
+        "training_MSE": 10687866.600191383,
+        "mean_squared_weight_deviation": 6.836811454563485e-05
+      },
+      "sd": {
+        "format_version": 1,
+        "spec": {
+          "name": "sd_lambda1",
+          "family": "sd",
+          "penalty": 1.0
+        },
+        "family": "sd",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.39888489002342825,
+        "d0": 0.1792876610011489,
+        "beta_s": 0.0027436633364534293,
+        "beta_d": -0.008179969280298242,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 267,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 9,
+        "optimizer_converged_starts": 9,
+        "penalized_objective": 0.10689156674103605,
+        "training_MSE": 10689073.845986705,
+        "mean_squared_weight_deviation": 8.282811689876285e-07
+      }
+    },
+    "family_specs": {
+      "constant": {
+        "name": "constant",
+        "family": "constant",
+        "penalty": 0.0
+      },
+      "s": {
+        "name": "s_lambda1",
+        "family": "s",
+        "penalty": 1.0
+      },
+      "d": {
+        "name": "d_lambda0.1",
+        "family": "d",
+        "penalty": 0.1
+      },
+      "sd": {
+        "name": "sd_lambda1",
+        "family": "sd",
+        "penalty": 1.0
+      }
+    },
+    "inner_MSE": {
+      "constant": 10689239.494934233,
+      "s_lambda0.01": 10841166.129303489,
+      "s_lambda0.1": 10740673.069805406,
+      "s_lambda1": 10695365.304617448,
+      "d_lambda0.01": 10689344.134531453,
+      "d_lambda0.1": 10688960.466336997,
+      "d_lambda1": 10689210.956784628,
+      "sd_lambda0.01": 10820359.098996129,
+      "sd_lambda0.1": 10743324.511046495,
+      "sd_lambda1": 10696496.70619852
+    },
+    "n": 53,
+    "production_M_MSE": 12923229.076086532,
+    "constant_MSE": 12923229.076086532,
+    "selected_MSE": 12924660.35844724
+  },
+  {
+    "scheme": "confirmation6611",
+    "fold": 1,
+    "selected_spec": {
+      "name": "constant",
+      "family": "constant",
+      "penalty": 0.0
+    },
+    "selected_gate": {
+      "format_version": 1,
+      "spec": {
+        "name": "constant",
+        "family": "constant",
+        "penalty": 0.0
+      },
+      "family": "constant",
+      "penalty": 0.0,
+      "w0": 0.07030583137670861,
+      "s0": 0.37541308214465285,
+      "d0": 0.13688308114892528,
+      "beta_s": 0.0,
+      "beta_d": 0.0,
+      "disagreement_scale": 10000.0,
+      "alpha_source": 0.0,
+      "training_rows": 259,
+      "optimizer": "deterministic multistart bounded L-BFGS-B",
+      "optimization_starts": 0,
+      "optimizer_converged_starts": 0,
+      "penalized_objective": 0.11890854567173555,
+      "training_MSE": 11890854.567173554,
+      "mean_squared_weight_deviation": 0.0
+    },
+    "family_gates": {
+      "constant": {
+        "format_version": 1,
+        "spec": {
+          "name": "constant",
+          "family": "constant",
+          "penalty": 0.0
+        },
+        "family": "constant",
+        "penalty": 0.0,
+        "w0": 0.07030583137670861,
+        "s0": 0.37541308214465285,
+        "d0": 0.13688308114892528,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 259,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 0,
+        "optimizer_converged_starts": 0,
+        "penalized_objective": 0.11890854567173555,
+        "training_MSE": 11890854.567173554,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "s": {
+        "format_version": 1,
+        "spec": {
+          "name": "s_lambda1",
+          "family": "s",
+          "penalty": 1.0
+        },
+        "family": "s",
+        "penalty": 1.0,
+        "w0": 0.07030583137670861,
+        "s0": 0.37541308214465285,
+        "d0": 0.13688308114892528,
+        "beta_s": 0.010291104265555604,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 259,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.11890589998350842,
+        "training_MSE": 11890336.493274938,
+        "mean_squared_weight_deviation": 2.5350507590425154e-06
+      },
+      "d": {
+        "format_version": 1,
+        "spec": {
+          "name": "d_lambda1",
+          "family": "d",
+          "penalty": 1.0
+        },
+        "family": "d",
+        "penalty": 1.0,
+        "w0": 0.07030583137670861,
+        "s0": 0.37541308214465285,
+        "d0": 0.13688308114892528,
+        "beta_s": 0.0,
+        "beta_d": 0.0021616004377613646,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 259,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.11890838308566319,
+        "training_MSE": 11890824.864016596,
+        "mean_squared_weight_deviation": 1.344454972559696e-07
+      },
+      "sd": {
+        "format_version": 1,
+        "spec": {
+          "name": "sd_lambda1",
+          "family": "sd",
+          "penalty": 1.0
+        },
+        "family": "sd",
+        "penalty": 1.0,
+        "w0": 0.07030583137670861,
+        "s0": 0.37541308214465285,
+        "d0": 0.13688308114892528,
+        "beta_s": 0.01013480624606329,
+        "beta_d": 0.0009050092688959557,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 259,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 9,
+        "optimizer_converged_starts": 9,
+        "penalized_objective": 0.11890587209420178,
+        "training_MSE": 11890332.357878566,
+        "mean_squared_weight_deviation": 2.548515416139387e-06
+      }
+    },
+    "family_specs": {
+      "constant": {
+        "name": "constant",
+        "family": "constant",
+        "penalty": 0.0
+      },
+      "s": {
+        "name": "s_lambda1",
+        "family": "s",
+        "penalty": 1.0
+      },
+      "d": {
+        "name": "d_lambda1",
+        "family": "d",
+        "penalty": 1.0
+      },
+      "sd": {
+        "name": "sd_lambda1",
+        "family": "sd",
+        "penalty": 1.0
+      }
+    },
+    "inner_MSE": {
+      "constant": 12129041.999051401,
+      "s_lambda0.01": 12193427.295214165,
+      "s_lambda0.1": 12147766.867481504,
+      "s_lambda1": 12131349.020052902,
+      "d_lambda0.01": 12419604.63948035,
+      "d_lambda0.1": 12335483.673129078,
+      "d_lambda1": 12164255.638764981,
+      "sd_lambda0.01": 12436497.571653623,
+      "sd_lambda0.1": 12334067.184026033,
+      "sd_lambda1": 12164166.38187613
+    },
+    "n": 61,
+    "production_M_MSE": 9901222.07333793,
+    "constant_MSE": 10319262.712542672,
+    "selected_MSE": 10319262.712542672
+  },
+  {
+    "scheme": "confirmation6611",
+    "fold": 2,
+    "selected_spec": {
+      "name": "d_lambda0.01",
+      "family": "d",
+      "penalty": 0.01
+    },
+    "selected_gate": {
+      "format_version": 1,
+      "spec": {
+        "name": "d_lambda0.01",
+        "family": "d",
+        "penalty": 0.01
+      },
+      "family": "d",
+      "penalty": 0.01,
+      "w0": 0.0,
+      "s0": 0.3637193903378436,
+      "d0": 0.16229771943840815,
+      "beta_s": 0.0,
+      "beta_d": -0.0363049825006462,
+      "disagreement_scale": 10000.0,
+      "alpha_source": 0.0,
+      "training_rows": 266,
+      "optimizer": "deterministic multistart bounded L-BFGS-B",
+      "optimization_starts": 3,
+      "optimizer_converged_starts": 3,
+      "penalized_objective": 0.11009237968794008,
+      "training_MSE": 11009225.318465356,
+      "mean_squared_weight_deviation": 1.2650328656219114e-05
+    },
+    "family_gates": {
+      "constant": {
+        "format_version": 1,
+        "spec": {
+          "name": "constant",
+          "family": "constant",
+          "penalty": 0.0
+        },
+        "family": "constant",
+        "penalty": 0.0,
+        "w0": 0.0,
+        "s0": 0.3637193903378436,
+        "d0": 0.16229771943840815,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 266,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 0,
+        "optimizer_converged_starts": 0,
+        "penalized_objective": 0.11009251710201635,
+        "training_MSE": 11009251.71020164,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "s": {
+        "format_version": 1,
+        "spec": {
+          "name": "s_lambda1",
+          "family": "s",
+          "penalty": 1.0
+        },
+        "family": "s",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.3637193903378436,
+        "d0": 0.16229771943840815,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 266,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.11009251710201635,
+        "training_MSE": 11009251.71020164,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "d": {
+        "format_version": 1,
+        "spec": {
+          "name": "d_lambda0.01",
+          "family": "d",
+          "penalty": 0.01
+        },
+        "family": "d",
+        "penalty": 0.01,
+        "w0": 0.0,
+        "s0": 0.3637193903378436,
+        "d0": 0.16229771943840815,
+        "beta_s": 0.0,
+        "beta_d": -0.0363049825006462,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 266,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.11009237968794008,
+        "training_MSE": 11009225.318465356,
+        "mean_squared_weight_deviation": 1.2650328656219114e-05
+      },
+      "sd": {
+        "format_version": 1,
+        "spec": {
+          "name": "sd_lambda0.01",
+          "family": "sd",
+          "penalty": 0.01
+        },
+        "family": "sd",
+        "penalty": 0.01,
+        "w0": 0.0,
+        "s0": 0.3637193903378436,
+        "d0": 0.16229771943840815,
+        "beta_s": 0.19100225595196937,
+        "beta_d": -0.3785497716635977,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 266,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 9,
+        "optimizer_converged_starts": 9,
+        "penalized_objective": 0.1100687420056535,
+        "training_MSE": 11005166.86184989,
+        "mean_squared_weight_deviation": 0.0017073387154640403
+      }
+    },
+    "family_specs": {
+      "constant": {
+        "name": "constant",
+        "family": "constant",
+        "penalty": 0.0
+      },
+      "s": {
+        "name": "s_lambda1",
+        "family": "s",
+        "penalty": 1.0
+      },
+      "d": {
+        "name": "d_lambda0.01",
+        "family": "d",
+        "penalty": 0.01
+      },
+      "sd": {
+        "name": "sd_lambda0.01",
+        "family": "sd",
+        "penalty": 0.01
+      }
+    },
+    "inner_MSE": {
+      "constant": 11196512.189648332,
+      "s_lambda0.01": 11196512.189648332,
+      "s_lambda0.1": 11196512.189648332,
+      "s_lambda1": 11196512.189648332,
+      "d_lambda0.01": 11112226.061304213,
+      "d_lambda0.1": 11134142.428913916,
+      "d_lambda1": 11181874.82041178,
+      "sd_lambda0.01": 11125382.235009236,
+      "sd_lambda0.1": 11137162.560146466,
+      "sd_lambda1": 11182203.719732514
+    },
+    "n": 54,
+    "production_M_MSE": 3922503.2987667792,
+    "constant_MSE": 3922503.2987667792,
+    "selected_MSE": 3922328.8505504737
+  },
+  {
+    "scheme": "confirmation6611",
+    "fold": 3,
+    "selected_spec": {
+      "name": "d_lambda0.01",
+      "family": "d",
+      "penalty": 0.01
+    },
+    "selected_gate": {
+      "format_version": 1,
+      "spec": {
+        "name": "d_lambda0.01",
+        "family": "d",
+        "penalty": 0.01
+      },
+      "family": "d",
+      "penalty": 0.01,
+      "w0": 0.052306668836247835,
+      "s0": 0.3494755222431102,
+      "d0": 0.1682154264799495,
+      "beta_s": 0.0,
+      "beta_d": -0.5,
+      "disagreement_scale": 10000.0,
+      "alpha_source": 0.0,
+      "training_rows": 235,
+      "optimizer": "deterministic multistart bounded L-BFGS-B",
+      "optimization_starts": 3,
+      "optimizer_converged_starts": 3,
+      "penalized_objective": 0.10591934809159137,
+      "training_MSE": 10588537.015333107,
+      "mean_squared_weight_deviation": 0.003397793826025991
+    },
+    "family_gates": {
+      "constant": {
+        "format_version": 1,
+        "spec": {
+          "name": "constant",
+          "family": "constant",
+          "penalty": 0.0
+        },
+        "family": "constant",
+        "penalty": 0.0,
+        "w0": 0.052306668836247835,
+        "s0": 0.3494755222431102,
+        "d0": 0.1682154264799495,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 235,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 0,
+        "optimizer_converged_starts": 0,
+        "penalized_objective": 0.10612763134355706,
+        "training_MSE": 10612763.134355707,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "s": {
+        "format_version": 1,
+        "spec": {
+          "name": "s_lambda1",
+          "family": "s",
+          "penalty": 1.0
+        },
+        "family": "s",
+        "penalty": 1.0,
+        "w0": 0.052306668836247835,
+        "s0": 0.3494755222431102,
+        "d0": 0.1682154264799495,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 235,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.10612763134355706,
+        "training_MSE": 10612763.134355707,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "d": {
+        "format_version": 1,
+        "spec": {
+          "name": "d_lambda0.01",
+          "family": "d",
+          "penalty": 0.01
+        },
+        "family": "d",
+        "penalty": 0.01,
+        "w0": 0.052306668836247835,
+        "s0": 0.3494755222431102,
+        "d0": 0.1682154264799495,
+        "beta_s": 0.0,
+        "beta_d": -0.5,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 235,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.10591934809159137,
+        "training_MSE": 10588537.015333107,
+        "mean_squared_weight_deviation": 0.003397793826025991
+      },
+      "sd": {
+        "format_version": 1,
+        "spec": {
+          "name": "sd_lambda0.01",
+          "family": "sd",
+          "penalty": 0.01
+        },
+        "family": "sd",
+        "penalty": 0.01,
+        "w0": 0.052306668836247835,
+        "s0": 0.3494755222431102,
+        "d0": 0.1682154264799495,
+        "beta_s": 0.0,
+        "beta_d": -0.15428807214014614,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 235,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 9,
+        "optimizer_converged_starts": 9,
+        "penalized_objective": 0.10580453974542288,
+        "training_MSE": 10579853.093924282,
+        "mean_squared_weight_deviation": 0.0006008806180044048
+      }
+    },
+    "family_specs": {
+      "constant": {
+        "name": "constant",
+        "family": "constant",
+        "penalty": 0.0
+      },
+      "s": {
+        "name": "s_lambda1",
+        "family": "s",
+        "penalty": 1.0
+      },
+      "d": {
+        "name": "d_lambda0.01",
+        "family": "d",
+        "penalty": 0.01
+      },
+      "sd": {
+        "name": "sd_lambda0.01",
+        "family": "sd",
+        "penalty": 0.01
+      }
+    },
+    "inner_MSE": {
+      "constant": 10616081.918830734,
+      "s_lambda0.01": 10616081.918830734,
+      "s_lambda0.1": 10616081.918830734,
+      "s_lambda1": 10616081.918830734,
+      "d_lambda0.01": 10600189.960010655,
+      "d_lambda0.1": 10601345.03095417,
+      "d_lambda1": 10610319.99571605,
+      "sd_lambda0.01": 10600189.960010642,
+      "sd_lambda0.1": 10601345.030954175,
+      "sd_lambda1": 10610319.99571605
+    },
+    "n": 85,
+    "production_M_MSE": 16627926.062341124,
+    "constant_MSE": 16817377.735724814,
+    "selected_MSE": 16652235.530936185
+  },
+  {
+    "scheme": "confirmation6611",
+    "fold": 4,
+    "selected_spec": {
+      "name": "constant",
+      "family": "constant",
+      "penalty": 0.0
+    },
+    "selected_gate": {
+      "format_version": 1,
+      "spec": {
+        "name": "constant",
+        "family": "constant",
+        "penalty": 0.0
+      },
+      "family": "constant",
+      "penalty": 0.0,
+      "w0": 0.0,
+      "s0": 0.3914330414116224,
+      "d0": 0.18280087579398205,
+      "beta_s": 0.0,
+      "beta_d": 0.0,
+      "disagreement_scale": 10000.0,
+      "alpha_source": 0.0,
+      "training_rows": 253,
+      "optimizer": "deterministic multistart bounded L-BFGS-B",
+      "optimization_starts": 0,
+      "optimizer_converged_starts": 0,
+      "penalized_objective": 0.11665937181293437,
+      "training_MSE": 11665937.18129344,
+      "mean_squared_weight_deviation": 0.0
+    },
+    "family_gates": {
+      "constant": {
+        "format_version": 1,
+        "spec": {
+          "name": "constant",
+          "family": "constant",
+          "penalty": 0.0
+        },
+        "family": "constant",
+        "penalty": 0.0,
+        "w0": 0.0,
+        "s0": 0.3914330414116224,
+        "d0": 0.18280087579398205,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 253,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 0,
+        "optimizer_converged_starts": 0,
+        "penalized_objective": 0.11665937181293437,
+        "training_MSE": 11665937.18129344,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "s": {
+        "format_version": 1,
+        "spec": {
+          "name": "s_lambda1",
+          "family": "s",
+          "penalty": 1.0
+        },
+        "family": "s",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.3914330414116224,
+        "d0": 0.18280087579398205,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 253,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.11665937181293437,
+        "training_MSE": 11665937.18129344,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "d": {
+        "format_version": 1,
+        "spec": {
+          "name": "d_lambda1",
+          "family": "d",
+          "penalty": 1.0
+        },
+        "family": "d",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.3914330414116224,
+        "d0": 0.18280087579398205,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 253,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.11665937181293437,
+        "training_MSE": 11665937.18129344,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "sd": {
+        "format_version": 1,
+        "spec": {
+          "name": "sd_lambda1",
+          "family": "sd",
+          "penalty": 1.0
+        },
+        "family": "sd",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.3914330414116224,
+        "d0": 0.18280087579398205,
+        "beta_s": 0.013619336915027236,
+        "beta_d": -0.01706863980707849,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 253,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 9,
+        "optimizer_converged_starts": 9,
+        "penalized_objective": 0.11665407155581242,
+        "training_MSE": 11664882.028260952,
+        "mean_squared_weight_deviation": 5.251273202928862e-06
+      }
+    },
+    "family_specs": {
+      "constant": {
+        "name": "constant",
+        "family": "constant",
+        "penalty": 0.0
+      },
+      "s": {
+        "name": "s_lambda1",
+        "family": "s",
+        "penalty": 1.0
+      },
+      "d": {
+        "name": "d_lambda1",
+        "family": "d",
+        "penalty": 1.0
+      },
+      "sd": {
+        "name": "sd_lambda1",
+        "family": "sd",
+        "penalty": 1.0
+      }
+    },
+    "inner_MSE": {
+      "constant": 11665937.18129344,
+      "s_lambda0.01": 11665937.18129344,
+      "s_lambda0.1": 11665937.18129344,
+      "s_lambda1": 11665937.18129344,
+      "d_lambda0.01": 11893985.562842561,
+      "d_lambda0.1": 11817691.207179237,
+      "d_lambda1": 11701221.336910356,
+      "sd_lambda0.01": 11893985.56284253,
+      "sd_lambda0.1": 11817691.207179232,
+      "sd_lambda1": 11701221.336754292
+    },
+    "n": 67,
+    "production_M_MSE": 5422655.493917909,
+    "constant_MSE": 5422655.493917909,
+    "selected_MSE": 5422655.493917909
+  },
+  {
+    "scheme": "confirmation6612",
+    "fold": 0,
+    "selected_spec": {
+      "name": "constant",
+      "family": "constant",
+      "penalty": 0.0
+    },
+    "selected_gate": {
+      "format_version": 1,
+      "spec": {
+        "name": "constant",
+        "family": "constant",
+        "penalty": 0.0
+      },
+      "family": "constant",
+      "penalty": 0.0,
+      "w0": 0.0,
+      "s0": 0.33578926398636755,
+      "d0": 0.16867727802916158,
+      "beta_s": 0.0,
+      "beta_d": 0.0,
+      "disagreement_scale": 10000.0,
+      "alpha_source": 0.0,
+      "training_rows": 263,
+      "optimizer": "deterministic multistart bounded L-BFGS-B",
+      "optimization_starts": 0,
+      "optimizer_converged_starts": 0,
+      "penalized_objective": 0.11545937205819062,
+      "training_MSE": 11545937.205819061,
+      "mean_squared_weight_deviation": 0.0
+    },
+    "family_gates": {
+      "constant": {
+        "format_version": 1,
+        "spec": {
+          "name": "constant",
+          "family": "constant",
+          "penalty": 0.0
+        },
+        "family": "constant",
+        "penalty": 0.0,
+        "w0": 0.0,
+        "s0": 0.33578926398636755,
+        "d0": 0.16867727802916158,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 263,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 0,
+        "optimizer_converged_starts": 0,
+        "penalized_objective": 0.11545937205819062,
+        "training_MSE": 11545937.205819061,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "s": {
+        "format_version": 1,
+        "spec": {
+          "name": "s_lambda1",
+          "family": "s",
+          "penalty": 1.0
+        },
+        "family": "s",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.33578926398636755,
+        "d0": 0.16867727802916158,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 263,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.11545937205819062,
+        "training_MSE": 11545937.205819061,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "d": {
+        "format_version": 1,
+        "spec": {
+          "name": "d_lambda1",
+          "family": "d",
+          "penalty": 1.0
+        },
+        "family": "d",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.33578926398636755,
+        "d0": 0.16867727802916158,
+        "beta_s": 0.0,
+        "beta_d": -0.005729499593808419,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 263,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.11545897588468917,
+        "training_MSE": 11545857.997289266,
+        "mean_squared_weight_deviation": 3.9591179652891125e-07
+      },
+      "sd": {
+        "format_version": 1,
+        "spec": {
+          "name": "sd_lambda1",
+          "family": "sd",
+          "penalty": 1.0
+        },
+        "family": "sd",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.33578926398636755,
+        "d0": 0.16867727802916158,
+        "beta_s": 0.009311744315110957,
+        "beta_d": -0.01170528079712331,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 263,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 9,
+        "optimizer_converged_starts": 9,
+        "penalized_objective": 0.115456773133749,
+        "training_MSE": 11545418.19556525,
+        "mean_squared_weight_deviation": 2.5911780964992116e-06
+      }
+    },
+    "family_specs": {
+      "constant": {
+        "name": "constant",
+        "family": "constant",
+        "penalty": 0.0
+      },
+      "s": {
+        "name": "s_lambda1",
+        "family": "s",
+        "penalty": 1.0
+      },
+      "d": {
+        "name": "d_lambda1",
+        "family": "d",
+        "penalty": 1.0
+      },
+      "sd": {
+        "name": "sd_lambda1",
+        "family": "sd",
+        "penalty": 1.0
+      }
+    },
+    "inner_MSE": {
+      "constant": 11719661.40211777,
+      "s_lambda0.01": 11846247.23385246,
+      "s_lambda0.1": 11846247.23385246,
+      "s_lambda1": 11740035.407815265,
+      "d_lambda0.01": 11921956.475545986,
+      "d_lambda0.1": 11832955.324017156,
+      "d_lambda1": 11737203.928112958,
+      "sd_lambda0.01": 12154638.551335245,
+      "sd_lambda0.1": 12062816.436098076,
+      "sd_lambda1": 11761376.073939646
+    },
+    "n": 57,
+    "production_M_MSE": 11674939.38986736,
+    "constant_MSE": 11674939.38986736,
+    "selected_MSE": 11674939.38986736
+  },
+  {
+    "scheme": "confirmation6612",
+    "fold": 1,
+    "selected_spec": {
+      "name": "d_lambda0.01",
+      "family": "d",
+      "penalty": 0.01
+    },
+    "selected_gate": {
+      "format_version": 1,
+      "spec": {
+        "name": "d_lambda0.01",
+        "family": "d",
+        "penalty": 0.01
+      },
+      "family": "d",
+      "penalty": 0.01,
+      "w0": 0.0,
+      "s0": 0.3664590029587692,
+      "d0": 0.17381491101384805,
+      "beta_s": 0.0,
+      "beta_d": 0.0,
+      "disagreement_scale": 10000.0,
+      "alpha_source": 0.0,
+      "training_rows": 258,
+      "optimizer": "deterministic multistart bounded L-BFGS-B",
+      "optimization_starts": 3,
+      "optimizer_converged_starts": 3,
+      "penalized_objective": 0.10404995681596235,
+      "training_MSE": 10404995.681596234,
+      "mean_squared_weight_deviation": 0.0
+    },
+    "family_gates": {
+      "constant": {
+        "format_version": 1,
+        "spec": {
+          "name": "constant",
+          "family": "constant",
+          "penalty": 0.0
+        },
+        "family": "constant",
+        "penalty": 0.0,
+        "w0": 0.0,
+        "s0": 0.3664590029587692,
+        "d0": 0.17381491101384805,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 258,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 0,
+        "optimizer_converged_starts": 0,
+        "penalized_objective": 0.10404995681596235,
+        "training_MSE": 10404995.681596234,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "s": {
+        "format_version": 1,
+        "spec": {
+          "name": "s_lambda1",
+          "family": "s",
+          "penalty": 1.0
+        },
+        "family": "s",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.3664590029587692,
+        "d0": 0.17381491101384805,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 258,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.10404995681596235,
+        "training_MSE": 10404995.681596234,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "d": {
+        "format_version": 1,
+        "spec": {
+          "name": "d_lambda0.01",
+          "family": "d",
+          "penalty": 0.01
+        },
+        "family": "d",
+        "penalty": 0.01,
+        "w0": 0.0,
+        "s0": 0.3664590029587692,
+        "d0": 0.17381491101384805,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 258,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.10404995681596235,
+        "training_MSE": 10404995.681596234,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "sd": {
+        "format_version": 1,
+        "spec": {
+          "name": "sd_lambda0.01",
+          "family": "sd",
+          "penalty": 0.01
+        },
+        "family": "sd",
+        "penalty": 0.01,
+        "w0": 0.0,
+        "s0": 0.3664590029587692,
+        "d0": 0.17381491101384805,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 258,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 9,
+        "optimizer_converged_starts": 9,
+        "penalized_objective": 0.10404995681596235,
+        "training_MSE": 10404995.681596234,
+        "mean_squared_weight_deviation": 0.0
+      }
+    },
+    "family_specs": {
+      "constant": {
+        "name": "constant",
+        "family": "constant",
+        "penalty": 0.0
+      },
+      "s": {
+        "name": "s_lambda1",
+        "family": "s",
+        "penalty": 1.0
+      },
+      "d": {
+        "name": "d_lambda0.01",
+        "family": "d",
+        "penalty": 0.01
+      },
+      "sd": {
+        "name": "sd_lambda0.01",
+        "family": "sd",
+        "penalty": 0.01
+      }
+    },
+    "inner_MSE": {
+      "constant": 10768461.095847018,
+      "s_lambda0.01": 10893403.654532151,
+      "s_lambda0.1": 10800800.576180045,
+      "s_lambda1": 10772274.062224317,
+      "d_lambda0.01": 10478539.353984313,
+      "d_lambda0.1": 10531404.30335137,
+      "d_lambda1": 10704364.908599107,
+      "sd_lambda0.01": 10546986.816291276,
+      "sd_lambda0.1": 10553632.371822745,
+      "sd_lambda1": 10708146.917576913
+    },
+    "n": 62,
+    "production_M_MSE": 4832914.264386286,
+    "constant_MSE": 4832914.264386286,
+    "selected_MSE": 4832914.264386286
+  },
+  {
+    "scheme": "confirmation6612",
+    "fold": 2,
+    "selected_spec": {
+      "name": "sd_lambda0.1",
+      "family": "sd",
+      "penalty": 0.1
+    },
+    "selected_gate": {
+      "format_version": 1,
+      "spec": {
+        "name": "sd_lambda0.1",
+        "family": "sd",
+        "penalty": 0.1
+      },
+      "family": "sd",
+      "penalty": 0.1,
+      "w0": 0.0,
+      "s0": 0.3848398363802141,
+      "d0": 0.1541234993907383,
+      "beta_s": 0.08998427684197734,
+      "beta_d": -0.1653996007858631,
+      "disagreement_scale": 10000.0,
+      "alpha_source": 0.0,
+      "training_rows": 245,
+      "optimizer": "deterministic multistart bounded L-BFGS-B",
+      "optimization_starts": 9,
+      "optimizer_converged_starts": 9,
+      "penalized_objective": 0.07196276793550041,
+      "training_MSE": 7193008.398577641,
+      "mean_squared_weight_deviation": 0.00032683949723998816
+    },
+    "family_gates": {
+      "constant": {
+        "format_version": 1,
+        "spec": {
+          "name": "constant",
+          "family": "constant",
+          "penalty": 0.0
+        },
+        "family": "constant",
+        "penalty": 0.0,
+        "w0": 0.0,
+        "s0": 0.3848398363802141,
+        "d0": 0.1541234993907383,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 245,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 0,
+        "optimizer_converged_starts": 0,
+        "penalized_objective": 0.07199696046054513,
+        "training_MSE": 7199696.046054511,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "s": {
+        "format_version": 1,
+        "spec": {
+          "name": "s_lambda1",
+          "family": "s",
+          "penalty": 1.0
+        },
+        "family": "s",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.3848398363802141,
+        "d0": 0.1541234993907383,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 245,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.07199696046054513,
+        "training_MSE": 7199696.046054511,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "d": {
+        "format_version": 1,
+        "spec": {
+          "name": "d_lambda0.1",
+          "family": "d",
+          "penalty": 0.1
+        },
+        "family": "d",
+        "penalty": 0.1,
+        "w0": 0.0,
+        "s0": 0.3848398363802141,
+        "d0": 0.1541234993907383,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 245,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.07199696046054513,
+        "training_MSE": 7199696.046054511,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "sd": {
+        "format_version": 1,
+        "spec": {
+          "name": "sd_lambda0.1",
+          "family": "sd",
+          "penalty": 0.1
+        },
+        "family": "sd",
+        "penalty": 0.1,
+        "w0": 0.0,
+        "s0": 0.3848398363802141,
+        "d0": 0.1541234993907383,
+        "beta_s": 0.08998427684197734,
+        "beta_d": -0.1653996007858631,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 245,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 9,
+        "optimizer_converged_starts": 9,
+        "penalized_objective": 0.07196276793550041,
+        "training_MSE": 7193008.398577641,
+        "mean_squared_weight_deviation": 0.00032683949723998816
+      }
+    },
+    "family_specs": {
+      "constant": {
+        "name": "constant",
+        "family": "constant",
+        "penalty": 0.0
+      },
+      "s": {
+        "name": "s_lambda1",
+        "family": "s",
+        "penalty": 1.0
+      },
+      "d": {
+        "name": "d_lambda0.1",
+        "family": "d",
+        "penalty": 0.1
+      },
+      "sd": {
+        "name": "sd_lambda0.1",
+        "family": "sd",
+        "penalty": 0.1
+      }
+    },
+    "inner_MSE": {
+      "constant": 7142419.551788275,
+      "s_lambda0.01": 7142419.551788275,
+      "s_lambda0.1": 7142419.551788275,
+      "s_lambda1": 7142419.551788275,
+      "d_lambda0.01": 7143015.341005088,
+      "d_lambda0.1": 7142369.416269551,
+      "d_lambda1": 7142524.313707889,
+      "sd_lambda0.01": 7250039.542984336,
+      "sd_lambda0.1": 7137269.342629679,
+      "sd_lambda1": 7142524.31370789
+    },
+    "n": 75,
+    "production_M_MSE": 21020794.02517333,
+    "constant_MSE": 21020794.02517333,
+    "selected_MSE": 21025525.602096632
+  },
+  {
+    "scheme": "confirmation6612",
+    "fold": 3,
+    "selected_spec": {
+      "name": "d_lambda0.01",
+      "family": "d",
+      "penalty": 0.01
+    },
+    "selected_gate": {
+      "format_version": 1,
+      "spec": {
+        "name": "d_lambda0.01",
+        "family": "d",
+        "penalty": 0.01
+      },
+      "family": "d",
+      "penalty": 0.01,
+      "w0": 0.0,
+      "s0": 0.3972384573377887,
+      "d0": 0.16863436907333726,
+      "beta_s": 0.0,
+      "beta_d": 0.0,
+      "disagreement_scale": 10000.0,
+      "alpha_source": 0.0,
+      "training_rows": 257,
+      "optimizer": "deterministic multistart bounded L-BFGS-B",
+      "optimization_starts": 3,
+      "optimizer_converged_starts": 3,
+      "penalized_objective": 0.11652564794035453,
+      "training_MSE": 11652564.794035451,
+      "mean_squared_weight_deviation": 0.0
+    },
+    "family_gates": {
+      "constant": {
+        "format_version": 1,
+        "spec": {
+          "name": "constant",
+          "family": "constant",
+          "penalty": 0.0
+        },
+        "family": "constant",
+        "penalty": 0.0,
+        "w0": 0.0,
+        "s0": 0.3972384573377887,
+        "d0": 0.16863436907333726,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 257,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 0,
+        "optimizer_converged_starts": 0,
+        "penalized_objective": 0.11652564794035453,
+        "training_MSE": 11652564.794035451,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "s": {
+        "format_version": 1,
+        "spec": {
+          "name": "s_lambda1",
+          "family": "s",
+          "penalty": 1.0
+        },
+        "family": "s",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.3972384573377887,
+        "d0": 0.16863436907333726,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 257,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.11652564794035453,
+        "training_MSE": 11652564.794035451,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "d": {
+        "format_version": 1,
+        "spec": {
+          "name": "d_lambda0.01",
+          "family": "d",
+          "penalty": 0.01
+        },
+        "family": "d",
+        "penalty": 0.01,
+        "w0": 0.0,
+        "s0": 0.3972384573377887,
+        "d0": 0.16863436907333726,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 257,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.11652564794035453,
+        "training_MSE": 11652564.794035451,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "sd": {
+        "format_version": 1,
+        "spec": {
+          "name": "sd_lambda0.1",
+          "family": "sd",
+          "penalty": 0.1
+        },
+        "family": "sd",
+        "penalty": 0.1,
+        "w0": 0.0,
+        "s0": 0.3972384573377887,
+        "d0": 0.16863436907333726,
+        "beta_s": 0.027275851975972473,
+        "beta_d": -0.06654257402775968,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 257,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 9,
+        "optimizer_converged_starts": 9,
+        "penalized_objective": 0.11652013995297532,
+        "training_MSE": 11651473.574068815,
+        "mean_squared_weight_deviation": 5.404212287164081e-05
+      }
+    },
+    "family_specs": {
+      "constant": {
+        "name": "constant",
+        "family": "constant",
+        "penalty": 0.0
+      },
+      "s": {
+        "name": "s_lambda1",
+        "family": "s",
+        "penalty": 1.0
+      },
+      "d": {
+        "name": "d_lambda0.01",
+        "family": "d",
+        "penalty": 0.01
+      },
+      "sd": {
+        "name": "sd_lambda0.1",
+        "family": "sd",
+        "penalty": 0.1
+      }
+    },
+    "inner_MSE": {
+      "constant": 11898702.566974413,
+      "s_lambda0.01": 11939379.392324062,
+      "s_lambda0.1": 11913501.093610737,
+      "s_lambda1": 11900634.331968213,
+      "d_lambda0.01": 11858986.828420851,
+      "d_lambda0.1": 11871693.79649822,
+      "d_lambda1": 11892279.44248103,
+      "sd_lambda0.01": 11905256.295008529,
+      "sd_lambda0.1": 11891644.747757277,
+      "sd_lambda1": 11895379.398082508
+    },
+    "n": 63,
+    "production_M_MSE": 3439748.35796607,
+    "constant_MSE": 3439748.35796607,
+    "selected_MSE": 3439748.35796607
+  },
+  {
+    "scheme": "confirmation6612",
+    "fold": 4,
+    "selected_spec": {
+      "name": "d_lambda0.01",
+      "family": "d",
+      "penalty": 0.01
+    },
+    "selected_gate": {
+      "format_version": 1,
+      "spec": {
+        "name": "d_lambda0.01",
+        "family": "d",
+        "penalty": 0.01
+      },
+      "family": "d",
+      "penalty": 0.01,
+      "w0": 0.0,
+      "s0": 0.40722311144466233,
+      "d0": 0.17774250467797847,
+      "beta_s": 0.0,
+      "beta_d": 0.0,
+      "disagreement_scale": 10000.0,
+      "alpha_source": 0.0,
+      "training_rows": 257,
+      "optimizer": "deterministic multistart bounded L-BFGS-B",
+      "optimization_starts": 3,
+      "optimizer_converged_starts": 3,
+      "penalized_objective": 0.11140902712819183,
+      "training_MSE": 11140902.712819181,
+      "mean_squared_weight_deviation": 0.0
+    },
+    "family_gates": {
+      "constant": {
+        "format_version": 1,
+        "spec": {
+          "name": "constant",
+          "family": "constant",
+          "penalty": 0.0
+        },
+        "family": "constant",
+        "penalty": 0.0,
+        "w0": 0.0,
+        "s0": 0.40722311144466233,
+        "d0": 0.17774250467797847,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 257,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 0,
+        "optimizer_converged_starts": 0,
+        "penalized_objective": 0.11140902712819183,
+        "training_MSE": 11140902.712819181,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "s": {
+        "format_version": 1,
+        "spec": {
+          "name": "s_lambda1",
+          "family": "s",
+          "penalty": 1.0
+        },
+        "family": "s",
+        "penalty": 1.0,
+        "w0": 0.0,
+        "s0": 0.40722311144466233,
+        "d0": 0.17774250467797847,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 257,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.11140902712819183,
+        "training_MSE": 11140902.712819181,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "d": {
+        "format_version": 1,
+        "spec": {
+          "name": "d_lambda0.01",
+          "family": "d",
+          "penalty": 0.01
+        },
+        "family": "d",
+        "penalty": 0.01,
+        "w0": 0.0,
+        "s0": 0.40722311144466233,
+        "d0": 0.17774250467797847,
+        "beta_s": 0.0,
+        "beta_d": 0.0,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 257,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 3,
+        "optimizer_converged_starts": 3,
+        "penalized_objective": 0.11140902712819183,
+        "training_MSE": 11140902.712819181,
+        "mean_squared_weight_deviation": 0.0
+      },
+      "sd": {
+        "format_version": 1,
+        "spec": {
+          "name": "sd_lambda0.01",
+          "family": "sd",
+          "penalty": 0.01
+        },
+        "family": "sd",
+        "penalty": 0.01,
+        "w0": 0.0,
+        "s0": 0.40722311144466233,
+        "d0": 0.17774250467797847,
+        "beta_s": 0.45418100345231555,
+        "beta_d": -0.5,
+        "disagreement_scale": 10000.0,
+        "alpha_source": 0.0,
+        "training_rows": 257,
+        "optimizer": "deterministic multistart bounded L-BFGS-B",
+        "optimization_starts": 9,
+        "optimizer_converged_starts": 9,
+        "penalized_objective": 0.1112057887374582,
+        "training_MSE": 11115434.15363371,
+        "mean_squared_weight_deviation": 0.005144720112112031
+      }
+    },
+    "family_specs": {
+      "constant": {
+        "name": "constant",
+        "family": "constant",
+        "penalty": 0.0
+      },
+      "s": {
+        "name": "s_lambda1",
+        "family": "s",
+        "penalty": 1.0
+      },
+      "d": {
+        "name": "d_lambda0.01",
+        "family": "d",
+        "penalty": 0.01
+      },
+      "sd": {
+        "name": "sd_lambda0.01",
+        "family": "sd",
+        "penalty": 0.01
+      }
+    },
+    "inner_MSE": {
+      "constant": 12276163.40785733,
+      "s_lambda0.01": 12276163.40785733,
+      "s_lambda0.1": 12276163.40785733,
+      "s_lambda1": 12276163.40785733,
+      "d_lambda0.01": 12118291.328694202,
+      "d_lambda0.1": 12173862.816111874,
+      "d_lambda1": 12254052.10021582,
+      "sd_lambda0.01": 12118291.32869418,
+      "sd_lambda0.1": 12173862.81611188,
+      "sd_lambda1": 12254052.100215811
+    },
+    "n": 63,
+    "production_M_MSE": 6645916.245040334,
+    "constant_MSE": 6645916.245040334,
+    "selected_MSE": 6645916.245040334
+  }
+]
