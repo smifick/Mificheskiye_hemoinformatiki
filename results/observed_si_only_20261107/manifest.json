@@ -1,0 +1,26 @@
+{
+  "experiment": "observed_si_only_20261107",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "rdkit": "2026.9.1",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0"
+  },
+  "input_sha256": {
+    "data/raw/train.csv": "239efa4b3aa667b3681f6e1062d86ca5b0ba441364b8f2b894b4c428e272ba81",
+    "data/raw/test.csv": "1b0c6a014bbe556c42ef2277e867d2e1a647ad31c157a9cd81bbc7e262481abd",
+    "results/v2/validation_splits.csv": "bd392b1a8130649098ae5481010bb4deeb20a8da62fbb525bf86a0d039fb902d"
+  },
+  "model_sha256": "09e1e6800d863816bbb3c592f196194941f470879539e572c65cc622acc3e65f",
+  "submission_sha256": "359bf455e961a5d8fc33c5094bec0def63919460b7b16eb9c071e0132b613874",
+  "final_training_rows": 237,
+  "excluded_rows": 83,
+  "submission_rows": 597,
+  "public_Kaggle_MSE": null,
+  "ensemble": false,
+  "previous_submissions_modified": false
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "final_training_rows": 237,
+  "excluded_rows": 83,
+  "excluded_rows_in_final_model": 0,
+  "maximum_SI_retained": true,
+  "validation_and_excluded_label_poisoning_max_abs_error": {
+    "validation_nan": 0.0,
+    "validation_large": 0.0,
+    "all_excluded_large": 0.0
+  },
+  "first_fold_reproduction_max_abs_error": 1.1368683772161603e-13,
+  "control_reproduces_historical_v3_max_abs_error": 1.0459189070388675e-11,
+  "portable_CLI_max_abs_error": {
+    "clean_smiles_only": 0.0,
+    "poisoned_columns_reversed": 0.0
+  },
+  "no_upper_cap_test_prediction": 50000.0,
+  "previous_model_files_modified": false,
+  "ensemble": false,
+  "model_sha256": "09e1e6800d863816bbb3c592f196194941f470879539e572c65cc622acc3e65f"
+}

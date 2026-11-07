@@ -1,0 +1,32 @@
+{
+  "all_original_labels": {
+    "control_MSE": 18888578.919285785,
+    "filtered_MSE": 28994512.764460348,
+    "improvement_pct": -53.50288070033744
+  },
+  "observed_SI_only": {
+    "control_MSE": 10649286.876419129,
+    "filtered_MSE": 6068782.200350574,
+    "improvement_pct": 43.012313680939826
+  },
+  "excluded_codes_only": {
+    "control_MSE": 42415232.10192913,
+    "filtered_MSE": 94457141.00173768,
+    "improvement_pct": -122.69627282657636
+  },
+  "observed_SI_le_100": {
+    "control_MSE": 5853790.00912211,
+    "filtered_MSE": 284678.89480442606,
+    "improvement_pct": 95.13684477303073
+  },
+  "observed_SI_gt_100": {
+    "control_MSE": 34995655.58731169,
+    "filtered_MSE": 35434229.75158485,
+    "improvement_pct": -1.2532245986332402
+  },
+  "largest_observed_SI": {
+    "control_MSE": 1188968537.433056,
+    "filtered_MSE": 1298689411.1261292,
+    "improvement_pct": -9.228240297254352
+  }
+}
