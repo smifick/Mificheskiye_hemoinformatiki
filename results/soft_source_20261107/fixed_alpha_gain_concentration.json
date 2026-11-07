@@ -1,0 +1,9 @@
+{
+  "alpha": 0.1,
+  "status": "fixed-alpha diagnostic, not nested selection",
+  "total_MSE_reduction": 9760.90932212467,
+  "largest_positive_source_row": 175,
+  "largest_positive_MSE_contribution": 39264.941014414886,
+  "share_of_net_gain_pct": 402.2672449729103,
+  "MSE_reduction_without_largest": -29504.031692290213
+}

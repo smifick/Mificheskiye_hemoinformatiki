@@ -1,0 +1,68 @@
+{
+  "model_id": "DeepChem/ChemBERTa-77M-MLM",
+  "revision": "ed8a5374f2024ec8da53760af91a33fb8f6a15ff",
+  "torch": "2.15.0+cpu",
+  "rows": 917,
+  "train_rows": 320,
+  "hidden_size": 384,
+  "input_smiles_sha256": "a12a00520a4d458d68fd077e0e96603b5e53da2741f1b91de4f01693aa41acd7",
+  "random_smiles_per_parent": 3,
+  "pooler_used": false,
+  "encoder_frozen": true,
+  "batch_size": 1,
+  "torch_threads": 3,
+  "unique_sequences": 3835,
+  "truncated_sequences": 0,
+  "weights_and_tokenizer": {
+    "config.json": {
+      "sha256": "b9ec477f76a173461741cb0f339b89661c9d9249af2f6a84df7593c3baede9b0",
+      "bytes": 631
+    },
+    "tokenizer.json": {
+      "sha256": "1197005224bc8917f46f8d6fc360aec71c6626858966e167b2ff8af62214f814",
+      "bytes": 8262
+    },
+    "tokenizer_config.json": {
+      "sha256": "79919cd4b54bdf241f19956753e8a47b8b782eb4b38eec0e0254bd2434545abd",
+      "bytes": 1271
+    },
+    "special_tokens_map.json": {
+      "sha256": "23dbc119b7e11cb23d3c43b13004c5a4ab4e6530c7146e34fa1f9564856b5580",
+      "bytes": 420
+    },
+    "added_tokens.json": {
+      "sha256": "2b0e66b84bd97bc08467f7a7c033cfd5a66c6335eb79779a144b50f8e7b2557d",
+      "bytes": 25
+    },
+    "vocab.json": {
+      "sha256": "0c9afbd534ab59fa51718c998027da0e7932293c9a51de03317d4c83d3fe48f6",
+      "bytes": 6963
+    },
+    "merges.txt": {
+      "sha256": "291976363a8a20ed148ff687cf3da54ada8ddbc99655fa876326f0ef28dbd6ad",
+      "bytes": 52
+    },
+    "pytorch_model.bin": {
+      "sha256": "95571af26b61ba8d56b9d61ff108b5c9afe96fd69ea3cbd1901d9421e3d2dd6d",
+      "bytes": 13734116
+    }
+  },
+  "loading_info": {
+    "missing_keys": [
+      "pooler.dense.bias",
+      "pooler.dense.weight"
+    ],
+    "unexpected_keys": [
+      "lm_head.bias",
+      "lm_head.decoder.bias",
+      "lm_head.decoder.weight",
+      "lm_head.dense.bias",
+      "lm_head.dense.weight",
+      "lm_head.layer_norm.bias",
+      "lm_head.layer_norm.weight"
+    ],
+    "mismatched_keys": [],
+    "error_msgs": []
+  },
+  "note": "Frozen encoder only; no task labels, no assay metadata; checkpoint weights not redistributed."
+}

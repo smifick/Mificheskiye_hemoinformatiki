@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "outer_label_poisoning_refit": true,
+  "outer_label_poisoning_max_prediction_error": {
+    "NaN": 9.094947017729282e-13,
+    "large1e12": 9.094947017729282e-13
+  },
+  "outer_label_poisoning_selected_alpha": {
+    "NaN": 0.05,
+    "large1e12": 0.05
+  },
+  "original_outer_alpha": 0.05,
+  "checked_outer_fold": 1,
+  "portable_CLI_max_error": {
+    "clean": 7.275957614183426e-12,
+    "forbidden_poison_reversed": 7.275957614183426e-12
+  },
+  "IDs_preserved": true,
+  "forbidden_columns_ignored": true,
+  "production_and_baseline_file_hashes_unchanged": true,
+  "files_checked": {
+    "results/audit_20261107/selected_model.joblib": "f58b880b834cf9bb118f7559ba7533e20933329446b781764b3919ad4d3b07c1",
+    "results/v7_final/model.joblib": "43a1565e3dc2aec5b8c340fb2f4fd02d3032d25b39e75c3c2ed0dcc68d9eed5b",
+    "results/audit_20261107/submission.csv": "ff3aff978dc2737176be3006a33d1233a5c8432f1aeba57075ede83a4275649c",
+    "data/raw/train.csv": "239efa4b3aa667b3681f6e1062d86ca5b0ba441364b8f2b894b4c428e272ba81",
+    "data/raw/test.csv": "1b0c6a014bbe556c42ef2277e867d2e1a647ad31c157a9cd81bbc7e262481abd",
+    "data/external/external_endpoints.csv": "6c9db63764780e75058275cc75842364e5215630d35cd64c011ece7b55dd7298",
+    "data/external/external_si_database.csv": "77b3dd9cce245e270f20b57c62aa331b2f7684ed292bcb440e6406aea3622f93",
+    "data/external_curated/vacv_si.csv": "0b3c8213889a6253ff3df9a27aa57ed35b72edf57d24ddfd56ba0f42582f00a9",
+    "src/research_heads.py": "c9142f244f185bc449cd1c00832035b8bef61ea059d4afcb4705ff2553124484",
+    "src/predict_research.py": "0cac2660b4797e114bb0688f4bdb1dec1f18397d1844daf5ea55b1398368404a",
+    "src/train_v5.py": "235f22b5fff9b2b6c528a60089808d7865b0fca58c10bc7ea4c6f0d60c3f4ecc",
+    "src/train_v6.py": "9e0abc2be6760c1899e8749b776d5ce79ff142211cfea3bd83dd6e8a9df796d9",
+    "src/train_v7.py": "22ad919846e26e899f4f67e0121aa2c74c32fa43b5dce1fe02e90b720f0db782",
+    "src/extract_chemberta.py": "dba38d5f417c5a70634ca947dd110ded7e43e411aee8b7d687bad5c0c1655568"
+  },
+  "frozen_feature_input_sha256": "a12a00520a4d458d68fd077e0e96603b5e53da2741f1b91de4f01693aa41acd7",
+  "positive_alpha_CLI": {
+    "alpha": 0.1,
+    "rows": 8,
+    "source_present_without_lookup": 3,
+    "lookup": 2,
+    "source_absent": 3,
+    "max_abs_error": {
+      "clean": 8.526512829121202e-13,
+      "poisoned": 8.526512829121202e-13
+    }
+  },
+  "unit_tests_passed": 15
+}

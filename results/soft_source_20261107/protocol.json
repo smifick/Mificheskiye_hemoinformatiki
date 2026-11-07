@@ -1,0 +1,28 @@
+{
+  "commit": "b6c2e0c384d043582753993e442be7c042c3139a",
+  "small_alpha_grid": [
+    0.0,
+    0.025,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "diagnostic_full_removal_alpha": 1.0,
+  "outer_primary": "archived5 scaffold folds",
+  "inner": "3fold scaffold GroupKFold shuffle seed314",
+  "confirmation_scaffold_seeds": [
+    5511,
+    5512
+  ],
+  "validation_mode": "B nested procedure, fixed PR3 settings; production untouched",
+  "no_independent_data": true,
+  "source_membership": "frozen public database mapped from SMILES",
+  "CV_lookup": "disabled as in PR3; external validation molecules/scaffolds excluded from physical training",
+  "production_lookup": "original frozen exact lookup, applied last",
+  "information_rule": "at least2 affected distinct structures and scaffolds else alpha0",
+  "acceptance": "primary nested MSE improves; both confirmation MSE improve; primary gain survives removal of its largest positive-contribution row; final calibrated alpha>0; test has effective rows; all validations pass",
+  "selection": "unweighted MSE on ALL official inner OOF rows; ties lower alpha",
+  "final_alpha_selection": "fresh3fold scaffold OOF of all320 using same inner seed314, not leaderboard",
+  "fixed": "model weights per fitted copy, settings, features, physical model, smoothing, zero, lookup, ensemble and clipping",
+  "intervention": "one shared alpha; per-leaf preoverride probabilities; redundant identical parent override consolidated"
+}

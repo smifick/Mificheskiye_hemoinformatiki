@@ -1,0 +1,52 @@
+{
+  "baseline_MSE": 11341011.015450314,
+  "nested_MSE": 11361189.48004087,
+  "improvement_pct": -0.17792474200992725,
+  "production_alpha0_max_error": 6.366462912410498e-12,
+  "production_effects": {
+    "rows": 597,
+    "source_present": 196,
+    "lookup_applied": 39,
+    "source_and_lookup": 39,
+    "source_individual_differs": 196,
+    "effective_rows": 157,
+    "effective_structures": 145,
+    "effective_scaffolds": 74
+  },
+  "primary_effects_alpha02": {
+    "rows": 320,
+    "source_present": 89,
+    "lookup_applied": 0,
+    "source_and_lookup": 0,
+    "source_individual_differs": 89,
+    "effective_rows": 89,
+    "effective_structures": 87,
+    "effective_scaffolds": 41
+  },
+  "primary_actually_changed": 60,
+  "chosen_outer_alphas": [
+    0.0,
+    0.05,
+    0.1,
+    0.1,
+    0.0
+  ],
+  "total_SSE_reduction": -6457108.668978741,
+  "largest_positive_row_source_row": 101,
+  "largest_positive_row_SSE_reduction": 106167.91953886417,
+  "SSE_reduction_without_largest_positive": -6563276.588517605,
+  "scaffold_bootstrap_MSE_reduction_CI95": [
+    -32965.728903519455,
+    -9884.01230994389
+  ],
+  "statistical_acceptance_passed": false,
+  "recommended_alpha": 0.0,
+  "final_calibration_alpha": 0.1,
+  "known_PR3_Public_MSE": 6327610.34997,
+  "new_Public_MSE": null,
+  "validation_mode": "B nested procedure, fixed PR3 settings; production untouched",
+  "independent_data": false,
+  "validation_passed": true,
+  "primary_actually_changed_structures": 59,
+  "primary_actually_changed_scaffolds": 22
+}
