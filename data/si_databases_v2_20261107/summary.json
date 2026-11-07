@@ -1,0 +1,19 @@
+{
+  "reported_SI_rows": 82,
+  "unique_structures": 63,
+  "publications": 4,
+  "no_test_overlap_rows": 50,
+  "new_structure_rows": 44,
+  "new_unique_structures": 44,
+  "nioch_vector_rows": 34,
+  "pubchem_review_rows": 390,
+  "chembl_review_rows": 2160,
+  "labels_recomputed_from_concentrations": false,
+  "organizer_concentrations_loaded": false,
+  "external_inactive_as_SI_zero": false,
+  "current_train_label_version": "train_v2",
+  "source_refs": {
+    "external_snapshot": "f6dab86fcc4c3b4e5f77eadc89598e23ec468816",
+    "nioch_addition": "29c21fa176f4c6d7470c4a2e9914cc40cbd20a51"
+  }
+}

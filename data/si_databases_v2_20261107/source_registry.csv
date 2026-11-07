@@ -1,0 +1,5 @@
+doi,source_dataset,source_url,institution_url,structure_provenance
+10.1016/j.ejmech.2023.115601,reviewed_legacy56,https://doi.org/10.1016/j.ejmech.2023.115601,,ChEMBL structure attributed by compound and numerical table matching; not independently redrawn
+10.1039/d0md00108b,reviewed_legacy56,https://doi.org/10.1039/d0md00108b,https://sciact.nioch.nsc.ru/public/article/6306/en,ChEMBL structure attributed by compound and numerical table matching; not independently redrawn
+10.3390/v15010029,nioch_vector2023_reviewed14,https://doi.org/10.3390/v15010029,https://sciact.nioch.nsc.ru/public/article/11549,Previously reviewed manual graph attribution; table drawings checked; cidofovir from curated ChEMBL graph
+10.1099/jgv.0.001971,PMC10995631_reviewed12,https://pmc.ncbi.nlm.nih.gov/articles/PMC10995631/,,Previously reviewed unique structure mapping of author table compounds
