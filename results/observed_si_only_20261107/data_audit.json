@@ -1,0 +1,20 @@
+{
+  "rows": 320,
+  "missing_IC50": 81,
+  "missing_CC50": 2,
+  "missing_both": 0,
+  "complete_rows": 237,
+  "missing_IC50_all_SI_10000": true,
+  "missing_CC50_all_SI_zero": true,
+  "SI_10000_rows": 81,
+  "SI_zero_rows": 2,
+  "SI_10000_with_IC50_present": 0,
+  "SI_zero_with_CC50_present": 0,
+  "complete_concentrations_nonpositive": 0,
+  "complete_concentrations_nonfinite": 0,
+  "ratio_max_absolute_difference": 0.000500000000000167,
+  "ratio_max_relative_difference": 0.003973509933774838,
+  "ratio_matches_within_half_percent": 237,
+  "target_recalculated": false,
+  "conclusion": "Exact missingness/code association; absent endpoints do not define a measured SI."
+}

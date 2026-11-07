@@ -1,0 +1,35 @@
+{
+  "experiment": "observed_si_only_20261107",
+  "model": "raw Tanimoto KernelRidge",
+  "alpha": 1.0,
+  "features": "tautomer-normalized Morgan radius2 bits2048 chirality",
+  "filtered_cohort": "both organizer IC50_uM_VACV and CC50_uM observed",
+  "control": "same fixed model, full training portion of each original fold",
+  "validation": "unchanged archived5 scaffold folds; paired arms predict identical validation rows",
+  "primary_metrics": [
+    "unweighted raw MSE on all320",
+    "unweighted raw MSE on complete237"
+  ],
+  "final_model": "one fit using complete237 only",
+  "external_data": false,
+  "ensemble": false,
+  "target_transform": "none",
+  "sample_weight": "none",
+  "hyperparameter_search": false,
+  "upper_prediction_cap": null,
+  "source_presence": false,
+  "mixture_gate": false,
+  "feature_columns": [
+    "SMILES"
+  ],
+  "cohort_audit_columns": [
+    "IC50_uM_VACV",
+    "CC50_uM"
+  ],
+  "test_columns": [
+    "index",
+    "SMILES"
+  ],
+  "independent_holdout": false,
+  "note": "Historical rows reused; control is CV only and is never blended into filtered model."
+}
