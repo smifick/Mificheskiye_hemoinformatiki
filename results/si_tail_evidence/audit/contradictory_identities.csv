@@ -1,0 +1,9 @@
+canonical_smiles,n,min_SI,max_SI,material_difference_rtol_2pct,within_identity_SSE
+CC1(C)[C@@H]2CC[C@@]1(C)[C@H](NC(=O)CN1CCOCC1)C2,2,39.984,10000.0,True,49600959.36012799
+COc1ccc(C(=O)Nn2c(O)c3c(c2O)[C@@H]2C=C[C@H]3[C@H]3C[C@H]32)cc1,2,45.4545454545455,45.455,False,1.0330578510117086e-07
+C[C@@H](NCc1cc(-c2ccccc2)on1)C12C[C@H]3C[C@@H](C1)C[C@@H](C2)C3,2,1.112,102.887,True,5179.0753125
+Cc1ccc(C)c(COn2c(-c3ccc([N+](=O)[O-])cc3)nc3c2C(=O)CC(C)(C)C3)c1,2,78.276,78.276,False,0.0
+O=C(Nn1c(O)c2c(c1O)[C@@H]1C=C[C@H]2[C@H]2C[C@H]21)c1ccccc1Br,2,43.478,43.4782608695652,False,3.4026465022716605e-08
+O=C(Nn1c(O)c2c(c1O)[C@@H]1C=C[C@H]2[C@H]2C[C@H]21)c1cccnc1,2,135.135,135.135135135135,False,9.130752355294175e-09
+O=C(Nn1c(O)c2c(c1O)[C@@H]1C=C[C@H]2[C@H]2C[C@H]21)c1ccncc1,2,200.0,200.0,False,0.0
+O=c1[nH]c(=O)n([C@H]2C[C@H](O)[C@@H](CO)O2)cc1I,2,0.152,11.905,True,69.0665045

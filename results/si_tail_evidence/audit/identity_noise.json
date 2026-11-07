@@ -1,0 +1,10 @@
+{
+  "raw_unique_smiles": 320,
+  "canonical_unique_structures": 312,
+  "repeated_identity_groups": 8,
+  "materially_conflicting_identity_groups": 3,
+  "empirical_minimum_MSE_for_deterministic_canonical_structure_predictor": 155019.39844357857,
+  "scope": "Empirical bound for this normalized representation and these rows; not an estimate of population Bayes risk",
+  "morgan_bit_patterns_shared_by_distinct_structures": 3,
+  "extreme_fingerprint_collides_with_different_structure": false
+}

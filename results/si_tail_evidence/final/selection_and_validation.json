@@ -1,0 +1,32 @@
+{
+  "recommended_model": "baseline_krr_nonnegative",
+  "selected_spec": {
+    "name": "baseline_krr",
+    "family": "baseline",
+    "kind": "krr"
+  },
+  "qualifying_new_models": [],
+  "selection_scope": "Conservative post-benchmark decision; baseline selection and CI guards are not a new untouched validation set",
+  "reason": "Retain strongest existing eligible baseline if improvement or preservation of low/medium SI is not confirmed",
+  "mean_seed_MSE": 18303252.812263727,
+  "strongest_baseline": "baseline_krr_nonnegative",
+  "new_candidate_model": "results/si_tail_evidence/benchmark/model.joblib",
+  "new_candidate_policy": "smearing",
+  "new_candidate_spec": {
+    "name": "regime_conditional_a10_prior25",
+    "family": "smearing",
+    "correction": "conditional",
+    "physical_alpha": 10.0,
+    "prior_count": 25.0
+  },
+  "submission_rows": 597,
+  "submission_min": 0.0,
+  "submission_max": 9425.941718443324,
+  "upper_prediction_cap": null,
+  "nonnegative_projection": true,
+  "nonnegative_projection_rationale": "For y>=0, replacing a negative prediction by zero cannot increase squared error; the threshold is fixed by support, not tuned",
+  "external_training_rows": 0,
+  "public_score": null,
+  "exact_model_reload": true,
+  "max_abs_difference_vs_existing_v3_submission": 1.7280399333685637e-11
+}

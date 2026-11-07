@@ -1,0 +1,17 @@
+{
+  "url": "https://www.ebi.ac.uk/chembl/api/data/document.json?doi__iexact=10.3390/v15010029",
+  "http_status": 200,
+  "document_count": 0,
+  "response": {
+    "documents": [],
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 0
+    }
+  },
+  "consequence": "Use publication compound identifiers; no ChEMBL activity IDs invented",
+  "cached_response_sha256": "72ee3b5b17a68672c25783f3415d598e04f1a65be397ee77e96afeea21a56130"
+}

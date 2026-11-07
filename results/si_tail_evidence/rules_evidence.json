@@ -1,0 +1,24 @@
+{
+  "source": "User-provided screenshots: Dataset Description and Overview; repository README",
+  "observed_date_client": "2026-11-07",
+  "external_open_data_collection_expected": true,
+  "organizer_concentration_columns_forbidden_as_predictors": [
+    "CC50_uM",
+    "IC50_uM_VACV"
+  ],
+  "inference_input": "SMILES",
+  "requested_collection_fields": [
+    "SMILES",
+    "IC50",
+    "CC50",
+    "SI",
+    "doi"
+  ],
+  "earlier_network_check": {
+    "url": "https://www.kaggle.com/competitions/molecular-activity-prediction-hack/rules",
+    "status": 404,
+    "sha256": "95a4a09b638f674d916631a90cc6a4b7ac078be2ff8c767a1134ff735c5bec09",
+    "external_data_allowed": null
+  },
+  "interpretation": "Use the supplied Dataset Description as task evidence; external labels require endpoint/structure verification and ablation, not automatic inclusion."
+}

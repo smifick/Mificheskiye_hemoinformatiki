@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "metric_rows_independently_recomputed": 196,
+  "outer_scaffold_overlap": 0,
+  "outer_canonical_structure_overlap": 0,
+  "inner_selection_scaffold_overlap": 0,
+  "inner_residual_calibration_scaffold_overlap": 0,
+  "outer_validation_rows_in_calibration": 0,
+  "external_validation_scaffold_overlap": 0,
+  "external_test_identity_overlap": 0,
+  "training_rows": 320,
+  "new_exact_publication_rows": 14,
+  "source_hashes_match": true,
+  "submissions": [
+    {
+      "artifact": "benchmark",
+      "rows": 597,
+      "valid": true,
+      "max_abs_replay_difference": 1.8189894035458565e-12,
+      "model_sha256": "316e207e187f9cc9a3c0c097a84596d6fd9b07e537631619d7d97b006e4d24dd",
+      "submission_sha256": "34718338a928f81fa51a3427fa5a058a90d734eca11d102f4c366bcf6ebf0d65"
+    },
+    {
+      "artifact": "final",
+      "rows": 597,
+      "valid": true,
+      "max_abs_replay_difference": 9.094947017729282e-13,
+      "model_sha256": "d57e86c4d91fde8241eee0d60ccb3b13d80460a987dc1a3ab9f85759526d54a6",
+      "submission_sha256": "9d8afaaf2218af864f137130f9cdcbb9c6de56fcd5ab9c0a08a085e09f4c3748"
+    }
+  ]
+}
