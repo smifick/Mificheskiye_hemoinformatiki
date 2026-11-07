@@ -1,0 +1,75 @@
+{
+  "feature_shape": [
+    917,
+    64
+  ],
+  "feature_permutation_max_error": 0.0,
+  "style9_reference_probability_max_error": 0.0,
+  "style9_MSE": 12187437.628526505,
+  "expected_style9_MSE": 12187437.628526505,
+  "style9_MSE_absolute_error": 0.0,
+  "pool": [
+    {
+      "name": "style9_C1",
+      "family": "style",
+      "C": 1.0
+    },
+    {
+      "name": "extended_style_C0.1",
+      "family": "extended",
+      "C": 0.1
+    },
+    {
+      "name": "extended_style_C1",
+      "family": "extended",
+      "C": 1.0
+    },
+    {
+      "name": "extended_style_C10",
+      "family": "extended",
+      "C": 10.0
+    },
+    {
+      "name": "char_C1",
+      "family": "char",
+      "C": 1.0
+    },
+    {
+      "name": "char_C10",
+      "family": "char",
+      "C": 10.0
+    },
+    {
+      "name": "char_C100",
+      "family": "char",
+      "C": 100.0
+    },
+    {
+      "name": "char_style_C1",
+      "family": "char_style",
+      "C": 1.0
+    },
+    {
+      "name": "char_style_C10",
+      "family": "char_style",
+      "C": 10.0
+    },
+    {
+      "name": "char_style_C100",
+      "family": "char_style",
+      "C": 100.0
+    },
+    {
+      "name": "cat_style_d2_l20",
+      "family": "catstyle",
+      "depth": 2,
+      "l2": 20.0
+    },
+    {
+      "name": "cat_style_d3_l50",
+      "family": "catstyle",
+      "depth": 3,
+      "l2": 50.0
+    }
+  ]
+}

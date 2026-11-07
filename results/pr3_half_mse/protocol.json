@@ -1,0 +1,200 @@
+{
+  "baseline": "PR3 fixed notation_mlm_probability_average",
+  "baseline_MSE": 11341011.015450314,
+  "target_MSE": 5670505.507725157,
+  "candidates": [
+    {
+      "name": "pr3",
+      "owner": "baseline",
+      "spec": {
+        "name": "notation_mlm_probability_average",
+        "family": "paired",
+        "components": [
+          {
+            "name": "raw_smiles_notation_logistic",
+            "family": "logistic",
+            "embedding": "raw_style",
+            "C": 1.0
+          },
+          {
+            "name": "mlm_raw_logistic_0.1",
+            "family": "logistic",
+            "embedding": "mlm_raw",
+            "C": 0.1
+          }
+        ]
+      }
+    },
+    {
+      "name": "style9_C1",
+      "owner": "notation",
+      "spec": {
+        "name": "style9_C1",
+        "family": "style",
+        "C": 1.0
+      }
+    },
+    {
+      "name": "extended_style_C0.1",
+      "owner": "notation",
+      "spec": {
+        "name": "extended_style_C0.1",
+        "family": "extended",
+        "C": 0.1
+      }
+    },
+    {
+      "name": "extended_style_C1",
+      "owner": "notation",
+      "spec": {
+        "name": "extended_style_C1",
+        "family": "extended",
+        "C": 1.0
+      }
+    },
+    {
+      "name": "extended_style_C10",
+      "owner": "notation",
+      "spec": {
+        "name": "extended_style_C10",
+        "family": "extended",
+        "C": 10.0
+      }
+    },
+    {
+      "name": "char_C1",
+      "owner": "notation",
+      "spec": {
+        "name": "char_C1",
+        "family": "char",
+        "C": 1.0
+      }
+    },
+    {
+      "name": "char_C10",
+      "owner": "notation",
+      "spec": {
+        "name": "char_C10",
+        "family": "char",
+        "C": 10.0
+      }
+    },
+    {
+      "name": "char_C100",
+      "owner": "notation",
+      "spec": {
+        "name": "char_C100",
+        "family": "char",
+        "C": 100.0
+      }
+    },
+    {
+      "name": "char_style_C1",
+      "owner": "notation",
+      "spec": {
+        "name": "char_style_C1",
+        "family": "char_style",
+        "C": 1.0
+      }
+    },
+    {
+      "name": "char_style_C10",
+      "owner": "notation",
+      "spec": {
+        "name": "char_style_C10",
+        "family": "char_style",
+        "C": 10.0
+      }
+    },
+    {
+      "name": "char_style_C100",
+      "owner": "notation",
+      "spec": {
+        "name": "char_style_C100",
+        "family": "char_style",
+        "C": 100.0
+      }
+    },
+    {
+      "name": "cat_style_d2_l20",
+      "owner": "notation",
+      "spec": {
+        "name": "cat_style_d2_l20",
+        "family": "catstyle",
+        "depth": 2,
+        "l2": 20.0
+      }
+    },
+    {
+      "name": "cat_style_d3_l50",
+      "owner": "notation",
+      "spec": {
+        "name": "cat_style_d3_l50",
+        "family": "catstyle",
+        "depth": 3,
+        "l2": 50.0
+      }
+    },
+    {
+      "name": "mlm_logistic_c1_pair",
+      "owner": "mlm",
+      "spec": {
+        "name": "mlm_logistic_c1_pair",
+        "family": "logistic",
+        "C": 1.0
+      }
+    },
+    {
+      "name": "mlm_rbf_c1_pair",
+      "owner": "mlm",
+      "spec": {
+        "name": "mlm_rbf_c1_pair",
+        "family": "rbf",
+        "C": 1.0
+      }
+    },
+    {
+      "name": "mlm_rbf_c10_pair",
+      "owner": "mlm",
+      "spec": {
+        "name": "mlm_rbf_c10_pair",
+        "family": "rbf",
+        "C": 10.0
+      }
+    },
+    {
+      "name": "mlm_mse_c1_pair",
+      "owner": "mlm",
+      "spec": {
+        "name": "mlm_mse_c1_pair",
+        "family": "mse",
+        "C": 1.0
+      }
+    },
+    {
+      "name": "mlm_mse_c10_pair",
+      "owner": "mlm",
+      "spec": {
+        "name": "mlm_mse_c10_pair",
+        "family": "mse",
+        "C": 10.0
+      }
+    }
+  ],
+  "primary": "archived v2 scaffold five-fold",
+  "inner": "three-fold scaffold GroupKFold shuffle seed314",
+  "confirmation_seeds": [
+    4401,
+    4402,
+    4403
+  ],
+  "selection": "minimum unweighted raw MSE on inner scaffold OOF",
+  "meta_ensemble": "convex inner-OOF weights on baseline, best notation, best MLM; evaluated separately",
+  "inference_features": [
+    "SMILES"
+  ],
+  "upper_prediction_cap": null,
+  "unchanged_training_rows": 320,
+  "external_policy": "exclude inner and outer validation structures and scaffolds; no exact lookup override",
+  "limitation": "historical molecules; confirmation splits are stability checks, not untouched data"
+}

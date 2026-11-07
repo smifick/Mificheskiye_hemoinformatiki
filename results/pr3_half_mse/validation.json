@@ -1,0 +1,319 @@
+{
+  "status": "PASS",
+  "scope": "18 frozen heads, first archived outer fold; no full CV or new selection",
+  "heads_checked": 18,
+  "training_rows": 261,
+  "validation_rows": 59,
+  "validation_source_rows": [
+    12,
+    25,
+    27,
+    33,
+    35,
+    46,
+    51,
+    52,
+    54,
+    56,
+    57,
+    59,
+    60,
+    61,
+    65,
+    70,
+    76,
+    88,
+    90,
+    99,
+    103,
+    110,
+    112,
+    125,
+    128,
+    133,
+    134,
+    144,
+    147,
+    152,
+    153,
+    154,
+    167,
+    175,
+    186,
+    188,
+    190,
+    200,
+    212,
+    219,
+    222,
+    237,
+    246,
+    259,
+    269,
+    272,
+    279,
+    283,
+    285,
+    288,
+    289,
+    293,
+    303,
+    304,
+    309,
+    311,
+    313,
+    318,
+    319
+  ],
+  "heads": [
+    {
+      "model": "pr3",
+      "finite": true,
+      "probability_in_0_1": true,
+      "training_inputs_unchanged": true,
+      "query_permutation_max_abs_error": 1.1102230246251565e-16,
+      "frozen_outer_prediction_max_abs_error": 9.094947017729282e-13,
+      "outer_label_poison_max_abs_error": {
+        "nan": 0.0,
+        "large_1e12": 0.0
+      },
+      "passed": true
+    },
+    {
+      "model": "style9_C1",
+      "finite": true,
+      "probability_in_0_1": true,
+      "training_inputs_unchanged": true,
+      "query_permutation_max_abs_error": 2.220446049250313e-16,
+      "frozen_outer_prediction_max_abs_error": 9.094947017729282e-13,
+      "outer_label_poison_max_abs_error": {
+        "nan": 0.0,
+        "large_1e12": 0.0
+      },
+      "passed": true
+    },
+    {
+      "model": "extended_style_C0.1",
+      "finite": true,
+      "probability_in_0_1": true,
+      "training_inputs_unchanged": true,
+      "query_permutation_max_abs_error": 2.7755575615628914e-17,
+      "frozen_outer_prediction_max_abs_error": 9.094947017729282e-13,
+      "outer_label_poison_max_abs_error": {
+        "nan": 0.0,
+        "large_1e12": 0.0
+      },
+      "passed": true
+    },
+    {
+      "model": "extended_style_C1",
+      "finite": true,
+      "probability_in_0_1": true,
+      "training_inputs_unchanged": true,
+      "query_permutation_max_abs_error": 0.0,
+      "frozen_outer_prediction_max_abs_error": 1.8189894035458565e-12,
+      "outer_label_poison_max_abs_error": {
+        "nan": 0.0,
+        "large_1e12": 0.0
+      },
+      "passed": true
+    },
+    {
+      "model": "extended_style_C10",
+      "finite": true,
+      "probability_in_0_1": true,
+      "training_inputs_unchanged": true,
+      "query_permutation_max_abs_error": 0.0,
+      "frozen_outer_prediction_max_abs_error": 1.8189894035458565e-12,
+      "outer_label_poison_max_abs_error": {
+        "nan": 0.0,
+        "large_1e12": 0.0
+      },
+      "passed": true
+    },
+    {
+      "model": "char_C1",
+      "finite": true,
+      "probability_in_0_1": true,
+      "training_inputs_unchanged": true,
+      "query_permutation_max_abs_error": 0.0,
+      "frozen_outer_prediction_max_abs_error": 9.094947017729282e-13,
+      "outer_label_poison_max_abs_error": {
+        "nan": 0.0,
+        "large_1e12": 0.0
+      },
+      "passed": true
+    },
+    {
+      "model": "char_C10",
+      "finite": true,
+      "probability_in_0_1": true,
+      "training_inputs_unchanged": true,
+      "query_permutation_max_abs_error": 0.0,
+      "frozen_outer_prediction_max_abs_error": 1.8189894035458565e-12,
+      "outer_label_poison_max_abs_error": {
+        "nan": 0.0,
+        "large_1e12": 0.0
+      },
+      "passed": true
+    },
+    {
+      "model": "char_C100",
+      "finite": true,
+      "probability_in_0_1": true,
+      "training_inputs_unchanged": true,
+      "query_permutation_max_abs_error": 0.0,
+      "frozen_outer_prediction_max_abs_error": 1.8189894035458565e-12,
+      "outer_label_poison_max_abs_error": {
+        "nan": 0.0,
+        "large_1e12": 0.0
+      },
+      "passed": true
+    },
+    {
+      "model": "char_style_C1",
+      "finite": true,
+      "probability_in_0_1": true,
+      "training_inputs_unchanged": true,
+      "query_permutation_max_abs_error": 0.0,
+      "frozen_outer_prediction_max_abs_error": 1.8189894035458565e-12,
+      "outer_label_poison_max_abs_error": {
+        "nan": 0.0,
+        "large_1e12": 0.0
+      },
+      "passed": true
+    },
+    {
+      "model": "char_style_C10",
+      "finite": true,
+      "probability_in_0_1": true,
+      "training_inputs_unchanged": true,
+      "query_permutation_max_abs_error": 0.0,
+      "frozen_outer_prediction_max_abs_error": 1.8189894035458565e-12,
+      "outer_label_poison_max_abs_error": {
+        "nan": 0.0,
+        "large_1e12": 0.0
+      },
+      "passed": true
+    },
+    {
+      "model": "char_style_C100",
+      "finite": true,
+      "probability_in_0_1": true,
+      "training_inputs_unchanged": true,
+      "query_permutation_max_abs_error": 0.0,
+      "frozen_outer_prediction_max_abs_error": 1.8189894035458565e-12,
+      "outer_label_poison_max_abs_error": {
+        "nan": 0.0,
+        "large_1e12": 0.0
+      },
+      "passed": true
+    },
+    {
+      "model": "cat_style_d2_l20",
+      "finite": true,
+      "probability_in_0_1": true,
+      "training_inputs_unchanged": true,
+      "query_permutation_max_abs_error": 0.0,
+      "frozen_outer_prediction_max_abs_error": 9.094947017729282e-13,
+      "outer_label_poison_max_abs_error": {
+        "nan": 0.0,
+        "large_1e12": 0.0
+      },
+      "passed": true
+    },
+    {
+      "model": "cat_style_d3_l50",
+      "finite": true,
+      "probability_in_0_1": true,
+      "training_inputs_unchanged": true,
+      "query_permutation_max_abs_error": 0.0,
+      "frozen_outer_prediction_max_abs_error": 4.547473508864641e-13,
+      "outer_label_poison_max_abs_error": {
+        "nan": 0.0,
+        "large_1e12": 0.0
+      },
+      "passed": true
+    },
+    {
+      "model": "mlm_logistic_c1_pair",
+      "finite": true,
+      "probability_in_0_1": true,
+      "training_inputs_unchanged": true,
+      "query_permutation_max_abs_error": 1.1102230246251565e-16,
+      "frozen_outer_prediction_max_abs_error": 2.2737367544323206e-13,
+      "outer_label_poison_max_abs_error": {
+        "nan": 0.0,
+        "large_1e12": 0.0
+      },
+      "passed": true
+    },
+    {
+      "model": "mlm_rbf_c1_pair",
+      "finite": true,
+      "probability_in_0_1": true,
+      "training_inputs_unchanged": true,
+      "query_permutation_max_abs_error": 1.1102230246251565e-16,
+      "frozen_outer_prediction_max_abs_error": 1.8189894035458565e-12,
+      "outer_label_poison_max_abs_error": {
+        "nan": 0.0,
+        "large_1e12": 0.0
+      },
+      "passed": true
+    },
+    {
+      "model": "mlm_rbf_c10_pair",
+      "finite": true,
+      "probability_in_0_1": true,
+      "training_inputs_unchanged": true,
+      "query_permutation_max_abs_error": 1.1102230246251565e-16,
+      "frozen_outer_prediction_max_abs_error": 2.2737367544323206e-13,
+      "outer_label_poison_max_abs_error": {
+        "nan": 0.0,
+        "large_1e12": 0.0
+      },
+      "passed": true
+    },
+    {
+      "model": "mlm_mse_c1_pair",
+      "finite": true,
+      "probability_in_0_1": true,
+      "training_inputs_unchanged": true,
+      "query_permutation_max_abs_error": 1.1102230246251565e-16,
+      "frozen_outer_prediction_max_abs_error": 9.094947017729282e-13,
+      "outer_label_poison_max_abs_error": {
+        "nan": 0.0,
+        "large_1e12": 0.0
+      },
+      "passed": true
+    },
+    {
+      "model": "mlm_mse_c10_pair",
+      "finite": true,
+      "probability_in_0_1": true,
+      "training_inputs_unchanged": true,
+      "query_permutation_max_abs_error": 1.1102230246251565e-16,
+      "frozen_outer_prediction_max_abs_error": 4.547473508864641e-13,
+      "outer_label_poison_max_abs_error": {
+        "nan": 0.0,
+        "large_1e12": 0.0
+      },
+      "passed": true
+    }
+  ],
+  "raw_smiles_feature_permutation_max_abs_error": {
+    "style9": 0.0,
+    "notation64": 0.0
+  },
+  "complete_unbounded_regression": {
+    "physical_input": 30000.0,
+    "code_probability": 0.0,
+    "training_zero_rate": 0.007662835249042145,
+    "prediction": 29770.114942528737,
+    "expected_prediction": 29770.114942528737,
+    "exceeds_10000": true,
+    "exact_formula_matches": true
+  },
+  "original_training_inputs_unchanged": true,
+  "physical_poisoning_scope": "separate physical-agent check; not rerun here"
+}

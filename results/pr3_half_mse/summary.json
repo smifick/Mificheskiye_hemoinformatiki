@@ -1,0 +1,18 @@
+{
+  "PR3_reproduction_max_abs_error": 1.8189894035458565e-12,
+  "baseline_MSE": 11341011.015450312,
+  "fixed_development_winner": "mlm_rbf_c10_pair",
+  "fixed_winner_MSE": 11104883.941140138,
+  "nested_selection_MSE": 13668118.603045415,
+  "nested_convex_ensemble_MSE": 12852003.583298238,
+  "fifty_percent_target_met_fixed": false,
+  "fifty_percent_target_met_nested": false,
+  "confirmation_mean_MSE": {
+    "mlm_rbf_c10_pair": 10891472.334469246,
+    "pr3": 10626097.19686191
+  },
+  "confirmation_improvement_pct": -2.4973904594596252,
+  "decision": "retain_PR3; no experimental candidate accepted",
+  "new_hidden_test_score": null,
+  "recommended_submission_sha256": "ff3aff978dc2737176be3006a33d1233a5c8432f1aeba57075ede83a4275649c"
+}

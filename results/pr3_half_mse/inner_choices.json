@@ -1,0 +1,77 @@
+[
+  {
+    "fold": 0,
+    "selected": "mlm_logistic_c1_pair",
+    "inner_MSE": 9398164.99443572,
+    "family_models": [
+      "pr3",
+      "char_C100",
+      "mlm_logistic_c1_pair"
+    ],
+    "weights": [
+      2.7755575615628914e-17,
+      0.4462293515874367,
+      0.5537706484125633
+    ]
+  },
+  {
+    "fold": 1,
+    "selected": "char_C100",
+    "inner_MSE": 11376461.641729342,
+    "family_models": [
+      "pr3",
+      "char_C100",
+      "mlm_logistic_c1_pair"
+    ],
+    "weights": [
+      5.751341602457417e-17,
+      0.5316684566900142,
+      0.4683315433099858
+    ]
+  },
+  {
+    "fold": 2,
+    "selected": "mlm_logistic_c1_pair",
+    "inner_MSE": 10643709.549186673,
+    "family_models": [
+      "pr3",
+      "style9_C1",
+      "mlm_logistic_c1_pair"
+    ],
+    "weights": [
+      1.3215677025931967e-15,
+      0.05980495734019637,
+      0.9401950426598024
+    ]
+  },
+  {
+    "fold": 3,
+    "selected": "mlm_logistic_c1_pair",
+    "inner_MSE": 8652654.495642012,
+    "family_models": [
+      "pr3",
+      "char_C100",
+      "mlm_logistic_c1_pair"
+    ],
+    "weights": [
+      1.7993285079559514e-16,
+      0.4164600028136496,
+      0.5835399971863502
+    ]
+  },
+  {
+    "fold": 4,
+    "selected": "mlm_logistic_c1_pair",
+    "inner_MSE": 10072974.37358501,
+    "family_models": [
+      "pr3",
+      "style9_C1",
+      "mlm_logistic_c1_pair"
+    ],
+    "weights": [
+      0.0,
+      0.02062600176972716,
+      0.9793739982302733
+    ]
+  }
+]

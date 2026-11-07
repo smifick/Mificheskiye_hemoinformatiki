@@ -1,0 +1,16 @@
+{
+  "selected": {
+    "name": "mlm_rbf_c10_pair",
+    "owner": "mlm",
+    "spec": {
+      "name": "mlm_rbf_c10_pair",
+      "family": "rbf",
+      "C": 10.0
+    }
+  },
+  "confirmation_seeds": [
+    4401,
+    4402,
+    4403
+  ]
+}

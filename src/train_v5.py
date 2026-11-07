@@ -78,7 +78,8 @@ def load_external():
 class World:
     """Train, then test, then external rows; offsets follow actual input sizes."""
     def __init__(self):
-        self.train = pd.read_csv(ROOT/'data/raw/train.csv'); self.test = pd.read_csv(ROOT/'data/raw/test.csv')
+        self.train = pd.read_csv(ROOT/'data/raw/train.csv', usecols=['SMILES', 'SI VACV'])
+        self.test = pd.read_csv(ROOT/'data/raw/test.csv', usecols=['index', 'SMILES'])
         base_count = len(self.train) + len(self.test)
         ext = load_external()
         smis = list(self.train.SMILES) + list(self.test.SMILES) + list(ext.SMILES)

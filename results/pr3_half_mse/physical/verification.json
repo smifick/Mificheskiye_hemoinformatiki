@@ -1,0 +1,7 @@
+{
+  "outer_labels_poisoning_unchanged": true,
+  "no_upper_cap_prediction_min": 30000.0,
+  "pr3_reproduced_exact": true,
+  "all_selection_weights_in_unit_interval": true,
+  "nested_improvement_percent": -0.06114810497088985
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "fold": 0,
+    "selected": {
+      "model": "raw_physical_alpha3_reviewed_new",
+      "raw_weight": 1.0,
+      "MSE": 9404303.474830924
+    },
+    "inner_scores": [
+      {
+        "model": "raw_physical_alpha3_none",
+        "raw_weight": 1.0,
+        "MSE": 9404530.132820334
+      },
+      {
+        "model": "raw_physical_alpha3_reviewed_new",
+        "raw_weight": 1.0,
+        "MSE": 9404303.474830924
+      },
+      {
+        "model": "raw_physical_alpha30_none",
+        "raw_weight": 0.44325923426263864,
+        "MSE": 9435452.627873527
+      },
+      {
+        "model": "raw_physical_alpha30_reviewed_new",
+        "raw_weight": 0.44513283988694036,
+        "MSE": 9435392.717815153
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "selected": {
+      "model": "raw_physical_alpha3_none",
+      "raw_weight": 0.0,
+      "MSE": 12025515.176600296
+    },
+    "inner_scores": [
+      {
+        "model": "raw_physical_alpha3_none",
+        "raw_weight": 0.0,
+        "MSE": 12025515.176600296
+      },
+      {
+        "model": "raw_physical_alpha3_reviewed_new",
+        "raw_weight": 0.0,
+        "MSE": 12025515.176600296
+      },
+      {
+        "model": "raw_physical_alpha30_none",
+        "raw_weight": 0.0,
+        "MSE": 12025515.176600296
+      },
+      {
+        "model": "raw_physical_alpha30_reviewed_new",
+        "raw_weight": 0.0,
+        "MSE": 12025515.176600296
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "selected": {
+      "model": "raw_physical_alpha3_none",
+      "raw_weight": 0.0,
+      "MSE": 10930074.571565581
+    },
+    "inner_scores": [
+      {
+        "model": "raw_physical_alpha3_none",
+        "raw_weight": 0.0,
+        "MSE": 10930074.571565581
+      },
+      {
+        "model": "raw_physical_alpha3_reviewed_new",
+        "raw_weight": 0.0,
+        "MSE": 10930074.571565581
+      },
+      {
+        "model": "raw_physical_alpha30_none",
+        "raw_weight": 0.0,
+        "MSE": 10930074.571565581
+      },
+      {
+        "model": "raw_physical_alpha30_reviewed_new",
+        "raw_weight": 0.0,
+        "MSE": 10930074.571565581
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "selected": {
+      "model": "raw_physical_alpha3_reviewed_new",
+      "raw_weight": 1.0,
+      "MSE": 9038839.933630258
+    },
+    "inner_scores": [
+      {
+        "model": "raw_physical_alpha3_none",
+        "raw_weight": 1.0,
+        "MSE": 9038843.981284307
+      },
+      {
+        "model": "raw_physical_alpha3_reviewed_new",
+        "raw_weight": 1.0,
+        "MSE": 9038839.933630258
+      },
+      {
+        "model": "raw_physical_alpha30_none",
+        "raw_weight": 0.0,
+        "MSE": 9043476.046280798
+      },
+      {
+        "model": "raw_physical_alpha30_reviewed_new",
+        "raw_weight": 0.0,
+        "MSE": 9043476.046280798
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "selected": {
+      "model": "raw_physical_alpha30_reviewed_new",
+      "raw_weight": 0.13211664595616912,
+      "MSE": 10360970.348845504
+    },
+    "inner_scores": [
+      {
+        "model": "raw_physical_alpha3_none",
+        "raw_weight": 0.0,
+        "MSE": 10361451.690460777
+      },
+      {
+        "model": "raw_physical_alpha3_reviewed_new",
+        "raw_weight": 0.0,
+        "MSE": 10361451.690460777
+      },
+      {
+        "model": "raw_physical_alpha30_none",
+        "raw_weight": 0.12887153941157048,
+        "MSE": 10360992.287598655
+      },
+      {
+        "model": "raw_physical_alpha30_reviewed_new",
+        "raw_weight": 0.13211664595616912,
+        "MSE": 10360970.348845504
+      }
+    ]
+  }
+]
